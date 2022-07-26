@@ -1,0 +1,26 @@
+@prefix rdf: <>. 
+@prefix dc:<>.
+@prefix pd:<http://>.
+
+pd:Band rdf:Type owl:class.
+pd:SoloArtist rdf:Type owl:class.
+pd:Album rdf:Type owl:class.
+pd:Song rdf:Type owl:class.
+
+pd:The_Beatles rdf:Type pd:Band;
+                        pd:name"The Beatles";
+						pd:
+
+pd:Please_Please_me rdf:Type pd:Album;
+                    rdf:artist   pd:The_Beatles; 
+					pd:name     pd:"Please Please Me" ;
+					pd:date  "1963-03-22"^^xsd:date ;
+					pd:track    pd:Love_Me_Do .
+
+					
+
+pd:Love_me_do rdf:Type pd:Song.
+
+
+
+

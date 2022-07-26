@@ -1,0 +1,4662 @@
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix schema: <http://schema.org/> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@base <http://www.w3.org/2002/07/owl#> .
+
+
+
+#################################################################
+#
+#    Annotation properties
+#
+#################################################################
+
+
+###  http://creativecommons.org/ns#license
+
+cc:license rdf:type owl:AnnotationProperty .
+
+
+
+###  http://schema.org/about
+
+schema:about rdf:type owl:AnnotationProperty .
+
+
+
+###  http://schema.org/dateModified
+
+schema:dateModified rdf:type owl:AnnotationProperty .
+
+
+
+###  http://schema.org/description
+
+schema:description rdf:type owl:AnnotationProperty .
+
+
+
+###  http://schema.org/inLanguage
+
+schema:inLanguage rdf:type owl:AnnotationProperty .
+
+
+
+###  http://schema.org/isPartOf
+
+schema:isPartOf rdf:type owl:AnnotationProperty .
+
+
+
+###  http://schema.org/name
+
+schema:name rdf:type owl:AnnotationProperty .
+
+
+
+###  http://schema.org/softwareVersion
+
+schema:softwareVersion rdf:type owl:AnnotationProperty .
+
+
+
+###  http://schema.org/version
+
+schema:version rdf:type owl:AnnotationProperty .
+
+
+
+###  http://wikiba.se/ontology#claim
+
+wikibase:claim rdf:type owl:AnnotationProperty .
+
+
+
+###  http://wikiba.se/ontology#directClaim
+
+wikibase:directClaim rdf:type owl:AnnotationProperty .
+
+
+
+###  http://wikiba.se/ontology#directClaimNormalized
+
+wikibase:directClaimNormalized rdf:type owl:AnnotationProperty .
+
+
+
+###  http://wikiba.se/ontology#identifiers
+
+wikibase:identifiers rdf:type owl:AnnotationProperty .
+
+
+
+###  http://wikiba.se/ontology#novalue
+
+wikibase:novalue rdf:type owl:AnnotationProperty .
+
+
+
+###  http://wikiba.se/ontology#propertyType
+
+wikibase:propertyType rdf:type owl:AnnotationProperty .
+
+
+
+###  http://wikiba.se/ontology#qualifier
+
+wikibase:qualifier rdf:type owl:AnnotationProperty .
+
+
+
+###  http://wikiba.se/ontology#qualifierValue
+
+wikibase:qualifierValue rdf:type owl:AnnotationProperty .
+
+
+
+###  http://wikiba.se/ontology#qualifierValueNormalized
+
+wikibase:qualifierValueNormalized rdf:type owl:AnnotationProperty .
+
+
+
+###  http://wikiba.se/ontology#rank
+
+wikibase:rank rdf:type owl:AnnotationProperty .
+
+
+
+###  http://wikiba.se/ontology#reference
+
+wikibase:reference rdf:type owl:AnnotationProperty .
+
+
+
+###  http://wikiba.se/ontology#referenceValue
+
+wikibase:referenceValue rdf:type owl:AnnotationProperty .
+
+
+
+###  http://wikiba.se/ontology#referenceValueNormalized
+
+wikibase:referenceValueNormalized rdf:type owl:AnnotationProperty .
+
+
+
+###  http://wikiba.se/ontology#sitelinks
+
+wikibase:sitelinks rdf:type owl:AnnotationProperty .
+
+
+
+###  http://wikiba.se/ontology#statementProperty
+
+wikibase:statementProperty rdf:type owl:AnnotationProperty .
+
+
+
+###  http://wikiba.se/ontology#statementValue
+
+wikibase:statementValue rdf:type owl:AnnotationProperty .
+
+
+
+###  http://wikiba.se/ontology#statementValueNormalized
+
+wikibase:statementValueNormalized rdf:type owl:AnnotationProperty .
+
+
+
+###  http://wikiba.se/ontology#statements
+
+wikibase:statements rdf:type owl:AnnotationProperty .
+
+
+
+###  http://wikiba.se/ontology#wikiGroup
+
+wikibase:wikiGroup rdf:type owl:AnnotationProperty .
+
+
+
+###  http://www.w3.org/2004/02/skos/core#altLabel
+
+skos:altLabel rdf:type owl:AnnotationProperty .
+
+
+
+###  http://www.w3.org/2004/02/skos/core#prefLabel
+
+skos:prefLabel rdf:type owl:AnnotationProperty .
+
+
+
+###  http://www.w3.org/ns/prov#wasDerivedFrom
+
+prov:wasDerivedFrom rdf:type owl:AnnotationProperty .
+
+
+
+
+
+#################################################################
+#
+#    Object Properties
+#
+#################################################################
+
+
+###  http://www.wikidata.org/prop/P1424
+
+p:P1424 rdf:type owl:ObjectProperty .
+
+
+
+###  http://www.wikidata.org/prop/P18
+
+p:P18 rdf:type owl:ObjectProperty .
+
+
+
+###  http://www.wikidata.org/prop/P1924
+
+p:P1924 rdf:type owl:ObjectProperty .
+
+
+
+###  http://www.wikidata.org/prop/P2184
+
+p:P2184 rdf:type owl:ObjectProperty .
+
+
+
+###  http://www.wikidata.org/prop/P2354
+
+p:P2354 rdf:type owl:ObjectProperty .
+
+
+
+###  http://www.wikidata.org/prop/P2671
+
+p:P2671 rdf:type owl:ObjectProperty .
+
+
+
+###  http://www.wikidata.org/prop/P279
+
+p:P279 rdf:type owl:ObjectProperty .
+
+
+
+###  http://www.wikidata.org/prop/P373
+
+p:P373 rdf:type owl:ObjectProperty .
+
+
+
+###  http://www.wikidata.org/prop/P5008
+
+p:P5008 rdf:type owl:ObjectProperty .
+
+
+
+###  http://www.wikidata.org/prop/P5102
+
+p:P5102 rdf:type owl:ObjectProperty .
+
+
+
+###  http://www.wikidata.org/prop/P5337
+
+p:P5337 rdf:type owl:ObjectProperty .
+
+
+
+###  http://www.wikidata.org/prop/P6200
+
+p:P6200 rdf:type owl:ObjectProperty .
+
+
+
+###  http://www.wikidata.org/prop/P854
+
+p:P854 rdf:type owl:ObjectProperty .
+
+
+
+###  http://www.wikidata.org/prop/P910
+
+p:P910 rdf:type owl:ObjectProperty .
+
+
+
+###  http://www.wikidata.org/prop/P9318
+
+p:P9318 rdf:type owl:ObjectProperty .
+
+
+
+###  http://www.wikidata.org/prop/P9346
+
+p:P9346 rdf:type owl:ObjectProperty .
+
+
+
+###  http://www.wikidata.org/prop/P9368
+
+p:P9368 rdf:type owl:ObjectProperty .
+
+
+
+###  http://www.wikidata.org/prop/direct-normalized/P2671
+
+wdtn:P2671 rdf:type owl:ObjectProperty .
+
+
+
+###  http://www.wikidata.org/prop/direct-normalized/P5337
+
+wdtn:P5337 rdf:type owl:ObjectProperty .
+
+
+
+###  http://www.wikidata.org/prop/direct-normalized/P6200
+
+wdtn:P6200 rdf:type owl:ObjectProperty .
+
+
+
+###  http://www.wikidata.org/prop/direct-normalized/P9318
+
+wdtn:P9318 rdf:type owl:ObjectProperty .
+
+
+
+###  http://www.wikidata.org/prop/direct-normalized/P9346
+
+wdtn:P9346 rdf:type owl:ObjectProperty .
+
+
+
+###  http://www.wikidata.org/prop/direct-normalized/P9368
+
+wdtn:P9368 rdf:type owl:ObjectProperty .
+
+
+
+###  http://www.wikidata.org/prop/direct/P1424
+
+wdt:P1424 rdf:type owl:ObjectProperty .
+
+
+
+###  http://www.wikidata.org/prop/direct/P18
+
+wdt:P18 rdf:type owl:ObjectProperty .
+
+
+
+###  http://www.wikidata.org/prop/direct/P1924
+
+wdt:P1924 rdf:type owl:ObjectProperty .
+
+
+
+###  http://www.wikidata.org/prop/direct/P2184
+
+wdt:P2184 rdf:type owl:ObjectProperty .
+
+
+
+###  http://www.wikidata.org/prop/direct/P2354
+
+wdt:P2354 rdf:type owl:ObjectProperty .
+
+
+
+###  http://www.wikidata.org/prop/direct/P2671
+
+wdt:P2671 rdf:type owl:ObjectProperty .
+
+
+
+###  http://www.wikidata.org/prop/direct/P279
+
+wdt:P279 rdf:type owl:ObjectProperty .
+
+
+
+###  http://www.wikidata.org/prop/direct/P373
+
+wdt:P373 rdf:type owl:ObjectProperty .
+
+
+
+###  http://www.wikidata.org/prop/direct/P5008
+
+wdt:P5008 rdf:type owl:ObjectProperty .
+
+
+
+###  http://www.wikidata.org/prop/direct/P5102
+
+wdt:P5102 rdf:type owl:ObjectProperty .
+
+
+
+###  http://www.wikidata.org/prop/direct/P5337
+
+wdt:P5337 rdf:type owl:ObjectProperty .
+
+
+
+###  http://www.wikidata.org/prop/direct/P6200
+
+wdt:P6200 rdf:type owl:ObjectProperty .
+
+
+
+###  http://www.wikidata.org/prop/direct/P854
+
+wdt:P854 rdf:type owl:ObjectProperty .
+
+
+
+###  http://www.wikidata.org/prop/direct/P910
+
+wdt:P910 rdf:type owl:ObjectProperty .
+
+
+
+###  http://www.wikidata.org/prop/direct/P9318
+
+wdt:P9318 rdf:type owl:ObjectProperty .
+
+
+
+###  http://www.wikidata.org/prop/direct/P9346
+
+wdt:P9346 rdf:type owl:ObjectProperty .
+
+
+
+###  http://www.wikidata.org/prop/direct/P9368
+
+wdt:P9368 rdf:type owl:ObjectProperty .
+
+
+
+###  http://www.wikidata.org/prop/qualifier/P1424
+
+pq:P1424 rdf:type owl:ObjectProperty .
+
+
+
+###  http://www.wikidata.org/prop/qualifier/P18
+
+pq:P18 rdf:type owl:ObjectProperty .
+
+
+
+###  http://www.wikidata.org/prop/qualifier/P1924
+
+pq:P1924 rdf:type owl:ObjectProperty .
+
+
+
+###  http://www.wikidata.org/prop/qualifier/P2184
+
+pq:P2184 rdf:type owl:ObjectProperty .
+
+
+
+###  http://www.wikidata.org/prop/qualifier/P2354
+
+pq:P2354 rdf:type owl:ObjectProperty .
+
+
+
+###  http://www.wikidata.org/prop/qualifier/P279
+
+pq:P279 rdf:type owl:ObjectProperty .
+
+
+
+###  http://www.wikidata.org/prop/qualifier/P5008
+
+pq:P5008 rdf:type owl:ObjectProperty .
+
+
+
+###  http://www.wikidata.org/prop/qualifier/P5102
+
+pq:P5102 rdf:type owl:ObjectProperty .
+
+
+
+###  http://www.wikidata.org/prop/qualifier/P854
+
+pq:P854 rdf:type owl:ObjectProperty .
+
+
+
+###  http://www.wikidata.org/prop/qualifier/P910
+
+pq:P910 rdf:type owl:ObjectProperty .
+
+
+
+###  http://www.wikidata.org/prop/qualifier/value-normalized/P2671
+
+pqn:P2671 rdf:type owl:ObjectProperty .
+
+
+
+###  http://www.wikidata.org/prop/qualifier/value-normalized/P5337
+
+pqn:P5337 rdf:type owl:ObjectProperty .
+
+
+
+###  http://www.wikidata.org/prop/qualifier/value-normalized/P6200
+
+pqn:P6200 rdf:type owl:ObjectProperty .
+
+
+
+###  http://www.wikidata.org/prop/qualifier/value-normalized/P9318
+
+pqn:P9318 rdf:type owl:ObjectProperty .
+
+
+
+###  http://www.wikidata.org/prop/qualifier/value-normalized/P9346
+
+pqn:P9346 rdf:type owl:ObjectProperty .
+
+
+
+###  http://www.wikidata.org/prop/qualifier/value-normalized/P9368
+
+pqn:P9368 rdf:type owl:ObjectProperty .
+
+
+
+###  http://www.wikidata.org/prop/qualifier/value/P1424
+
+pqv:P1424 rdf:type owl:ObjectProperty .
+
+
+
+###  http://www.wikidata.org/prop/qualifier/value/P18
+
+pqv:P18 rdf:type owl:ObjectProperty .
+
+
+
+###  http://www.wikidata.org/prop/qualifier/value/P1924
+
+pqv:P1924 rdf:type owl:ObjectProperty .
+
+
+
+###  http://www.wikidata.org/prop/qualifier/value/P2184
+
+pqv:P2184 rdf:type owl:ObjectProperty .
+
+
+
+###  http://www.wikidata.org/prop/qualifier/value/P2354
+
+pqv:P2354 rdf:type owl:ObjectProperty .
+
+
+
+###  http://www.wikidata.org/prop/qualifier/value/P2671
+
+pqv:P2671 rdf:type owl:ObjectProperty .
+
+
+
+###  http://www.wikidata.org/prop/qualifier/value/P279
+
+pqv:P279 rdf:type owl:ObjectProperty .
+
+
+
+###  http://www.wikidata.org/prop/qualifier/value/P373
+
+pqv:P373 rdf:type owl:ObjectProperty .
+
+
+
+###  http://www.wikidata.org/prop/qualifier/value/P5008
+
+pqv:P5008 rdf:type owl:ObjectProperty .
+
+
+
+###  http://www.wikidata.org/prop/qualifier/value/P5102
+
+pqv:P5102 rdf:type owl:ObjectProperty .
+
+
+
+###  http://www.wikidata.org/prop/qualifier/value/P5337
+
+pqv:P5337 rdf:type owl:ObjectProperty .
+
+
+
+###  http://www.wikidata.org/prop/qualifier/value/P6200
+
+pqv:P6200 rdf:type owl:ObjectProperty .
+
+
+
+###  http://www.wikidata.org/prop/qualifier/value/P854
+
+pqv:P854 rdf:type owl:ObjectProperty .
+
+
+
+###  http://www.wikidata.org/prop/qualifier/value/P910
+
+pqv:P910 rdf:type owl:ObjectProperty .
+
+
+
+###  http://www.wikidata.org/prop/qualifier/value/P9318
+
+pqv:P9318 rdf:type owl:ObjectProperty .
+
+
+
+###  http://www.wikidata.org/prop/qualifier/value/P9346
+
+pqv:P9346 rdf:type owl:ObjectProperty .
+
+
+
+###  http://www.wikidata.org/prop/qualifier/value/P9368
+
+pqv:P9368 rdf:type owl:ObjectProperty .
+
+
+
+###  http://www.wikidata.org/prop/reference/P1424
+
+pr:P1424 rdf:type owl:ObjectProperty .
+
+
+
+###  http://www.wikidata.org/prop/reference/P18
+
+pr:P18 rdf:type owl:ObjectProperty .
+
+
+
+###  http://www.wikidata.org/prop/reference/P1924
+
+pr:P1924 rdf:type owl:ObjectProperty .
+
+
+
+###  http://www.wikidata.org/prop/reference/P2184
+
+pr:P2184 rdf:type owl:ObjectProperty .
+
+
+
+###  http://www.wikidata.org/prop/reference/P2354
+
+pr:P2354 rdf:type owl:ObjectProperty .
+
+
+
+###  http://www.wikidata.org/prop/reference/P279
+
+pr:P279 rdf:type owl:ObjectProperty .
+
+
+
+###  http://www.wikidata.org/prop/reference/P5008
+
+pr:P5008 rdf:type owl:ObjectProperty .
+
+
+
+###  http://www.wikidata.org/prop/reference/P5102
+
+pr:P5102 rdf:type owl:ObjectProperty .
+
+
+
+###  http://www.wikidata.org/prop/reference/P854
+
+pr:P854 rdf:type owl:ObjectProperty .
+
+
+
+###  http://www.wikidata.org/prop/reference/P910
+
+pr:P910 rdf:type owl:ObjectProperty .
+
+
+
+###  http://www.wikidata.org/prop/reference/value-normalized/P2671
+
+prn:P2671 rdf:type owl:ObjectProperty .
+
+
+
+###  http://www.wikidata.org/prop/reference/value-normalized/P5337
+
+prn:P5337 rdf:type owl:ObjectProperty .
+
+
+
+###  http://www.wikidata.org/prop/reference/value-normalized/P6200
+
+prn:P6200 rdf:type owl:ObjectProperty .
+
+
+
+###  http://www.wikidata.org/prop/reference/value-normalized/P9318
+
+prn:P9318 rdf:type owl:ObjectProperty .
+
+
+
+###  http://www.wikidata.org/prop/reference/value-normalized/P9346
+
+prn:P9346 rdf:type owl:ObjectProperty .
+
+
+
+###  http://www.wikidata.org/prop/reference/value-normalized/P9368
+
+prn:P9368 rdf:type owl:ObjectProperty .
+
+
+
+###  http://www.wikidata.org/prop/reference/value/P1424
+
+prv:P1424 rdf:type owl:ObjectProperty .
+
+
+
+###  http://www.wikidata.org/prop/reference/value/P18
+
+prv:P18 rdf:type owl:ObjectProperty .
+
+
+
+###  http://www.wikidata.org/prop/reference/value/P1924
+
+prv:P1924 rdf:type owl:ObjectProperty .
+
+
+
+###  http://www.wikidata.org/prop/reference/value/P2184
+
+prv:P2184 rdf:type owl:ObjectProperty .
+
+
+
+###  http://www.wikidata.org/prop/reference/value/P2354
+
+prv:P2354 rdf:type owl:ObjectProperty .
+
+
+
+###  http://www.wikidata.org/prop/reference/value/P2671
+
+prv:P2671 rdf:type owl:ObjectProperty .
+
+
+
+###  http://www.wikidata.org/prop/reference/value/P279
+
+prv:P279 rdf:type owl:ObjectProperty .
+
+
+
+###  http://www.wikidata.org/prop/reference/value/P373
+
+prv:P373 rdf:type owl:ObjectProperty .
+
+
+
+###  http://www.wikidata.org/prop/reference/value/P5008
+
+prv:P5008 rdf:type owl:ObjectProperty .
+
+
+
+###  http://www.wikidata.org/prop/reference/value/P5102
+
+prv:P5102 rdf:type owl:ObjectProperty .
+
+
+
+###  http://www.wikidata.org/prop/reference/value/P5337
+
+prv:P5337 rdf:type owl:ObjectProperty .
+
+
+
+###  http://www.wikidata.org/prop/reference/value/P6200
+
+prv:P6200 rdf:type owl:ObjectProperty .
+
+
+
+###  http://www.wikidata.org/prop/reference/value/P854
+
+prv:P854 rdf:type owl:ObjectProperty .
+
+
+
+###  http://www.wikidata.org/prop/reference/value/P910
+
+prv:P910 rdf:type owl:ObjectProperty .
+
+
+
+###  http://www.wikidata.org/prop/reference/value/P9318
+
+prv:P9318 rdf:type owl:ObjectProperty .
+
+
+
+###  http://www.wikidata.org/prop/reference/value/P9346
+
+prv:P9346 rdf:type owl:ObjectProperty .
+
+
+
+###  http://www.wikidata.org/prop/reference/value/P9368
+
+prv:P9368 rdf:type owl:ObjectProperty .
+
+
+
+###  http://www.wikidata.org/prop/statement/P1424
+
+ps:P1424 rdf:type owl:ObjectProperty .
+
+
+
+###  http://www.wikidata.org/prop/statement/P18
+
+ps:P18 rdf:type owl:ObjectProperty .
+
+
+
+###  http://www.wikidata.org/prop/statement/P1924
+
+ps:P1924 rdf:type owl:ObjectProperty .
+
+
+
+###  http://www.wikidata.org/prop/statement/P2184
+
+ps:P2184 rdf:type owl:ObjectProperty .
+
+
+
+###  http://www.wikidata.org/prop/statement/P2354
+
+ps:P2354 rdf:type owl:ObjectProperty .
+
+
+
+###  http://www.wikidata.org/prop/statement/P279
+
+ps:P279 rdf:type owl:ObjectProperty .
+
+
+
+###  http://www.wikidata.org/prop/statement/P5008
+
+ps:P5008 rdf:type owl:ObjectProperty .
+
+
+
+###  http://www.wikidata.org/prop/statement/P5102
+
+ps:P5102 rdf:type owl:ObjectProperty .
+
+
+
+###  http://www.wikidata.org/prop/statement/P854
+
+ps:P854 rdf:type owl:ObjectProperty .
+
+
+
+###  http://www.wikidata.org/prop/statement/P910
+
+ps:P910 rdf:type owl:ObjectProperty .
+
+
+
+###  http://www.wikidata.org/prop/statement/value-normalized/P2671
+
+psn:P2671 rdf:type owl:ObjectProperty .
+
+
+
+###  http://www.wikidata.org/prop/statement/value-normalized/P5337
+
+psn:P5337 rdf:type owl:ObjectProperty .
+
+
+
+###  http://www.wikidata.org/prop/statement/value-normalized/P6200
+
+psn:P6200 rdf:type owl:ObjectProperty .
+
+
+
+###  http://www.wikidata.org/prop/statement/value-normalized/P9318
+
+psn:P9318 rdf:type owl:ObjectProperty .
+
+
+
+###  http://www.wikidata.org/prop/statement/value-normalized/P9346
+
+psn:P9346 rdf:type owl:ObjectProperty .
+
+
+
+###  http://www.wikidata.org/prop/statement/value-normalized/P9368
+
+psn:P9368 rdf:type owl:ObjectProperty .
+
+
+
+###  http://www.wikidata.org/prop/statement/value/P1424
+
+psv:P1424 rdf:type owl:ObjectProperty .
+
+
+
+###  http://www.wikidata.org/prop/statement/value/P18
+
+psv:P18 rdf:type owl:ObjectProperty .
+
+
+
+###  http://www.wikidata.org/prop/statement/value/P1924
+
+psv:P1924 rdf:type owl:ObjectProperty .
+
+
+
+###  http://www.wikidata.org/prop/statement/value/P2184
+
+psv:P2184 rdf:type owl:ObjectProperty .
+
+
+
+###  http://www.wikidata.org/prop/statement/value/P2354
+
+psv:P2354 rdf:type owl:ObjectProperty .
+
+
+
+###  http://www.wikidata.org/prop/statement/value/P2671
+
+psv:P2671 rdf:type owl:ObjectProperty .
+
+
+
+###  http://www.wikidata.org/prop/statement/value/P279
+
+psv:P279 rdf:type owl:ObjectProperty .
+
+
+
+###  http://www.wikidata.org/prop/statement/value/P373
+
+psv:P373 rdf:type owl:ObjectProperty .
+
+
+
+###  http://www.wikidata.org/prop/statement/value/P5008
+
+psv:P5008 rdf:type owl:ObjectProperty .
+
+
+
+###  http://www.wikidata.org/prop/statement/value/P5102
+
+psv:P5102 rdf:type owl:ObjectProperty .
+
+
+
+###  http://www.wikidata.org/prop/statement/value/P5337
+
+psv:P5337 rdf:type owl:ObjectProperty .
+
+
+
+###  http://www.wikidata.org/prop/statement/value/P6200
+
+psv:P6200 rdf:type owl:ObjectProperty .
+
+
+
+###  http://www.wikidata.org/prop/statement/value/P854
+
+psv:P854 rdf:type owl:ObjectProperty .
+
+
+
+###  http://www.wikidata.org/prop/statement/value/P910
+
+psv:P910 rdf:type owl:ObjectProperty .
+
+
+
+###  http://www.wikidata.org/prop/statement/value/P9318
+
+psv:P9318 rdf:type owl:ObjectProperty .
+
+
+
+###  http://www.wikidata.org/prop/statement/value/P9346
+
+psv:P9346 rdf:type owl:ObjectProperty .
+
+
+
+###  http://www.wikidata.org/prop/statement/value/P9368
+
+psv:P9368 rdf:type owl:ObjectProperty .
+
+
+
+
+
+#################################################################
+#
+#    Data properties
+#
+#################################################################
+
+
+###  http://www.wikidata.org/prop/direct/P2671
+
+wdt:P2671 rdf:type owl:DatatypeProperty .
+
+
+
+###  http://www.wikidata.org/prop/direct/P373
+
+wdt:P373 rdf:type owl:DatatypeProperty .
+
+
+
+###  http://www.wikidata.org/prop/direct/P5337
+
+wdt:P5337 rdf:type owl:DatatypeProperty .
+
+
+
+###  http://www.wikidata.org/prop/direct/P6200
+
+wdt:P6200 rdf:type owl:DatatypeProperty .
+
+
+
+###  http://www.wikidata.org/prop/direct/P9318
+
+wdt:P9318 rdf:type owl:DatatypeProperty .
+
+
+
+###  http://www.wikidata.org/prop/direct/P9346
+
+wdt:P9346 rdf:type owl:DatatypeProperty .
+
+
+
+###  http://www.wikidata.org/prop/direct/P9368
+
+wdt:P9368 rdf:type owl:DatatypeProperty .
+
+
+
+###  http://www.wikidata.org/prop/qualifier/P2671
+
+pq:P2671 rdf:type owl:DatatypeProperty .
+
+
+
+###  http://www.wikidata.org/prop/qualifier/P373
+
+pq:P373 rdf:type owl:DatatypeProperty .
+
+
+
+###  http://www.wikidata.org/prop/qualifier/P5337
+
+pq:P5337 rdf:type owl:DatatypeProperty .
+
+
+
+###  http://www.wikidata.org/prop/qualifier/P6200
+
+pq:P6200 rdf:type owl:DatatypeProperty .
+
+
+
+###  http://www.wikidata.org/prop/qualifier/P9318
+
+pq:P9318 rdf:type owl:DatatypeProperty .
+
+
+
+###  http://www.wikidata.org/prop/qualifier/P9346
+
+pq:P9346 rdf:type owl:DatatypeProperty .
+
+
+
+###  http://www.wikidata.org/prop/qualifier/P9368
+
+pq:P9368 rdf:type owl:DatatypeProperty .
+
+
+
+###  http://www.wikidata.org/prop/reference/P2671
+
+pr:P2671 rdf:type owl:DatatypeProperty .
+
+
+
+###  http://www.wikidata.org/prop/reference/P373
+
+pr:P373 rdf:type owl:DatatypeProperty .
+
+
+
+###  http://www.wikidata.org/prop/reference/P5337
+
+pr:P5337 rdf:type owl:DatatypeProperty .
+
+
+
+###  http://www.wikidata.org/prop/reference/P6200
+
+pr:P6200 rdf:type owl:DatatypeProperty .
+
+
+
+###  http://www.wikidata.org/prop/reference/P9318
+
+pr:P9318 rdf:type owl:DatatypeProperty .
+
+
+
+###  http://www.wikidata.org/prop/reference/P9346
+
+pr:P9346 rdf:type owl:DatatypeProperty .
+
+
+
+###  http://www.wikidata.org/prop/reference/P9368
+
+pr:P9368 rdf:type owl:DatatypeProperty .
+
+
+
+###  http://www.wikidata.org/prop/statement/P2671
+
+ps:P2671 rdf:type owl:DatatypeProperty .
+
+
+
+###  http://www.wikidata.org/prop/statement/P373
+
+ps:P373 rdf:type owl:DatatypeProperty .
+
+
+
+###  http://www.wikidata.org/prop/statement/P5337
+
+ps:P5337 rdf:type owl:DatatypeProperty .
+
+
+
+###  http://www.wikidata.org/prop/statement/P6200
+
+ps:P6200 rdf:type owl:DatatypeProperty .
+
+
+
+###  http://www.wikidata.org/prop/statement/P9318
+
+ps:P9318 rdf:type owl:DatatypeProperty .
+
+
+
+###  http://www.wikidata.org/prop/statement/P9346
+
+ps:P9346 rdf:type owl:DatatypeProperty .
+
+
+
+###  http://www.wikidata.org/prop/statement/P9368
+
+ps:P9368 rdf:type owl:DatatypeProperty .
+
+
+
+
+
+#################################################################
+#
+#    Classes
+#
+#################################################################
+
+
+###  http://schema.org/Article
+
+schema:Article rdf:type owl:Class .
+
+
+
+###  http://schema.org/Dataset
+
+schema:Dataset rdf:type owl:Class .
+
+
+
+###  http://wikiba.se/ontology#BestRank
+
+wikibase:BestRank rdf:type owl:Class .
+
+
+
+###  http://wikiba.se/ontology#Item
+
+wikibase:Item rdf:type owl:Class .
+
+
+
+###  http://wikiba.se/ontology#Property
+
+wikibase:Property rdf:type owl:Class .
+
+
+
+###  http://wikiba.se/ontology#Reference
+
+wikibase:Reference rdf:type owl:Class .
+
+
+
+###  http://wikiba.se/ontology#Statement
+
+wikibase:Statement rdf:type owl:Class .
+
+
+
+###  http://www.wikidata.org/prop/novalue/P1424
+
+wdno:P1424 rdf:type owl:Class ;
+           
+           owl:equivalentClass [ rdf:type owl:Class ;
+                                 owl:complementOf [ rdf:type owl:Restriction ;
+                                                    owl:onProperty wdt:P1424 ;
+                                                    owl:someValuesFrom owl:Thing
+                                                  ]
+                               ] .
+
+
+
+###  http://www.wikidata.org/prop/novalue/P18
+
+wdno:P18 rdf:type owl:Class ;
+         
+         owl:equivalentClass [ rdf:type owl:Class ;
+                               owl:complementOf [ rdf:type owl:Restriction ;
+                                                  owl:onProperty wdt:P18 ;
+                                                  owl:someValuesFrom owl:Thing
+                                                ]
+                             ] .
+
+
+
+###  http://www.wikidata.org/prop/novalue/P1924
+
+wdno:P1924 rdf:type owl:Class ;
+           
+           owl:equivalentClass [ rdf:type owl:Class ;
+                                 owl:complementOf [ rdf:type owl:Restriction ;
+                                                    owl:onProperty wdt:P1924 ;
+                                                    owl:someValuesFrom owl:Thing
+                                                  ]
+                               ] .
+
+
+
+###  http://www.wikidata.org/prop/novalue/P2184
+
+wdno:P2184 rdf:type owl:Class ;
+           
+           owl:equivalentClass [ rdf:type owl:Class ;
+                                 owl:complementOf [ rdf:type owl:Restriction ;
+                                                    owl:onProperty wdt:P2184 ;
+                                                    owl:someValuesFrom owl:Thing
+                                                  ]
+                               ] .
+
+
+
+###  http://www.wikidata.org/prop/novalue/P2354
+
+wdno:P2354 rdf:type owl:Class ;
+           
+           owl:equivalentClass [ rdf:type owl:Class ;
+                                 owl:complementOf [ rdf:type owl:Restriction ;
+                                                    owl:onProperty wdt:P2354 ;
+                                                    owl:someValuesFrom owl:Thing
+                                                  ]
+                               ] .
+
+
+
+###  http://www.wikidata.org/prop/novalue/P2671
+
+wdno:P2671 rdf:type owl:Class ;
+           
+           owl:equivalentClass [ rdf:type owl:Class ;
+                                 owl:complementOf [ rdf:type owl:Restriction ;
+                                                    owl:onProperty wdt:P2671 ;
+                                                    owl:someValuesFrom owl:Thing
+                                                  ]
+                               ] .
+
+
+
+###  http://www.wikidata.org/prop/novalue/P279
+
+wdno:P279 rdf:type owl:Class ;
+          
+          owl:equivalentClass [ rdf:type owl:Class ;
+                                owl:complementOf [ rdf:type owl:Restriction ;
+                                                   owl:onProperty wdt:P279 ;
+                                                   owl:someValuesFrom owl:Thing
+                                                 ]
+                              ] .
+
+
+
+###  http://www.wikidata.org/prop/novalue/P373
+
+wdno:P373 rdf:type owl:Class ;
+          
+          owl:equivalentClass [ rdf:type owl:Class ;
+                                owl:complementOf [ rdf:type owl:Restriction ;
+                                                   owl:onProperty wdt:P373 ;
+                                                   owl:someValuesFrom owl:Thing
+                                                 ]
+                              ] .
+
+
+
+###  http://www.wikidata.org/prop/novalue/P5008
+
+wdno:P5008 rdf:type owl:Class ;
+           
+           owl:equivalentClass [ rdf:type owl:Class ;
+                                 owl:complementOf [ rdf:type owl:Restriction ;
+                                                    owl:onProperty wdt:P5008 ;
+                                                    owl:someValuesFrom owl:Thing
+                                                  ]
+                               ] .
+
+
+
+###  http://www.wikidata.org/prop/novalue/P5102
+
+wdno:P5102 rdf:type owl:Class ;
+           
+           owl:equivalentClass [ rdf:type owl:Class ;
+                                 owl:complementOf [ rdf:type owl:Restriction ;
+                                                    owl:onProperty wdt:P5102 ;
+                                                    owl:someValuesFrom owl:Thing
+                                                  ]
+                               ] .
+
+
+
+###  http://www.wikidata.org/prop/novalue/P5337
+
+wdno:P5337 rdf:type owl:Class ;
+           
+           owl:equivalentClass [ rdf:type owl:Class ;
+                                 owl:complementOf [ rdf:type owl:Restriction ;
+                                                    owl:onProperty wdt:P5337 ;
+                                                    owl:someValuesFrom owl:Thing
+                                                  ]
+                               ] .
+
+
+
+###  http://www.wikidata.org/prop/novalue/P6200
+
+wdno:P6200 rdf:type owl:Class ;
+           
+           owl:equivalentClass [ rdf:type owl:Class ;
+                                 owl:complementOf [ rdf:type owl:Restriction ;
+                                                    owl:onProperty wdt:P6200 ;
+                                                    owl:someValuesFrom owl:Thing
+                                                  ]
+                               ] .
+
+
+
+###  http://www.wikidata.org/prop/novalue/P854
+
+wdno:P854 rdf:type owl:Class ;
+          
+          owl:equivalentClass [ rdf:type owl:Class ;
+                                owl:complementOf [ rdf:type owl:Restriction ;
+                                                   owl:onProperty wdt:P854 ;
+                                                   owl:someValuesFrom owl:Thing
+                                                 ]
+                              ] .
+
+
+
+###  http://www.wikidata.org/prop/novalue/P910
+
+wdno:P910 rdf:type owl:Class ;
+          
+          owl:equivalentClass [ rdf:type owl:Class ;
+                                owl:complementOf [ rdf:type owl:Restriction ;
+                                                   owl:onProperty wdt:P910 ;
+                                                   owl:someValuesFrom owl:Thing
+                                                 ]
+                              ] .
+
+
+
+###  http://www.wikidata.org/prop/novalue/P9318
+
+wdno:P9318 rdf:type owl:Class ;
+           
+           owl:equivalentClass [ rdf:type owl:Class ;
+                                 owl:complementOf [ rdf:type owl:Restriction ;
+                                                    owl:onProperty wdt:P9318 ;
+                                                    owl:someValuesFrom owl:Thing
+                                                  ]
+                               ] .
+
+
+
+###  http://www.wikidata.org/prop/novalue/P9346
+
+wdno:P9346 rdf:type owl:Class ;
+           
+           owl:equivalentClass [ rdf:type owl:Class ;
+                                 owl:complementOf [ rdf:type owl:Restriction ;
+                                                    owl:onProperty wdt:P9346 ;
+                                                    owl:someValuesFrom owl:Thing
+                                                  ]
+                               ] .
+
+
+
+###  http://www.wikidata.org/prop/novalue/P9368
+
+wdno:P9368 rdf:type owl:Class ;
+           
+           owl:equivalentClass [ rdf:type owl:Class ;
+                                 owl:complementOf [ rdf:type owl:Restriction ;
+                                                    owl:onProperty wdt:P9368 ;
+                                                    owl:someValuesFrom owl:Thing
+                                                  ]
+                               ] .
+
+
+
+
+
+#################################################################
+#
+#    Individuals
+#
+#################################################################
+
+
+###  http://commons.wikimedia.org/wiki/Special:FilePath/2020%2012%2027%20mas%20vacunados%20en%20la%20residencia%20mixta%201.jpg
+
+<http://commons.wikimedia.org/wiki/Special:FilePath/2020%2012%2027%20mas%20vacunados%20en%20la%20residencia%20mixta%201.jpg> rdf:type owl:NamedIndividual .
+
+
+
+###  http://g.co/kg/g/11j8_9sv06
+
+<http://g.co/kg/g/11j8_9sv06> rdf:type owl:NamedIndividual .
+
+
+
+###  http://www.wikidata.org/entity/P1424
+
+wd:P1424 rdf:type wikibase:Property ,
+                  owl:NamedIndividual ;
+         
+         rdfs:label "topic's main template"@en ;
+         
+         schema:description "the main template relating to a topic"@en ;
+         
+         schema:name "topic's main template"@en ;
+         
+         skos:prefLabel "topic's main template"@en ;
+         
+         wikibase:propertyType wikibase:WikibaseItem ;
+         
+         wikibase:claim p:P1424 ;
+         
+         wikibase:directClaim wdt:P1424 ;
+         
+         wikibase:novalue wdno:P1424 ;
+         
+         wikibase:qualifier pq:P1424 ;
+         
+         wikibase:qualifierValue pqv:P1424 ;
+         
+         wikibase:reference pr:P1424 ;
+         
+         wikibase:referenceValue prv:P1424 ;
+         
+         wikibase:statementProperty ps:P1424 ;
+         
+         wikibase:statementValue psv:P1424 .
+
+
+
+###  http://www.wikidata.org/entity/P18
+
+wd:P18 rdf:type wikibase:Property ,
+                owl:NamedIndividual ;
+       
+       rdfs:label "image"@en ;
+       
+       skos:prefLabel "image"@en ;
+       
+       schema:name "image"@en ;
+       
+       schema:description "image of relevant illustration of the subject; if available, use more specific properties (sample: coat of arms image, locator map, flag image, signature image, logo image, collage image)"@en ;
+       
+       wikibase:propertyType wikibase:CommonsMedia ;
+       
+       wikibase:claim p:P18 ;
+       
+       wikibase:directClaim wdt:P18 ;
+       
+       wikibase:novalue wdno:P18 ;
+       
+       wikibase:qualifier pq:P18 ;
+       
+       wikibase:qualifierValue pqv:P18 ;
+       
+       wikibase:reference pr:P18 ;
+       
+       wikibase:referenceValue prv:P18 ;
+       
+       wikibase:statementProperty ps:P18 ;
+       
+       wikibase:statementValue psv:P18 .
+
+
+
+###  http://www.wikidata.org/entity/P1924
+
+wd:P1924 rdf:type wikibase:Property ,
+                  owl:NamedIndividual ;
+         
+         rdfs:label "vaccine for"@en ;
+         
+         schema:description "disease that a vaccine is for"@en ;
+         
+         skos:prefLabel "vaccine for"@en ;
+         
+         schema:name "vaccine for"@en ;
+         
+         wikibase:propertyType wikibase:WikibaseItem ;
+         
+         wikibase:claim p:P1924 ;
+         
+         wikibase:directClaim wdt:P1924 ;
+         
+         wikibase:novalue wdno:P1924 ;
+         
+         wikibase:qualifier pq:P1924 ;
+         
+         wikibase:qualifierValue pqv:P1924 ;
+         
+         wikibase:reference pr:P1924 ;
+         
+         wikibase:referenceValue prv:P1924 ;
+         
+         wikibase:statementProperty ps:P1924 ;
+         
+         wikibase:statementValue psv:P1924 .
+
+
+
+###  http://www.wikidata.org/entity/P2184
+
+wd:P2184 rdf:type wikibase:Property ,
+                  owl:NamedIndividual ;
+         
+         rdfs:label "history of topic"@en ;
+         
+         skos:prefLabel "history of topic"@en ;
+         
+         schema:name "history of topic"@en ;
+         
+         schema:description "item about the historical development of an subject's topic, sample: \"history of Argentina\" for \"Argentina\". To list key events of the topic, use \"significant event\" (P793)"@en ;
+         
+         wikibase:propertyType wikibase:WikibaseItem ;
+         
+         wikibase:claim p:P2184 ;
+         
+         wikibase:directClaim wdt:P2184 ;
+         
+         wikibase:novalue wdno:P2184 ;
+         
+         wikibase:qualifier pq:P2184 ;
+         
+         wikibase:qualifierValue pqv:P2184 ;
+         
+         wikibase:reference pr:P2184 ;
+         
+         wikibase:referenceValue prv:P2184 ;
+         
+         wikibase:statementProperty ps:P2184 ;
+         
+         wikibase:statementValue psv:P2184 .
+
+
+
+###  http://www.wikidata.org/entity/P2354
+
+wd:P2354 rdf:type wikibase:Property ,
+                  owl:NamedIndividual ;
+         
+         rdfs:label "has list"@en ;
+         
+         schema:description "Wikimedia list related to this subject"@en ;
+         
+         schema:name "has list"@en ;
+         
+         skos:prefLabel "has list"@en ;
+         
+         wikibase:propertyType wikibase:WikibaseItem ;
+         
+         wikibase:claim p:P2354 ;
+         
+         wikibase:directClaim wdt:P2354 ;
+         
+         wikibase:novalue wdno:P2354 ;
+         
+         wikibase:qualifier pq:P2354 ;
+         
+         wikibase:qualifierValue pqv:P2354 ;
+         
+         wikibase:reference pr:P2354 ;
+         
+         wikibase:referenceValue prv:P2354 ;
+         
+         wikibase:statementProperty ps:P2354 ;
+         
+         wikibase:statementValue psv:P2354 .
+
+
+
+###  http://www.wikidata.org/entity/P2671
+
+wd:P2671 rdf:type wikibase:Property ,
+                  owl:NamedIndividual ;
+         
+         rdfs:label "Google Knowledge Graph ID"@en ;
+         
+         skos:prefLabel "Google Knowledge Graph ID"@en ;
+         
+         schema:name "Google Knowledge Graph ID"@en ;
+         
+         schema:description "identifier for Google Knowledge Graph API (starting with \"/g/\"). IDs starting with \"/m/\" are Freebase IDs (P646)"@en ;
+         
+         wikibase:propertyType wikibase:ExternalId ;
+         
+         wikibase:claim p:P2671 ;
+         
+         wikibase:directClaimNormalized wdtn:P2671 ;
+         
+         wikibase:directClaim wdt:P2671 ;
+         
+         wikibase:novalue wdno:P2671 ;
+         
+         wikibase:qualifier pq:P2671 ;
+         
+         wikibase:qualifierValueNormalized pqn:P2671 ;
+         
+         wikibase:qualifierValue pqv:P2671 ;
+         
+         wikibase:reference pr:P2671 ;
+         
+         wikibase:referenceValueNormalized prn:P2671 ;
+         
+         wikibase:referenceValue prv:P2671 ;
+         
+         wikibase:statementProperty ps:P2671 ;
+         
+         wikibase:statementValueNormalized psn:P2671 ;
+         
+         wikibase:statementValue psv:P2671 .
+
+
+
+###  http://www.wikidata.org/entity/P279
+
+wd:P279 rdf:type wikibase:Property ,
+                 owl:NamedIndividual ;
+        
+        rdfs:label "subclass of"@en ;
+        
+        schema:description "next higher class or type; all instances of these items are instances of those items; this item is a class (subset) of that item. Not to be confused with P31 (instance of)"@en ;
+        
+        skos:prefLabel "subclass of"@en ;
+        
+        schema:name "subclass of"@en ;
+        
+        wikibase:propertyType wikibase:WikibaseItem ;
+        
+        wikibase:claim p:P279 ;
+        
+        wikibase:directClaim wdt:P279 ;
+        
+        wikibase:novalue wdno:P279 ;
+        
+        wikibase:qualifier pq:P279 ;
+        
+        wikibase:qualifierValue pqv:P279 ;
+        
+        wikibase:reference pr:P279 ;
+        
+        wikibase:referenceValue prv:P279 ;
+        
+        wikibase:statementProperty ps:P279 ;
+        
+        wikibase:statementValue psv:P279 .
+
+
+
+###  http://www.wikidata.org/entity/P373
+
+wd:P373 rdf:type wikibase:Property ,
+                 owl:NamedIndividual ;
+        
+        rdfs:label "Commons category"@en ;
+        
+        skos:prefLabel "Commons category"@en ;
+        
+        schema:name "Commons category"@en ;
+        
+        schema:description "name of the Wikimedia Commons category containing files related to this item (without the prefix \"Category:\")"@en ;
+        
+        wikibase:propertyType wikibase:String ;
+        
+        wikibase:claim p:P373 ;
+        
+        wikibase:directClaim wdt:P373 ;
+        
+        wikibase:novalue wdno:P373 ;
+        
+        wikibase:qualifier pq:P373 ;
+        
+        wikibase:qualifierValue pqv:P373 ;
+        
+        wikibase:reference pr:P373 ;
+        
+        wikibase:referenceValue prv:P373 ;
+        
+        wikibase:statementProperty ps:P373 ;
+        
+        wikibase:statementValue psv:P373 .
+
+
+
+###  http://www.wikidata.org/entity/P5008
+
+wd:P5008 rdf:type wikibase:Property ,
+                  owl:NamedIndividual ;
+         
+         rdfs:label "on focus list of Wikimedia project"@en ;
+         
+         schema:name "on focus list of Wikimedia project"@en ;
+         
+         skos:prefLabel "on focus list of Wikimedia project"@en ;
+         
+         schema:description "property to indicate that an item is of particular interest for a Wikimedia project. This property does not add notability. Items should not be created with this property if they are not notable for Wikidata. See also P6104, P972, P2354."@en ;
+         
+         wikibase:propertyType wikibase:WikibaseItem ;
+         
+         wikibase:claim p:P5008 ;
+         
+         wikibase:directClaim wdt:P5008 ;
+         
+         wikibase:novalue wdno:P5008 ;
+         
+         wikibase:qualifier pq:P5008 ;
+         
+         wikibase:qualifierValue pqv:P5008 ;
+         
+         wikibase:reference pr:P5008 ;
+         
+         wikibase:referenceValue prv:P5008 ;
+         
+         wikibase:statementProperty ps:P5008 ;
+         
+         wikibase:statementValue psv:P5008 .
+
+
+
+###  http://www.wikidata.org/entity/P5102
+
+wd:P5102 rdf:type wikibase:Property ,
+                  owl:NamedIndividual ;
+         
+         rdfs:label "nature of statement"@en ;
+         
+         schema:description "(qualifier only) the underlying circumstances of this statement"@en ;
+         
+         schema:name "nature of statement"@en ;
+         
+         skos:prefLabel "nature of statement"@en ;
+         
+         wikibase:propertyType wikibase:WikibaseItem ;
+         
+         wikibase:claim p:P5102 ;
+         
+         wikibase:directClaim wdt:P5102 ;
+         
+         wikibase:novalue wdno:P5102 ;
+         
+         wikibase:qualifier pq:P5102 ;
+         
+         wikibase:qualifierValue pqv:P5102 ;
+         
+         wikibase:reference pr:P5102 ;
+         
+         wikibase:referenceValue prv:P5102 ;
+         
+         wikibase:statementProperty ps:P5102 ;
+         
+         wikibase:statementValue psv:P5102 .
+
+
+
+###  http://www.wikidata.org/entity/P5337
+
+wd:P5337 rdf:type wikibase:Property ,
+                  owl:NamedIndividual ;
+         
+         rdfs:label "Google News topics ID"@en ;
+         
+         schema:name "Google News topics ID"@en ;
+         
+         skos:prefLabel "Google News topics ID"@en ;
+         
+         schema:description "identifier for a subject in the news on Google News"@en ;
+         
+         wikibase:propertyType wikibase:ExternalId ;
+         
+         wikibase:claim p:P5337 ;
+         
+         wikibase:directClaimNormalized wdtn:P5337 ;
+         
+         wikibase:directClaim wdt:P5337 ;
+         
+         wikibase:novalue wdno:P5337 ;
+         
+         wikibase:qualifier pq:P5337 ;
+         
+         wikibase:qualifierValueNormalized pqn:P5337 ;
+         
+         wikibase:qualifierValue pqv:P5337 ;
+         
+         wikibase:reference pr:P5337 ;
+         
+         wikibase:referenceValueNormalized prn:P5337 ;
+         
+         wikibase:referenceValue prv:P5337 ;
+         
+         wikibase:statementProperty ps:P5337 ;
+         
+         wikibase:statementValueNormalized psn:P5337 ;
+         
+         wikibase:statementValue psv:P5337 .
+
+
+
+###  http://www.wikidata.org/entity/P6200
+
+wd:P6200 rdf:type wikibase:Property ,
+                  owl:NamedIndividual ;
+         
+         rdfs:label "BBC News topic ID"@en ;
+         
+         schema:name "BBC News topic ID"@en ;
+         
+         skos:prefLabel "BBC News topic ID"@en ;
+         
+         schema:description "identifier for a topic, on the BBC News website"@en ;
+         
+         wikibase:propertyType wikibase:ExternalId ;
+         
+         wikibase:claim p:P6200 ;
+         
+         wikibase:directClaimNormalized wdtn:P6200 ;
+         
+         wikibase:directClaim wdt:P6200 ;
+         
+         wikibase:novalue wdno:P6200 ;
+         
+         wikibase:qualifier pq:P6200 ;
+         
+         wikibase:qualifierValueNormalized pqn:P6200 ;
+         
+         wikibase:qualifierValue pqv:P6200 ;
+         
+         wikibase:reference pr:P6200 ;
+         
+         wikibase:referenceValueNormalized prn:P6200 ;
+         
+         wikibase:referenceValue prv:P6200 ;
+         
+         wikibase:statementProperty ps:P6200 ;
+         
+         wikibase:statementValueNormalized psn:P6200 ;
+         
+         wikibase:statementValue psv:P6200 .
+
+
+
+###  http://www.wikidata.org/entity/P854
+
+wd:P854 rdf:type wikibase:Property ,
+                 owl:NamedIndividual ;
+        
+        rdfs:label "reference URL"@en ;
+        
+        skos:prefLabel "reference URL"@en ;
+        
+        schema:name "reference URL"@en ;
+        
+        schema:description "should be used for Internet URLs as references. Use \"Wikimedia import URL\" (P4656) for imports from WMF sites"@en ;
+        
+        wikibase:propertyType wikibase:Url ;
+        
+        wikibase:claim p:P854 ;
+        
+        wikibase:directClaim wdt:P854 ;
+        
+        wikibase:novalue wdno:P854 ;
+        
+        wikibase:qualifier pq:P854 ;
+        
+        wikibase:qualifierValue pqv:P854 ;
+        
+        wikibase:reference pr:P854 ;
+        
+        wikibase:referenceValue prv:P854 ;
+        
+        wikibase:statementProperty ps:P854 ;
+        
+        wikibase:statementValue psv:P854 .
+
+
+
+###  http://www.wikidata.org/entity/P910
+
+wd:P910 rdf:type wikibase:Property ,
+                 owl:NamedIndividual ;
+        
+        rdfs:label "topic's main category"@en ;
+        
+        schema:description "main Wikimedia category"@en ;
+        
+        schema:name "topic's main category"@en ;
+        
+        skos:prefLabel "topic's main category"@en ;
+        
+        wikibase:propertyType wikibase:WikibaseItem ;
+        
+        wikibase:claim p:P910 ;
+        
+        wikibase:directClaim wdt:P910 ;
+        
+        wikibase:novalue wdno:P910 ;
+        
+        wikibase:qualifier pq:P910 ;
+        
+        wikibase:qualifierValue pqv:P910 ;
+        
+        wikibase:reference pr:P910 ;
+        
+        wikibase:referenceValue prv:P910 ;
+        
+        wikibase:statementProperty ps:P910 ;
+        
+        wikibase:statementValue psv:P910 .
+
+
+
+###  http://www.wikidata.org/entity/P9318
+
+wd:P9318 rdf:type wikibase:Property ,
+                  owl:NamedIndividual ;
+         
+         rdfs:label "Ávvir topic ID"@en ;
+         
+         schema:description "identifier of a topic in the Northern Sámi publication Ávvir"@en ;
+         
+         schema:name "Ávvir topic ID"@en ;
+         
+         skos:prefLabel "Ávvir topic ID"@en ;
+         
+         wikibase:propertyType wikibase:ExternalId ;
+         
+         wikibase:claim p:P9318 ;
+         
+         wikibase:directClaimNormalized wdtn:P9318 ;
+         
+         wikibase:directClaim wdt:P9318 ;
+         
+         wikibase:novalue wdno:P9318 ;
+         
+         wikibase:qualifier pq:P9318 ;
+         
+         wikibase:qualifierValueNormalized pqn:P9318 ;
+         
+         wikibase:qualifierValue pqv:P9318 ;
+         
+         wikibase:reference pr:P9318 ;
+         
+         wikibase:referenceValueNormalized prn:P9318 ;
+         
+         wikibase:referenceValue prv:P9318 ;
+         
+         wikibase:statementProperty ps:P9318 ;
+         
+         wikibase:statementValueNormalized psn:P9318 ;
+         
+         wikibase:statementValue psv:P9318 .
+
+
+
+###  http://www.wikidata.org/entity/P9346
+
+wd:P9346 rdf:type wikibase:Property ,
+                  owl:NamedIndividual ;
+         
+         rdfs:label "France24 topic ID (French)"@en ;
+         
+         skos:prefLabel "France24 topic ID (French)"@en ;
+         
+         schema:name "France24 topic ID (French)"@en ;
+         
+         schema:description "identifier of a topic on the French version of the France24 website"@en ;
+         
+         wikibase:propertyType wikibase:ExternalId ;
+         
+         wikibase:claim p:P9346 ;
+         
+         wikibase:directClaimNormalized wdtn:P9346 ;
+         
+         wikibase:directClaim wdt:P9346 ;
+         
+         wikibase:novalue wdno:P9346 ;
+         
+         wikibase:qualifier pq:P9346 ;
+         
+         wikibase:qualifierValueNormalized pqn:P9346 ;
+         
+         wikibase:qualifierValue pqv:P9346 ;
+         
+         wikibase:reference pr:P9346 ;
+         
+         wikibase:referenceValueNormalized prn:P9346 ;
+         
+         wikibase:referenceValue prv:P9346 ;
+         
+         wikibase:statementProperty ps:P9346 ;
+         
+         wikibase:statementValueNormalized psn:P9346 ;
+         
+         wikibase:statementValue psv:P9346 .
+
+
+
+###  http://www.wikidata.org/entity/P9368
+
+wd:P9368 rdf:type wikibase:Property ,
+                  owl:NamedIndividual ;
+         
+         rdfs:label "CNA topic ID"@en ;
+         
+         schema:name "CNA topic ID"@en ;
+         
+         skos:prefLabel "CNA topic ID"@en ;
+         
+         schema:description "identifier for a topic on CNA's website"@en ;
+         
+         wikibase:propertyType wikibase:ExternalId ;
+         
+         wikibase:claim p:P9368 ;
+         
+         wikibase:directClaimNormalized wdtn:P9368 ;
+         
+         wikibase:directClaim wdt:P9368 ;
+         
+         wikibase:novalue wdno:P9368 ;
+         
+         wikibase:qualifier pq:P9368 ;
+         
+         wikibase:qualifierValueNormalized pqn:P9368 ;
+         
+         wikibase:qualifierValue pqv:P9368 ;
+         
+         wikibase:reference pr:P9368 ;
+         
+         wikibase:referenceValueNormalized prn:P9368 ;
+         
+         wikibase:referenceValue prv:P9368 ;
+         
+         wikibase:statementProperty ps:P9368 ;
+         
+         wikibase:statementValueNormalized psn:P9368 ;
+         
+         wikibase:statementValue psv:P9368 .
+
+
+
+###  http://www.wikidata.org/entity/Q105080622
+
+wd:Q105080622 rdf:type wikibase:Item ,
+                       owl:NamedIndividual ;
+              
+              rdfs:label "development of COVID-19 vaccines"@en ;
+              
+              skos:prefLabel "development of COVID-19 vaccines"@en ;
+              
+              schema:name "development of COVID-19 vaccines"@en ;
+              
+              schema:description "scientific work to develop a vaccine"@en .
+
+
+
+###  http://www.wikidata.org/entity/Q106016986
+
+wd:Q106016986 rdf:type wikibase:Item ,
+                       owl:NamedIndividual ;
+              
+              rdfs:label "list of COVID-19 vaccine authorizations"@en ;
+              
+              schema:description "Wikimedia list article"@en ;
+              
+              schema:name "list of COVID-19 vaccine authorizations"@en ;
+              
+              skos:prefLabel "list of COVID-19 vaccine authorizations"@en .
+
+
+
+###  http://www.wikidata.org/entity/Q4099686
+
+wd:Q4099686 rdf:type wikibase:Item ,
+                     owl:NamedIndividual ;
+            
+            rdfs:label "WikiProject Medicine"@en ;
+            
+            schema:name "WikiProject Medicine"@en ;
+            
+            skos:prefLabel "WikiProject Medicine"@en ;
+            
+            schema:description "group of Wikipedia editors"@en .
+
+
+
+###  http://www.wikidata.org/entity/Q41719
+
+wd:Q41719 rdf:type wikibase:Item ,
+                   owl:NamedIndividual ;
+          
+          rdfs:label "hypothesis"@en ;
+          
+          schema:name "hypothesis"@en ;
+          
+          skos:prefLabel "hypothesis"@en ;
+          
+          schema:description "proposed explanation for an observation, phenomenon, or scientific problem"@en .
+
+
+
+###  http://www.wikidata.org/entity/Q84263196
+
+wd:Q84263196 rdf:type wikibase:Item ,
+                      owl:NamedIndividual ;
+             
+             rdfs:label "COVID-19"@en ;
+             
+             schema:name "COVID-19"@en ;
+             
+             skos:prefLabel "COVID-19"@en ;
+             
+             schema:description "respiratory syndrome and infectious disease in humans, caused by SARS coronavirus 2"@en .
+
+
+
+###  http://www.wikidata.org/entity/Q87719492
+
+wd:Q87719492 rdf:type wikibase:Item ,
+                      owl:NamedIndividual ;
+             
+             rdfs:label "Covid-19-entstof"@af ,
+                        "Vacuna contra la COVID-19"@an ,
+                        "لقاح كوفيد-19"@ar ,
+                        "طوعم كوڤيد-19"@arz ,
+                        "COVID-19 qarşı peyvənd"@az ,
+                        "Ваксина срещу COVID-19"@bg ,
+                        "Vaksin COVID-19"@bjn ,
+                        "কোভিড-১৯ টিকা"@bn ,
+                        "Vakcina protiv bolesti COVID-19"@bs ,
+                        "vacuna contra la COVID-19"@ca ,
+                        "COVID-19 ĭk-mièu"@cdo ,
+                        "ڤاکسینی کۆڤید-١٩"@ckb ,
+                        "vakcína proti covidu-19"@cs ,
+                        "COVID-19-vaccine"@da ,
+                        "SARS-CoV-2-Impfstoff"@de ,
+                        "SARS-CoV-2-Impfstoff"@de-at ,
+                        "SARS-CoV-2-Impfstoff"@de-ch ,
+                        "Εμβόλιο COVID-19"@el ,
+                        "COVID-19 vaccine"@en ,
+                        "COVID-19 vaccine"@en-ca ,
+                        "COVID-19 vaccine"@en-gb ,
+                        "vakcino kontraŭ KOVIM-19"@eo ,
+                        "vacuna contra COVID-19"@es ,
+                        "Koroonavaktsiin"@et ,
+                        "COVID-19aren aurkako txertoa"@eu ,
+                        "واکسن بیماری کروناویروس ۲۰۱۹"@fa ,
+                        "COVID-19-rokote"@fi ,
+                        "vaccin contre la Covid-19"@fr ,
+                        "Vacina da COVID-19"@gl ,
+                        "Rigakafin Covid-19"@ha ,
+                        "חיסון נגד קורונה"@he ,
+                        "COVID-19 का टीका"@hi ,
+                        "Cjepivo protiv COVID-19"@hr ,
+                        "Covid19-vakcina"@hu ,
+                        "vaksin COVID-19"@id ,
+                        "vaccino anti COVID-19"@it ,
+                        "COVID-19ワクチン"@ja ,
+                        "COVID-19-ის ვაქცინა"@ka ,
+                        "Tigezt mgal Covid-19"@kab ,
+                        "COVID-19ға қарсы вакцина"@kk-cyrl ,
+                        "ಕೋವಿಡ್-೧೯ ಲಸಿಕೆ"@kn ,
+                        "코로나19 백신"@ko ,
+                        "Vacin contra el SARS-CoV-2"@lmo ,
+                        "COVID-19 vakcina"@lt ,
+                        "COVID-19 vakcīna"@lv ,
+                        "കൊറോണവൈറസ് രോഗം 2019 വാക്സിൻ"@ml ,
+                        "ဝက်သိန် ကဝ်ဝိဒ်-၁၉"@mnw ,
+                        "कोव्हिड-१९ लस"@mr ,
+                        "Vaksin COVID-19"@ms ,
+                        "COVID-19 e̍k-chu"@nan ,
+                        "Covid-19-vaksiner"@nb ,
+                        "काेराेनाकाे खाेप"@ne ,
+                        "COVID-19-vaccin"@nl ,
+                        "covid-19-vaksine"@nn ,
+                        "szczepionka przeciw COVID-19"@pl ,
+                        "کووڈ-١٩ ویکسین"@pnb ,
+                        "vacina contra a COVID-19"@pt ,
+                        "vacina contra a COVID-19"@pt-br ,
+                        "Vaccin anti-COVID-19"@ro ,
+                        "вакцина против COVID-19"@ru ,
+                        "ᱠᱳᱵᱷᱤᱰ-᱑᱙ ᱴᱤᱠᱟᱹ"@sat ,
+                        "ڪووڊ-١٩ ويڪسين"@sd ,
+                        "කොවිඩ්-19 එන්නත"@si ,
+                        "Vakcína proti chorobe COVID-19"@sk ,
+                        "Cepivo proti covidu-19"@sl ,
+                        "Vaksina për COVID-19"@sq ,
+                        "вакцина против вируса корона САРС-КоВ-2"@sr ,
+                        "COVID-19-vaccin"@sv ,
+                        "கொரோனாவைரசுத் தொற்று 2019 தடுப்பூசி ஆய்வு"@ta ,
+                        "కోవిడ్-19 వాక్సిన్"@te ,
+                        "วัคซีนโรคติดเชื้อไวรัสโคโรนา 2019"@th ,
+                        "COVID-19 aşısı"@tr ,
+                        "Nthlavelo wa COVID-19"@ts ,
+                        "يېڭى تىپتىكى تاجسىمان ۋىرۇس كېسىلى ۋاكسىنىسى(كوۋىد-19 كېسىلى ۋاكسىنىسى)"@ug ,
+                        "Вакцина проти COVID-19"@uk ,
+                        "کووڈ-١٩ ویکسین"@ur ,
+                        "Vắc-xin COVID-19"@vi ,
+                        "2019冠状病毒病疫苗"@wuu ,
+                        "武漢肺炎疫苗"@yue ,
+                        "2019冠状病毒病疫苗"@zh ,
+                        "嚴重特殊傳染性肺炎疫苗"@zh-hant ,
+                        "嚴重特殊傳染性肺炎疫苗"@zh-tw ;
+             
+             wdt:P5337 "CAAqBwgKMOKumwswprmzAw" ;
+             
+             wdt:P2671 "/g/11j8_9sv06" ;
+             
+             schema:name "Covid-19-entstof"@af ;
+             
+             skos:prefLabel "Covid-19-entstof"@af ;
+             
+             schema:name "Vacuna contra la COVID-19"@an ;
+             
+             skos:prefLabel "Vacuna contra la COVID-19"@an ,
+                            "لقاح كوفيد-19"@ar ;
+             
+             schema:description "لقاح مُعتمد ضد مرض فيروس كورونا"@ar ;
+             
+             skos:prefLabel "طوعم كوڤيد-19"@arz ;
+             
+             schema:name "طوعم كوڤيد-19"@arz ,
+                         "COVID-19 qarşı peyvənd"@az ,
+                         "Vaksin COVID-19"@bjn ;
+             
+             skos:prefLabel "Vakcina protiv bolesti COVID-19"@bs ;
+             
+             wdt:P9368 "covid-19-vaccine" ;
+             
+             schema:name "لقاح كوفيد-19"@ar ;
+             
+             skos:prefLabel "Ваксина срещу COVID-19"@bg ;
+             
+             schema:name "Ваксина срещу COVID-19"@bg ;
+             
+             skos:prefLabel "Vaksin COVID-19"@bjn ;
+             
+             schema:name "কোভিড-১৯ টিকা"@bn ;
+             
+             skos:prefLabel "কোভিড-১৯ টিকা"@bn ;
+             
+             schema:name "Vakcina protiv bolesti COVID-19"@bs ;
+             
+             skos:altLabel "vaccí contra la COVID-19"@ca ,
+                           "vaccí de la COVID-19"@ca ;
+             
+             schema:description "vacuna"@ca ;
+             
+             skos:prefLabel "vacuna contra la COVID-19"@ca ;
+             
+             schema:name "vacuna contra la COVID-19"@ca ;
+             
+             skos:altLabel "vacuna de la COVID-19"@ca ;
+             
+             schema:name "COVID-19 ĭk-mièu"@cdo ;
+             
+             skos:prefLabel "COVID-19 ĭk-mièu"@cdo ,
+                            "ڤاکسینی کۆڤید-١٩"@ckb ;
+             
+             schema:name "ڤاکسینی کۆڤید-١٩"@ckb ;
+             
+             skos:altLabel "očkování proti covidu-19"@cs ;
+             
+             skos:prefLabel "vakcína proti covidu-19"@cs ;
+             
+             schema:name "vakcína proti covidu-19"@cs ;
+             
+             skos:altLabel "vakcína proti koronaviru"@cs ;
+             
+             schema:description "vakcína proti koronaviru SARS-CoV-2"@cs ;
+             
+             schema:name "COVID-19-vaccine"@da ;
+             
+             skos:prefLabel "COVID-19-vaccine"@da ;
+             
+             skos:altLabel "Corona-Impfstoff"@de ,
+                           "Coronavirus-Impfstoff"@de ;
+             
+             schema:description "Impfstoff gegen das SARS-CoV-2-Virus"@de ;
+             
+             schema:name "SARS-CoV-2-Impfstoff"@de ;
+             
+             skos:prefLabel "SARS-CoV-2-Impfstoff"@de ;
+             
+             skos:altLabel "Corona-Impfstoff"@de-at ,
+                           "Coronavirus-Impfstoff"@de-at ;
+             
+             schema:description "Impfstoff gegen SARS-Cov-2"@de-at ;
+             
+             skos:prefLabel "SARS-CoV-2-Impfstoff"@de-at ;
+             
+             schema:name "SARS-CoV-2-Impfstoff"@de-at ;
+             
+             skos:altLabel "Corona-Impfstoff"@de-ch ,
+                           "Coronavirus-Impfstoff"@de-ch ;
+             
+             schema:description "Impfstoff gegen SARS-Cov-2"@de-ch ;
+             
+             skos:prefLabel "SARS-CoV-2-Impfstoff"@de-ch ;
+             
+             schema:name "SARS-CoV-2-Impfstoff"@de-ch ,
+                         "Εμβόλιο COVID-19"@el ;
+             
+             skos:prefLabel "Εμβόλιο COVID-19"@el ;
+             
+             skos:altLabel "COVID vaccine"@en ;
+             
+             skos:prefLabel "COVID-19 vaccine"@en ;
+             
+             schema:name "COVID-19 vaccine"@en ;
+             
+             skos:altLabel "COVID-19 vaccines"@en ,
+                           "SARS-CoV-2 vaccine"@en ,
+                           "corona vaccine"@en ,
+                           "coronvirus vaccine"@en ;
+             
+             schema:description "vaccine against SARS-CoV-2 coronavirus"@en ;
+             
+             schema:name "COVID-19 vaccine"@en-ca ;
+             
+             skos:prefLabel "COVID-19 vaccine"@en-ca ,
+                            "COVID-19 vaccine"@en-gb ;
+             
+             schema:name "COVID-19 vaccine"@en-gb ;
+             
+             wdt:P373 "COVID-19 vaccines" ;
+             
+             skos:altLabel "vakcino kontraŭ COVID-19"@eo ;
+             
+             skos:prefLabel "vakcino kontraŭ KOVIM-19"@eo ;
+             
+             schema:name "vakcino kontraŭ KOVIM-19"@eo ;
+             
+             skos:altLabel "Vacuna COVID-19"@es ,
+                           "Vacuna contra el coronavirus"@es ,
+                           "Vacuna para el COVID-19"@es ;
+             
+             schema:description "conjunto de vacunas creadas para prevenir el Covid-19"@es ;
+             
+             schema:name "vacuna contra COVID-19"@es ;
+             
+             skos:prefLabel "vacuna contra COVID-19"@es ,
+                            "Koroonavaktsiin"@et ;
+             
+             schema:name "Koroonavaktsiin"@et ,
+                         "COVID-19aren aurkako txertoa"@eu ;
+             
+             skos:prefLabel "COVID-19aren aurkako txertoa"@eu ;
+             
+             skos:altLabel "انواع واکسن کرونا"@fa ;
+             
+             schema:description "انواع واکسن کووید ۱۹"@fa ;
+             
+             schema:name "واکسن بیماری کروناویروس ۲۰۱۹"@fa ;
+             
+             skos:prefLabel "واکسن بیماری کروناویروس ۲۰۱۹"@fa ;
+             
+             skos:altLabel "واکسن های کرونا"@fa ,
+                           "واکسن های کوید ۱۹"@fa ,
+                           "واکسنهای کروناویروس"@fa ;
+             
+             schema:name "COVID-19-rokote"@fi ;
+             
+             skos:prefLabel "COVID-19-rokote"@fi ;
+             
+             skos:altLabel "koronavirusrokote"@fi ;
+             
+             schema:description "rokote SARS-CoV-2-koronavirusta vastaan"@fi ;
+             
+             skos:altLabel "COVID vaccin"@fr ;
+             
+             schema:name "vaccin contre la Covid-19"@fr ;
+             
+             skos:prefLabel "vaccin contre la Covid-19"@fr ;
+             
+             schema:description "vaccin contre le coronavirus SARS-CoV-2"@fr ;
+             
+             skos:altLabel "vaccin covid"@fr ;
+             
+             schema:name "Vacina da COVID-19"@gl ;
+             
+             skos:prefLabel "Vacina da COVID-19"@gl ,
+                            "Rigakafin Covid-19"@ha ;
+             
+             schema:name "Rigakafin Covid-19"@ha ,
+                         "חיסון נגד קורונה"@he ;
+             
+             skos:prefLabel "חיסון נגד קורונה"@he ;
+             
+             schema:description "חיסון שמטרתו להקנות חסינות נרכשת כנגד מחלת נגיף קורונה 2019 (COVID-19)"@he ;
+             
+             schema:name "COVID-19 का टीका"@hi ;
+             
+             skos:prefLabel "COVID-19 का टीका"@hi ;
+             
+             schema:description "एसएआरएस-कोव्ह-२ कोरोनाव्हायरस विरोधी टीका"@hi ;
+             
+             schema:name "Cjepivo protiv COVID-19"@hr ;
+             
+             skos:prefLabel "Cjepivo protiv COVID-19"@hr ,
+                            "Covid19-vakcina"@hu ;
+             
+             schema:name "Covid19-vakcina"@hu ;
+             
+             schema:description "Vaksin atau vaksin potensial penanggulangan COVID-19"@id ;
+             
+             schema:name "vaksin COVID-19"@id ;
+             
+             skos:prefLabel "vaksin COVID-19"@id ;
+             
+             skos:altLabel "vaksin penyakit koronavirus 2019"@id ;
+             
+             skos:prefLabel "vaccino anti COVID-19"@it ;
+             
+             schema:name "vaccino anti COVID-19"@it ;
+             
+             skos:altLabel "vaccino anti SARS-CoV-2"@it ,
+                           "vaccino contro il SARS-CoV-2"@it ;
+             
+             schema:description "vaccino contro la COVID-19"@it ;
+             
+             skos:altLabel "vaccino contro la COVID-19"@it ;
+             
+             schema:name "COVID-19ワクチン"@ja ;
+             
+             skos:prefLabel "COVID-19ワクチン"@ja ;
+             
+             schema:description "新型コロナウイルス感染症（COVID‑19）に対する獲得免疫を提供することを目的とした、いくつかの異なるワクチン技術の総称"@ja ;
+             
+             skos:prefLabel "COVID-19-ის ვაქცინა"@ka ;
+             
+             schema:name "COVID-19-ის ვაქცინა"@ka ;
+             
+             skos:prefLabel "Tigezt mgal Covid-19"@kab ,
+                            "COVID-19ға қарсы вакцина"@kk-cyrl ;
+             
+             schema:name "COVID-19ға қарсы вакцина"@kk-cyrl ,
+                         "ಕೋವಿಡ್-೧೯ ಲಸಿಕೆ"@kn ;
+             
+             skos:prefLabel "ಕೋವಿಡ್-೧೯ ಲಸಿಕೆ"@kn ;
+             
+             schema:description "코로나19 바이러스의 백신"@ko ;
+             
+             schema:name "코로나19 백신"@ko ;
+             
+             skos:prefLabel "코로나19 백신"@ko ;
+             
+             skos:altLabel "코로나바이러스감염증-19 백신"@ko ;
+             
+             skos:prefLabel "Vacin contra el SARS-CoV-2"@lmo ;
+             
+             schema:name "Vacin contra el SARS-CoV-2"@lmo ;
+             
+             skos:prefLabel "COVID-19 vakcina"@lt ;
+             
+             schema:name "COVID-19 vakcina"@lt ;
+             
+             skos:prefLabel "COVID-19 vakcīna"@lv ;
+             
+             schema:name "COVID-19 vakcīna"@lv ;
+             
+             skos:prefLabel "കൊറോണവൈറസ് രോഗം 2019 വാക്സിൻ"@ml ;
+             
+             schema:name "കൊറോണവൈറസ് രോഗം 2019 വാക്സിൻ"@ml ;
+             
+             skos:prefLabel "ဝက်သိန် ကဝ်ဝိဒ်-၁၉"@mnw ;
+             
+             schema:description "एसएआरएस-कोव्ह-२ कोरोनाव्हायरस विरोधी लस"@mr ;
+             
+             schema:name "कोव्हिड-१९ लस"@mr ;
+             
+             skos:prefLabel "Vaksin COVID-19"@ms ;
+             
+             schema:name "Vaksin COVID-19"@ms ,
+                         "COVID-19 e̍k-chu"@nan ;
+             
+             skos:prefLabel "COVID-19 e̍k-chu"@nan ,
+                            "Covid-19-vaksiner"@nb ;
+             
+             schema:name "Covid-19-vaksiner"@nb ;
+             
+             wdt:P6200 "c87z0we2g0zt" ;
+             
+             schema:name "ဝက်သိန် ကဝ်ဝိဒ်-၁၉"@mnw ;
+             
+             skos:prefLabel "कोव्हिड-१९ लस"@mr ;
+             
+             schema:description "काेभिड - १९ विरूद्दकाे खाेप"@ne ;
+             
+             skos:altLabel "काेराेना भ्याक्सिन"@ne ;
+             
+             schema:name "काेराेनाकाे खाेप"@ne ;
+             
+             skos:prefLabel "काेराेनाकाे खाेप"@ne ,
+                            "COVID-19-vaccin"@nl ;
+             
+             schema:name "COVID-19-vaccin"@nl ;
+             
+             skos:altLabel "coronavaccin"@nl ,
+                           "coronavirusvaccin"@nl ;
+             
+             skos:prefLabel "covid-19-vaksine"@nn ;
+             
+             schema:name "covid-19-vaksine"@nn ;
+             
+             skos:altLabel "vaksine mot covid-19"@nn ;
+             
+             schema:description "vaksine mot koronavirussjukdommen covid-19"@nn ;
+             
+             skos:prefLabel "szczepionka przeciw COVID-19"@pl ;
+             
+             schema:name "szczepionka przeciw COVID-19"@pl ;
+             
+             schema:description "szczepionka przeciw koronawirusowi SARS-CoV-2"@pl ;
+             
+             schema:name "کووڈ-١٩ ویکسین"@pnb ;
+             
+             skos:prefLabel "کووڈ-١٩ ویکسین"@pnb ;
+             
+             schema:description "detalhes das vacinas existentes contra a COVID-19"@pt ;
+             
+             skos:prefLabel "vacina contra a COVID-19"@pt ;
+             
+             schema:name "vacina contra a COVID-19"@pt ;
+             
+             skos:altLabel "Vacina para COVID-19"@pt-br ;
+             
+             schema:name "vacina contra a COVID-19"@pt-br ;
+             
+             skos:altLabel "Vaccin COVID"@ro ,
+                           "Vaccin SARS-CoV-2"@ro ;
+             
+             skos:prefLabel "Vaccin anti-COVID-19"@ro ;
+             
+             skos:altLabel "Vaccin împotriva coronavirus"@ro ;
+             
+             schema:description "Vaccin împotriva coronavirus SARS-CoV-2"@ro ,
+                                "Тип вакцин против COVID-19"@ru ;
+             
+             skos:prefLabel "вакцина против COVID-19"@ru ;
+             
+             schema:name "вакцина против COVID-19"@ru ,
+                         "ᱠᱳᱵᱷᱤᱰ-᱑᱙ ᱴᱤᱠᱟᱹ"@sat ;
+             
+             skos:prefLabel "ᱠᱳᱵᱷᱤᱰ-᱑᱙ ᱴᱤᱠᱟᱹ"@sat ,
+                            "ڪووڊ-١٩ ويڪسين"@sd ;
+             
+             schema:name "ڪووڊ-١٩ ويڪسين"@sd ;
+             
+             skos:prefLabel "කොවිඩ්-19 එන්නත"@si ;
+             
+             schema:name "කොවිඩ්-19 එන්නත"@si ,
+                         "Vakcína proti chorobe COVID-19"@sk ;
+             
+             skos:prefLabel "Vakcína proti chorobe COVID-19"@sk ,
+                            "Cepivo proti covidu-19"@sl ;
+             
+             schema:name "Cepivo proti covidu-19"@sl ;
+             
+             wdt:P9318 "koronavaksiidna" ;
+             
+             skos:prefLabel "COVID-19 qarşı peyvənd"@az ;
+             
+             schema:name "Tigezt mgal Covid-19"@kab ;
+             
+             wdt:P9346 "coronavirus" ;
+             
+             skos:prefLabel "vacina contra a COVID-19"@pt-br ;
+             
+             schema:name "Vaccin anti-COVID-19"@ro ;
+             
+             skos:prefLabel "Vaksina për COVID-19"@sq ;
+             
+             schema:name "Vaksina për COVID-19"@sq ;
+             
+             schema:description "vaksina hipotetike kundër COVID-19"@sq ;
+             
+             skos:altLabel "Ковид-19 – вакцина у истраживању"@sr ;
+             
+             schema:name "вакцина против вируса корона САРС-КоВ-2"@sr ;
+             
+             skos:prefLabel "вакцина против вируса корона САРС-КоВ-2"@sr ;
+             
+             schema:name "COVID-19-vaccin"@sv ;
+             
+             skos:prefLabel "COVID-19-vaccin"@sv ;
+             
+             skos:altLabel "coronavaccin"@sv ;
+             
+             schema:description "vaccin mot coronavirus"@sv ;
+             
+             schema:name "கொரோனாவைரசுத் தொற்று 2019 தடுப்பூசி ஆய்வு"@ta ;
+             
+             skos:prefLabel "கொரோனாவைரசுத் தொற்று 2019 தடுப்பூசி ஆய்வு"@ta ;
+             
+             schema:name "కోవిడ్-19 వాక్సిన్"@te ;
+             
+             skos:prefLabel "కోవిడ్-19 వాక్సిన్"@te ;
+             
+             schema:description "วัคซีนเพื่อลดการติดเชื้อโควิด-19"@th ;
+             
+             skos:prefLabel "วัคซีนโรคติดเชื้อไวรัสโคโรนา 2019"@th ;
+             
+             schema:name "วัคซีนโรคติดเชื้อไวรัสโคโรนา 2019"@th ,
+                         "COVID-19 aşısı"@tr ;
+             
+             skos:prefLabel "COVID-19 aşısı"@tr ;
+             
+             schema:description "COVID-19 hastalığına karşı bağışıklık sağlamayı amaçlayan biyoteknoloji ürünü"@tr ;
+             
+             skos:prefLabel "Nthlavelo wa COVID-19"@ts ;
+             
+             schema:name "Nthlavelo wa COVID-19"@ts ,
+                         "يېڭى تىپتىكى تاجسىمان ۋىرۇس كېسىلى ۋاكسىنىسى(كوۋىد-19 كېسىلى ۋاكسىنىسى)"@ug ;
+             
+             skos:prefLabel "يېڭى تىپتىكى تاجسىمان ۋىرۇس كېسىلى ۋاكسىنىسى(كوۋىد-19 كېسىلى ۋاكسىنىسى)"@ug ,
+                            "Вакцина проти COVID-19"@uk ;
+             
+             schema:name "Вакцина проти COVID-19"@uk ,
+                         "کووڈ-١٩ ویکسین"@ur ;
+             
+             skos:prefLabel "کووڈ-١٩ ویکسین"@ur ;
+             
+             schema:name "Vắc-xin COVID-19"@vi ;
+             
+             skos:prefLabel "Vắc-xin COVID-19"@vi ;
+             
+             schema:description "vắc-xin chống bệnh virus corona chủng mới 2019"@vi ;
+             
+             skos:prefLabel "2019冠状病毒病疫苗"@wuu ;
+             
+             schema:name "2019冠状病毒病疫苗"@wuu ;
+             
+             skos:prefLabel "武漢肺炎疫苗"@yue ;
+             
+             schema:name "武漢肺炎疫苗"@yue ;
+             
+             skos:prefLabel "2019冠状病毒病疫苗"@zh ;
+             
+             schema:name "2019冠状病毒病疫苗"@zh ;
+             
+             skos:altLabel "COVID-19疫苗"@zh ,
+                           "新冠疫苗"@zh ;
+             
+             schema:description "针对SARS-CoV-2新型冠状病毒的疫苗"@zh ;
+             
+             schema:name "嚴重特殊傳染性肺炎疫苗"@zh-hant ;
+             
+             skos:prefLabel "嚴重特殊傳染性肺炎疫苗"@zh-hant ;
+             
+             schema:description "用來對抗SARS-CoV-2冠狀病毒的疫苗"@zh-hant ;
+             
+             skos:prefLabel "嚴重特殊傳染性肺炎疫苗"@zh-tw ;
+             
+             schema:name "嚴重特殊傳染性肺炎疫苗"@zh-tw ;
+             
+             schema:description "用來對抗SARS-CoV-2冠狀病毒的疫苗"@zh-tw ;
+             
+             wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/2020%2012%2027%20mas%20vacunados%20en%20la%20residencia%20mixta%201.jpg> ;
+             
+             wdtn:P2671 <http://g.co/kg/g/11j8_9sv06> ;
+             
+             wdt:P2184 wd:Q105080622 ;
+             
+             wdt:P2354 wd:Q106016986 ;
+             
+             wdt:P5008 wd:Q4099686 ;
+             
+             wdt:P1924 wd:Q84263196 ;
+             
+             wdt:P5008 wd:Q87748614 ;
+             
+             wdt:P279 wd:Q87752017 ;
+             
+             owl:sameAs wd:Q89643106 ,
+                        wd:Q97200163 ,
+                        wd:Q97255048 ,
+                        wd:Q97467240 ,
+                        wd:Q98283557 ;
+             
+             wdt:P910 wd:Q98725931 ;
+             
+             wdt:P1424 wd:Q99707960 ;
+             
+             p:P9346 s:Q87719492-00826075-43bb-f6a9-ea49-57d023ff78f4 ;
+             
+             p:P5337 s:Q87719492-07b7cd7e-43e4-2f14-a037-073f4fd4dc8b ;
+             
+             p:P5008 s:Q87719492-1265fb89-4cbc-54d6-c4b7-4be23076e5cc ;
+             
+             p:P18 s:Q87719492-14b24125-41e6-5753-9ed1-fae56aec13db ;
+             
+             p:P9368 s:Q87719492-29a17cbe-4a58-7ff9-9db0-beefc336972d ;
+             
+             p:P279 s:Q87719492-5ffd9c79-41ce-40c6-12f6-5ebc2cd9e520 ;
+             
+             p:P2184 s:Q87719492-611bc19f-49c9-26c6-539b-15f190de5910 ;
+             
+             p:P5008 s:Q87719492-6541D96E-21EF-475E-AA7F-ADF3CCD7272A ;
+             
+             p:P9318 s:Q87719492-7afb173c-4e9a-732d-c426-457af629c489 ;
+             
+             p:P2671 s:Q87719492-9F87F319-733D-4AD9-B427-FC9EBBC2A0EC ;
+             
+             p:P910 s:Q87719492-b92ab515-4ca5-cc61-2666-85d8fa76862d ;
+             
+             p:P373 s:Q87719492-bd97b357-4997-d7c7-3730-b4ddcac6d645 ;
+             
+             p:P2354 s:Q87719492-c89b81cf-4093-3770-0d9f-a84ec0b73096 ;
+             
+             p:P1924 s:Q87719492-ee330763-41d1-351f-ed5d-119a10903ff9 ;
+             
+             p:P6200 s:Q87719492-f2dc9534-41ad-dd2f-a251-6b7e62395e05 ;
+             
+             p:P1424 s:Q87719492-fb3de751-4594-53d1-2351-40b6cb7418fc .
+
+
+
+###  http://www.wikidata.org/entity/Q87748614
+
+wd:Q87748614 rdf:type wikibase:Item ,
+                      owl:NamedIndividual ;
+             
+             rdfs:label "WikiProject COVID-19"@en ;
+             
+             schema:name "WikiProject COVID-19"@en ;
+             
+             skos:prefLabel "WikiProject COVID-19"@en ;
+             
+             schema:description "Wikimedia WikiProject dedicated to COVID-19"@en .
+
+
+
+###  http://www.wikidata.org/entity/Q87752017
+
+wd:Q87752017 rdf:type wikibase:Item ,
+                      owl:NamedIndividual ;
+             
+             rdfs:label "Coronavirus-induced disease vaccine"@en ;
+             
+             skos:prefLabel "Coronavirus-induced disease vaccine"@en ;
+             
+             schema:name "Coronavirus-induced disease vaccine"@en ;
+             
+             schema:description "any vaccine against a a contagious disease caused by any coronavirus"@en .
+
+
+
+###  http://www.wikidata.org/entity/Q89643106
+
+wd:Q89643106 rdf:type owl:NamedIndividual .
+
+
+
+###  http://www.wikidata.org/entity/Q97200163
+
+wd:Q97200163 rdf:type owl:NamedIndividual .
+
+
+
+###  http://www.wikidata.org/entity/Q97255048
+
+wd:Q97255048 rdf:type owl:NamedIndividual .
+
+
+
+###  http://www.wikidata.org/entity/Q97467240
+
+wd:Q97467240 rdf:type owl:NamedIndividual .
+
+
+
+###  http://www.wikidata.org/entity/Q98283557
+
+wd:Q98283557 rdf:type owl:NamedIndividual .
+
+
+
+###  http://www.wikidata.org/entity/Q98725931
+
+wd:Q98725931 rdf:type wikibase:Item ,
+                      owl:NamedIndividual ;
+             
+             rdfs:label "Category:COVID-19 vaccines"@en ;
+             
+             schema:name "Category:COVID-19 vaccines"@en ;
+             
+             skos:prefLabel "Category:COVID-19 vaccines"@en ;
+             
+             schema:description "Wikimedia category"@en .
+
+
+
+###  http://www.wikidata.org/entity/Q99707960
+
+wd:Q99707960 rdf:type wikibase:Item ,
+                      owl:NamedIndividual ;
+             
+             rdfs:label "Template:COVID-19 vaccine candidates"@en ;
+             
+             schema:name "Template:COVID-19 vaccine candidates"@en ;
+             
+             skos:prefLabel "Template:COVID-19 vaccine candidates"@en ;
+             
+             schema:description "Wikimedia template"@en .
+
+
+
+###  http://www.wikidata.org/entity/statement/Q87719492-00826075-43bb-f6a9-ea49-57d023ff78f4
+
+s:Q87719492-00826075-43bb-f6a9-ea49-57d023ff78f4 rdf:type wikibase:BestRank ,
+                                                          wikibase:Statement ,
+                                                          owl:NamedIndividual ;
+                                                 
+                                                 ps:P9346 "coronavirus" ;
+                                                 
+                                                 wikibase:rank wikibase:NormalRank .
+
+
+
+###  http://www.wikidata.org/entity/statement/Q87719492-07b7cd7e-43e4-2f14-a037-073f4fd4dc8b
+
+s:Q87719492-07b7cd7e-43e4-2f14-a037-073f4fd4dc8b rdf:type wikibase:BestRank ,
+                                                          wikibase:Statement ,
+                                                          owl:NamedIndividual ;
+                                                 
+                                                 ps:P5337 "CAAqBwgKMOKumwswprmzAw" ;
+                                                 
+                                                 wikibase:rank wikibase:NormalRank .
+
+
+
+###  http://www.wikidata.org/entity/statement/Q87719492-1265fb89-4cbc-54d6-c4b7-4be23076e5cc
+
+s:Q87719492-1265fb89-4cbc-54d6-c4b7-4be23076e5cc rdf:type wikibase:BestRank ,
+                                                          wikibase:Statement ,
+                                                          owl:NamedIndividual ;
+                                                 
+                                                 wikibase:rank wikibase:NormalRank ;
+                                                 
+                                                 ps:P5008 wd:Q4099686 .
+
+
+
+###  http://www.wikidata.org/entity/statement/Q87719492-14b24125-41e6-5753-9ed1-fae56aec13db
+
+s:Q87719492-14b24125-41e6-5753-9ed1-fae56aec13db rdf:type wikibase:BestRank ,
+                                                          wikibase:Statement ,
+                                                          owl:NamedIndividual ;
+                                                 
+                                                 ps:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/2020%2012%2027%20mas%20vacunados%20en%20la%20residencia%20mixta%201.jpg> ;
+                                                 
+                                                 wikibase:rank wikibase:NormalRank .
+
+
+
+###  http://www.wikidata.org/entity/statement/Q87719492-29a17cbe-4a58-7ff9-9db0-beefc336972d
+
+s:Q87719492-29a17cbe-4a58-7ff9-9db0-beefc336972d rdf:type wikibase:BestRank ,
+                                                          wikibase:Statement ,
+                                                          owl:NamedIndividual ;
+                                                 
+                                                 ps:P9368 "covid-19-vaccine" ;
+                                                 
+                                                 wikibase:rank wikibase:NormalRank .
+
+
+
+###  http://www.wikidata.org/entity/statement/Q87719492-5ffd9c79-41ce-40c6-12f6-5ebc2cd9e520
+
+s:Q87719492-5ffd9c79-41ce-40c6-12f6-5ebc2cd9e520 rdf:type wikibase:BestRank ,
+                                                          wikibase:Statement ,
+                                                          owl:NamedIndividual ;
+                                                 
+                                                 wikibase:rank wikibase:NormalRank ;
+                                                 
+                                                 ps:P279 wd:Q87752017 .
+
+
+
+###  http://www.wikidata.org/entity/statement/Q87719492-611bc19f-49c9-26c6-539b-15f190de5910
+
+s:Q87719492-611bc19f-49c9-26c6-539b-15f190de5910 rdf:type wikibase:BestRank ,
+                                                          wikibase:Statement ,
+                                                          owl:NamedIndividual ;
+                                                 
+                                                 wikibase:rank wikibase:NormalRank ;
+                                                 
+                                                 ps:P2184 wd:Q105080622 .
+
+
+
+###  http://www.wikidata.org/entity/statement/Q87719492-6541D96E-21EF-475E-AA7F-ADF3CCD7272A
+
+s:Q87719492-6541D96E-21EF-475E-AA7F-ADF3CCD7272A rdf:type wikibase:BestRank ,
+                                                          wikibase:Statement ,
+                                                          owl:NamedIndividual ;
+                                                 
+                                                 wikibase:rank wikibase:NormalRank ;
+                                                 
+                                                 ps:P5008 wd:Q87748614 .
+
+
+
+###  http://www.wikidata.org/entity/statement/Q87719492-7afb173c-4e9a-732d-c426-457af629c489
+
+s:Q87719492-7afb173c-4e9a-732d-c426-457af629c489 rdf:type wikibase:BestRank ,
+                                                          wikibase:Statement ,
+                                                          owl:NamedIndividual ;
+                                                 
+                                                 ps:P9318 "koronavaksiidna" ;
+                                                 
+                                                 wikibase:rank wikibase:NormalRank .
+
+
+
+###  http://www.wikidata.org/entity/statement/Q87719492-9F87F319-733D-4AD9-B427-FC9EBBC2A0EC
+
+s:Q87719492-9F87F319-733D-4AD9-B427-FC9EBBC2A0EC rdf:type wikibase:BestRank ,
+                                                          wikibase:Statement ,
+                                                          owl:NamedIndividual ;
+                                                 
+                                                 ps:P2671 "/g/11j8_9sv06" ;
+                                                 
+                                                 psn:P2671 <http://g.co/kg/g/11j8_9sv06> ;
+                                                 
+                                                 wikibase:rank wikibase:NormalRank .
+
+
+
+###  http://www.wikidata.org/entity/statement/Q87719492-b92ab515-4ca5-cc61-2666-85d8fa76862d
+
+s:Q87719492-b92ab515-4ca5-cc61-2666-85d8fa76862d rdf:type wikibase:BestRank ,
+                                                          wikibase:Statement ,
+                                                          owl:NamedIndividual ;
+                                                 
+                                                 wikibase:rank wikibase:NormalRank ;
+                                                 
+                                                 ps:P910 wd:Q98725931 .
+
+
+
+###  http://www.wikidata.org/entity/statement/Q87719492-bd97b357-4997-d7c7-3730-b4ddcac6d645
+
+s:Q87719492-bd97b357-4997-d7c7-3730-b4ddcac6d645 rdf:type wikibase:BestRank ,
+                                                          wikibase:Statement ,
+                                                          owl:NamedIndividual ;
+                                                 
+                                                 ps:P373 "COVID-19 vaccines" ;
+                                                 
+                                                 wikibase:rank wikibase:NormalRank .
+
+
+
+###  http://www.wikidata.org/entity/statement/Q87719492-c89b81cf-4093-3770-0d9f-a84ec0b73096
+
+s:Q87719492-c89b81cf-4093-3770-0d9f-a84ec0b73096 rdf:type wikibase:BestRank ,
+                                                          wikibase:Statement ,
+                                                          owl:NamedIndividual ;
+                                                 
+                                                 wikibase:rank wikibase:NormalRank ;
+                                                 
+                                                 ps:P2354 wd:Q106016986 .
+
+
+
+###  http://www.wikidata.org/entity/statement/Q87719492-ee330763-41d1-351f-ed5d-119a10903ff9
+
+s:Q87719492-ee330763-41d1-351f-ed5d-119a10903ff9 rdf:type wikibase:BestRank ,
+                                                          wikibase:Statement ,
+                                                          owl:NamedIndividual ;
+                                                 
+                                                 wikibase:rank wikibase:NormalRank ;
+                                                 
+                                                 pq:P5102 wd:Q41719 ;
+                                                 
+                                                 ps:P1924 wd:Q84263196 ;
+                                                 
+                                                 prov:wasDerivedFrom <http://www.wikidata.org/reference/875a48a1cceb4b509c7388ae46dedfb0630f97e9> .
+
+
+
+###  http://www.wikidata.org/entity/statement/Q87719492-f2dc9534-41ad-dd2f-a251-6b7e62395e05
+
+s:Q87719492-f2dc9534-41ad-dd2f-a251-6b7e62395e05 rdf:type wikibase:BestRank ,
+                                                          wikibase:Statement ,
+                                                          owl:NamedIndividual ;
+                                                 
+                                                 ps:P6200 "c87z0we2g0zt" ;
+                                                 
+                                                 wikibase:rank wikibase:NormalRank .
+
+
+
+###  http://www.wikidata.org/entity/statement/Q87719492-fb3de751-4594-53d1-2351-40b6cb7418fc
+
+s:Q87719492-fb3de751-4594-53d1-2351-40b6cb7418fc rdf:type wikibase:BestRank ,
+                                                          wikibase:Statement ,
+                                                          owl:NamedIndividual ;
+                                                 
+                                                 wikibase:rank wikibase:NormalRank ;
+                                                 
+                                                 ps:P1424 wd:Q99707960 .
+
+
+
+###  http://www.wikidata.org/reference/875a48a1cceb4b509c7388ae46dedfb0630f97e9
+
+<http://www.wikidata.org/reference/875a48a1cceb4b509c7388ae46dedfb0630f97e9> rdf:type wikibase:Reference ,
+                                                                                      owl:NamedIndividual ;
+                                                                             
+                                                                             pr:P854 <https://www.mayoclinic.org/diseases-conditions/coronavirus/in-depth/coronavirus-vaccine/art-20484859> .
+
+
+
+###  https://af.wikipedia.org/wiki/Covid-19-entstof
+
+<https://af.wikipedia.org/wiki/Covid-19-entstof> rdf:type schema:Article ,
+                                                          owl:NamedIndividual ;
+                                                 
+                                                 schema:inLanguage "af" ;
+                                                 
+                                                 schema:name "Covid-19-entstof"@af ;
+                                                 
+                                                 schema:about wd:Q87719492 ;
+                                                 
+                                                 schema:isPartOf <https://af.wikipedia.org/> .
+
+
+
+###  https://an.wikipedia.org/wiki/Vacuna_contra_la_COVID-19
+
+<https://an.wikipedia.org/wiki/Vacuna_contra_la_COVID-19> rdf:type schema:Article ,
+                                                                   owl:NamedIndividual ;
+                                                          
+                                                          schema:name "Vacuna contra la COVID-19"@an ;
+                                                          
+                                                          schema:inLanguage "an" ;
+                                                          
+                                                          schema:about wd:Q87719492 ;
+                                                          
+                                                          schema:isPartOf <https://an.wikipedia.org/> .
+
+
+
+###  https://ar.wikipedia.org/wiki/%D9%84%D9%82%D8%A7%D8%AD_%D9%83%D9%88%D9%81%D9%8A%D8%AF-19
+
+<https://ar.wikipedia.org/wiki/%D9%84%D9%82%D8%A7%D8%AD_%D9%83%D9%88%D9%81%D9%8A%D8%AF-19> rdf:type schema:Article ,
+                                                                                                    owl:NamedIndividual ;
+                                                                                           
+                                                                                           schema:inLanguage "ar" ;
+                                                                                           
+                                                                                           schema:name "لقاح كوفيد-19"@ar ;
+                                                                                           
+                                                                                           schema:about wd:Q87719492 ;
+                                                                                           
+                                                                                           schema:isPartOf <https://ar.wikipedia.org/> .
+
+
+
+###  https://arz.wikipedia.org/wiki/%D8%B7%D9%88%D8%B9%D9%85_%D9%83%D9%88%DA%A4%D9%8A%D8%AF-19
+
+<https://arz.wikipedia.org/wiki/%D8%B7%D9%88%D8%B9%D9%85_%D9%83%D9%88%DA%A4%D9%8A%D8%AF-19> rdf:type schema:Article ,
+                                                                                                     owl:NamedIndividual ;
+                                                                                            
+                                                                                            schema:inLanguage "arz" ;
+                                                                                            
+                                                                                            schema:name "طوعم كوڤيد-19"@arz ;
+                                                                                            
+                                                                                            schema:about wd:Q87719492 ;
+                                                                                            
+                                                                                            schema:isPartOf <https://arz.wikipedia.org/> .
+
+
+
+###  https://az.wikipedia.org/wiki/COVID-19_qar%C5%9F%C4%B1_peyv%C9%99nd
+
+<https://az.wikipedia.org/wiki/COVID-19_qar%C5%9F%C4%B1_peyv%C9%99nd> rdf:type schema:Article ,
+                                                                               owl:NamedIndividual ;
+                                                                      
+                                                                      schema:inLanguage "az" ;
+                                                                      
+                                                                      schema:name "COVID-19 qarşı peyvənd"@az ;
+                                                                      
+                                                                      schema:about wd:Q87719492 ;
+                                                                      
+                                                                      schema:isPartOf <https://az.wikipedia.org/> .
+
+
+
+###  https://bg.wikipedia.org/wiki/%D0%92%D0%B0%D0%BA%D1%81%D0%B8%D0%BD%D0%B0_%D1%81%D1%80%D0%B5%D1%89%D1%83_COVID-19
+
+<https://bg.wikipedia.org/wiki/%D0%92%D0%B0%D0%BA%D1%81%D0%B8%D0%BD%D0%B0_%D1%81%D1%80%D0%B5%D1%89%D1%83_COVID-19> rdf:type schema:Article ,
+                                                                                                                            owl:NamedIndividual ;
+                                                                                                                   
+                                                                                                                   schema:inLanguage "bg" ;
+                                                                                                                   
+                                                                                                                   schema:name "Ваксина срещу COVID-19"@bg ;
+                                                                                                                   
+                                                                                                                   schema:about wd:Q87719492 ;
+                                                                                                                   
+                                                                                                                   schema:isPartOf <https://bg.wikipedia.org/> .
+
+
+
+###  https://bjn.wikipedia.org/wiki/Vaksin_Covid-19
+
+<https://bjn.wikipedia.org/wiki/Vaksin_Covid-19> rdf:type schema:Article ,
+                                                          owl:NamedIndividual ;
+                                                 
+                                                 schema:name "Vaksin Covid-19"@bjn ;
+                                                 
+                                                 schema:inLanguage "bjn" ;
+                                                 
+                                                 schema:about wd:Q87719492 ;
+                                                 
+                                                 schema:isPartOf <https://bjn.wikipedia.org/> .
+
+
+
+###  https://bn.wikipedia.org/wiki/%E0%A6%95%E0%A7%8B%E0%A6%AD%E0%A6%BF%E0%A6%A1-%E0%A7%A7%E0%A7%AF_%E0%A6%9F%E0%A6%BF%E0%A6%95%E0%A6%BE
+
+<https://bn.wikipedia.org/wiki/%E0%A6%95%E0%A7%8B%E0%A6%AD%E0%A6%BF%E0%A6%A1-%E0%A7%A7%E0%A7%AF_%E0%A6%9F%E0%A6%BF%E0%A6%95%E0%A6%BE> rdf:type schema:Article ,
+                                                                                                                                               owl:NamedIndividual ;
+                                                                                                                                      
+                                                                                                                                      schema:inLanguage "bn" ;
+                                                                                                                                      
+                                                                                                                                      schema:name "কোভিড-১৯ টিকা"@bn ;
+                                                                                                                                      
+                                                                                                                                      schema:about wd:Q87719492 ;
+                                                                                                                                      
+                                                                                                                                      schema:isPartOf <https://bn.wikipedia.org/> .
+
+
+
+###  https://bs.wikipedia.org/wiki/Vakcina_protiv_COVID-a_19
+
+<https://bs.wikipedia.org/wiki/Vakcina_protiv_COVID-a_19> rdf:type schema:Article ,
+                                                                   owl:NamedIndividual ;
+                                                          
+                                                          schema:name "Vakcina protiv COVID-a 19"@bs ;
+                                                          
+                                                          schema:inLanguage "bs" ;
+                                                          
+                                                          schema:about wd:Q87719492 ;
+                                                          
+                                                          schema:isPartOf <https://bs.wikipedia.org/> .
+
+
+
+###  https://ca.wikipedia.org/wiki/Vacuna_contra_la_COVID-19
+
+<https://ca.wikipedia.org/wiki/Vacuna_contra_la_COVID-19> rdf:type schema:Article ,
+                                                                   owl:NamedIndividual ;
+                                                          
+                                                          schema:name "Vacuna contra la COVID-19"@ca ;
+                                                          
+                                                          schema:inLanguage "ca" ;
+                                                          
+                                                          schema:about wd:Q87719492 ;
+                                                          
+                                                          schema:isPartOf <https://ca.wikipedia.org/> .
+
+
+
+###  https://cdo.wikipedia.org/wiki/COVID-19_%C4%ADk-mi%C3%A8u
+
+<https://cdo.wikipedia.org/wiki/COVID-19_%C4%ADk-mi%C3%A8u> rdf:type schema:Article ,
+                                                                     owl:NamedIndividual ;
+                                                            
+                                                            schema:inLanguage "cdo" ;
+                                                            
+                                                            schema:name "COVID-19 ĭk-mièu"@cdo ;
+                                                            
+                                                            schema:about wd:Q87719492 ;
+                                                            
+                                                            schema:isPartOf <https://cdo.wikipedia.org/> .
+
+
+
+###  https://ckb.wikipedia.org/wiki/%DA%A4%D8%A7%DA%A9%D8%B3%DB%8C%D9%86%DB%8C_%DA%A9%DB%86%DA%A4%DB%8C%D8%AF-%D9%A1%D9%A9
+
+<https://ckb.wikipedia.org/wiki/%DA%A4%D8%A7%DA%A9%D8%B3%DB%8C%D9%86%DB%8C_%DA%A9%DB%86%DA%A4%DB%8C%D8%AF-%D9%A1%D9%A9> rdf:type schema:Article ,
+                                                                                                                                 owl:NamedIndividual ;
+                                                                                                                        
+                                                                                                                        schema:inLanguage "ckb" ;
+                                                                                                                        
+                                                                                                                        schema:name "ڤاکسینی کۆڤید-١٩"@ckb ;
+                                                                                                                        
+                                                                                                                        schema:about wd:Q87719492 ;
+                                                                                                                        
+                                                                                                                        schema:isPartOf <https://ckb.wikipedia.org/> .
+
+
+
+###  https://cs.wikipedia.org/wiki/Vakc%C3%ADna_proti_covidu-19
+
+<https://cs.wikipedia.org/wiki/Vakc%C3%ADna_proti_covidu-19> rdf:type schema:Article ,
+                                                                      owl:NamedIndividual ;
+                                                             
+                                                             schema:name "Vakcína proti covidu-19"@cs ;
+                                                             
+                                                             schema:inLanguage "cs" ;
+                                                             
+                                                             schema:about wd:Q87719492 ;
+                                                             
+                                                             schema:isPartOf <https://cs.wikipedia.org/> .
+
+
+
+###  https://da.wikipedia.org/wiki/COVID-19-vaccine
+
+<https://da.wikipedia.org/wiki/COVID-19-vaccine> rdf:type schema:Article ,
+                                                          owl:NamedIndividual ;
+                                                 
+                                                 schema:inLanguage "da" ;
+                                                 
+                                                 schema:name "COVID-19-vaccine"@da ;
+                                                 
+                                                 schema:about wd:Q87719492 ;
+                                                 
+                                                 schema:isPartOf <https://da.wikipedia.org/> .
+
+
+
+###  https://de.wikipedia.org/wiki/SARS-CoV-2-Impfstoff
+
+<https://de.wikipedia.org/wiki/SARS-CoV-2-Impfstoff> rdf:type schema:Article ,
+                                                              owl:NamedIndividual ;
+                                                     
+                                                     schema:inLanguage "de" ;
+                                                     
+                                                     schema:name "SARS-CoV-2-Impfstoff"@de ;
+                                                     
+                                                     schema:about wd:Q87719492 ;
+                                                     
+                                                     schema:isPartOf <https://de.wikipedia.org/> .
+
+
+
+###  https://el.wikipedia.org/wiki/%CE%95%CE%BC%CE%B2%CF%8C%CE%BB%CE%B9%CE%BF_COVID-19
+
+<https://el.wikipedia.org/wiki/%CE%95%CE%BC%CE%B2%CF%8C%CE%BB%CE%B9%CE%BF_COVID-19> rdf:type schema:Article ,
+                                                                                             owl:NamedIndividual ;
+                                                                                    
+                                                                                    schema:inLanguage "el" ;
+                                                                                    
+                                                                                    schema:name "Εμβόλιο COVID-19"@el ;
+                                                                                    
+                                                                                    schema:about wd:Q87719492 ;
+                                                                                    
+                                                                                    schema:isPartOf <https://el.wikipedia.org/> .
+
+
+
+###  https://en.wikipedia.org/wiki/COVID-19_vaccine
+
+<https://en.wikipedia.org/wiki/COVID-19_vaccine> rdf:type schema:Article ,
+                                                          owl:NamedIndividual ;
+                                                 
+                                                 schema:inLanguage "en" ;
+                                                 
+                                                 schema:name "COVID-19 vaccine"@en ;
+                                                 
+                                                 schema:about wd:Q87719492 ;
+                                                 
+                                                 schema:isPartOf <https://en.wikipedia.org/> .
+
+
+
+###  https://en.wikiquote.org/wiki/COVID-19_vaccine
+
+<https://en.wikiquote.org/wiki/COVID-19_vaccine> rdf:type schema:Article ,
+                                                          owl:NamedIndividual ;
+                                                 
+                                                 schema:name "COVID-19 vaccine"@en ;
+                                                 
+                                                 schema:inLanguage "en" ;
+                                                 
+                                                 schema:about wd:Q87719492 ;
+                                                 
+                                                 schema:isPartOf <https://en.wikiquote.org/> .
+
+
+
+###  https://es.wikipedia.org/wiki/Vacuna_contra_la_COVID-19
+
+<https://es.wikipedia.org/wiki/Vacuna_contra_la_COVID-19> rdf:type schema:Article ,
+                                                                   owl:NamedIndividual ;
+                                                          
+                                                          schema:name "Vacuna contra la COVID-19"@es ;
+                                                          
+                                                          schema:inLanguage "es" ;
+                                                          
+                                                          schema:about wd:Q87719492 ;
+                                                          
+                                                          schema:isPartOf <https://es.wikipedia.org/> .
+
+
+
+###  https://et.wikipedia.org/wiki/Koroonavaktsiin
+
+<https://et.wikipedia.org/wiki/Koroonavaktsiin> rdf:type schema:Article ,
+                                                         owl:NamedIndividual ;
+                                                
+                                                schema:inLanguage "et" ;
+                                                
+                                                schema:name "Koroonavaktsiin"@et ;
+                                                
+                                                schema:about wd:Q87719492 ;
+                                                
+                                                schema:isPartOf <https://et.wikipedia.org/> .
+
+
+
+###  https://eu.wikipedia.org/wiki/COVID-19aren_aurkako_txertoak
+
+<https://eu.wikipedia.org/wiki/COVID-19aren_aurkako_txertoak> rdf:type schema:Article ,
+                                                                       owl:NamedIndividual ;
+                                                              
+                                                              schema:name "COVID-19aren aurkako txertoak"@eu ;
+                                                              
+                                                              schema:inLanguage "eu" ;
+                                                              
+                                                              schema:about wd:Q87719492 ;
+                                                              
+                                                              schema:isPartOf <https://eu.wikipedia.org/> .
+
+
+
+###  https://fa.wikipedia.org/wiki/%D9%88%D8%A7%DA%A9%D8%B3%D9%86_%DA%A9%D9%88%D9%88%DB%8C%D8%AF-%DB%B1%DB%B9
+
+<https://fa.wikipedia.org/wiki/%D9%88%D8%A7%DA%A9%D8%B3%D9%86_%DA%A9%D9%88%D9%88%DB%8C%D8%AF-%DB%B1%DB%B9> rdf:type schema:Article ,
+                                                                                                                    owl:NamedIndividual ;
+                                                                                                           
+                                                                                                           schema:inLanguage "fa" ;
+                                                                                                           
+                                                                                                           schema:name "واکسن کووید-۱۹"@fa ;
+                                                                                                           
+                                                                                                           schema:about wd:Q87719492 ;
+                                                                                                           
+                                                                                                           schema:isPartOf <https://fa.wikipedia.org/> .
+
+
+
+###  https://fi.wikipedia.org/wiki/SARS-CoV-2-rokote
+
+<https://fi.wikipedia.org/wiki/SARS-CoV-2-rokote> rdf:type schema:Article ,
+                                                           owl:NamedIndividual ;
+                                                  
+                                                  schema:name "SARS-CoV-2-rokote"@fi ;
+                                                  
+                                                  schema:inLanguage "fi" ;
+                                                  
+                                                  schema:about wd:Q87719492 ;
+                                                  
+                                                  schema:isPartOf <https://fi.wikipedia.org/> .
+
+
+
+###  https://fr.wikinews.org/wiki/Cat%C3%A9gorie:Vaccin_contre_la_Covid-19
+
+<https://fr.wikinews.org/wiki/Cat%C3%A9gorie:Vaccin_contre_la_Covid-19> rdf:type schema:Article ,
+                                                                                 owl:NamedIndividual ;
+                                                                        
+                                                                        schema:name "Catégorie:Vaccin contre la Covid-19"@fr ;
+                                                                        
+                                                                        schema:inLanguage "fr" ;
+                                                                        
+                                                                        schema:about wd:Q87719492 ;
+                                                                        
+                                                                        schema:isPartOf <https://fr.wikinews.org/> .
+
+
+
+###  https://fr.wikipedia.org/wiki/Vaccin_contre_la_Covid-19
+
+<https://fr.wikipedia.org/wiki/Vaccin_contre_la_Covid-19> rdf:type schema:Article ,
+                                                                   owl:NamedIndividual ;
+                                                          
+                                                          schema:inLanguage "fr" ;
+                                                          
+                                                          schema:name "Vaccin contre la Covid-19"@fr ;
+                                                          
+                                                          schema:about wd:Q87719492 ;
+                                                          
+                                                          schema:isPartOf <https://fr.wikipedia.org/> .
+
+
+
+###  https://gl.wikipedia.org/wiki/Vacina_da_COVID-19
+
+<https://gl.wikipedia.org/wiki/Vacina_da_COVID-19> rdf:type schema:Article ,
+                                                            owl:NamedIndividual ;
+                                                   
+                                                   schema:name "Vacina da COVID-19"@gl ;
+                                                   
+                                                   schema:inLanguage "gl" ;
+                                                   
+                                                   schema:about wd:Q87719492 ;
+                                                   
+                                                   schema:isPartOf <https://gl.wikipedia.org/> .
+
+
+
+###  https://ha.wikipedia.org/wiki/Rigakafin_Covid-19
+
+<https://ha.wikipedia.org/wiki/Rigakafin_Covid-19> rdf:type schema:Article ,
+                                                            owl:NamedIndividual ;
+                                                   
+                                                   schema:inLanguage "ha" ;
+                                                   
+                                                   schema:name "Rigakafin Covid-19"@ha ;
+                                                   
+                                                   schema:about wd:Q87719492 ;
+                                                   
+                                                   schema:isPartOf <https://ha.wikipedia.org/> .
+
+
+
+###  https://he.wikipedia.org/wiki/%D7%97%D7%99%D7%A1%D7%95%D7%9F_%D7%A0%D7%92%D7%93_COVID-19
+
+<https://he.wikipedia.org/wiki/%D7%97%D7%99%D7%A1%D7%95%D7%9F_%D7%A0%D7%92%D7%93_COVID-19> rdf:type schema:Article ,
+                                                                                                    owl:NamedIndividual ;
+                                                                                           
+                                                                                           schema:inLanguage "he" ;
+                                                                                           
+                                                                                           schema:name "חיסון נגד COVID-19"@he ;
+                                                                                           
+                                                                                           schema:about wd:Q87719492 ;
+                                                                                           
+                                                                                           schema:isPartOf <https://he.wikipedia.org/> .
+
+
+
+###  https://hi.wikipedia.org/wiki/%E0%A4%95%E0%A5%8B%E0%A4%B5%E0%A4%BF%E0%A4%A1-19_%E0%A4%95%E0%A4%BE_%E0%A4%9F%E0%A5%80%E0%A4%95%E0%A4%BE
+
+<https://hi.wikipedia.org/wiki/%E0%A4%95%E0%A5%8B%E0%A4%B5%E0%A4%BF%E0%A4%A1-19_%E0%A4%95%E0%A4%BE_%E0%A4%9F%E0%A5%80%E0%A4%95%E0%A4%BE> rdf:type schema:Article ,
+                                                                                                                                                  owl:NamedIndividual ;
+                                                                                                                                         
+                                                                                                                                         schema:inLanguage "hi" ;
+                                                                                                                                         
+                                                                                                                                         schema:name "कोविड-19 का टीका"@hi ;
+                                                                                                                                         
+                                                                                                                                         schema:about wd:Q87719492 ;
+                                                                                                                                         
+                                                                                                                                         schema:isPartOf <https://hi.wikipedia.org/> .
+
+
+
+###  https://hr.wikipedia.org/wiki/Cjepivo_protiv_COVID-19
+
+<https://hr.wikipedia.org/wiki/Cjepivo_protiv_COVID-19> rdf:type schema:Article ,
+                                                                 owl:NamedIndividual ;
+                                                        
+                                                        schema:inLanguage "hr" ;
+                                                        
+                                                        schema:name "Cjepivo protiv COVID-19"@hr ;
+                                                        
+                                                        schema:about wd:Q87719492 ;
+                                                        
+                                                        schema:isPartOf <https://hr.wikipedia.org/> .
+
+
+
+###  https://hu.wikipedia.org/wiki/Covid19-vakcina
+
+<https://hu.wikipedia.org/wiki/Covid19-vakcina> rdf:type schema:Article ,
+                                                         owl:NamedIndividual ;
+                                                
+                                                schema:name "Covid19-vakcina"@hu ;
+                                                
+                                                schema:inLanguage "hu" ;
+                                                
+                                                schema:about wd:Q87719492 ;
+                                                
+                                                schema:isPartOf <https://hu.wikipedia.org/> .
+
+
+
+###  https://id.wikipedia.org/wiki/Vaksin_Covid-19
+
+<https://id.wikipedia.org/wiki/Vaksin_Covid-19> rdf:type schema:Article ,
+                                                         owl:NamedIndividual ;
+                                                
+                                                schema:inLanguage "id" ;
+                                                
+                                                schema:name "Vaksin Covid-19"@id ;
+                                                
+                                                schema:about wd:Q87719492 ;
+                                                
+                                                schema:isPartOf <https://id.wikipedia.org/> .
+
+
+
+###  https://it.wikipedia.org/wiki/Vaccino_anti_COVID-19
+
+<https://it.wikipedia.org/wiki/Vaccino_anti_COVID-19> rdf:type schema:Article ,
+                                                               owl:NamedIndividual ;
+                                                      
+                                                      schema:inLanguage "it" ;
+                                                      
+                                                      schema:name "Vaccino anti COVID-19"@it ;
+                                                      
+                                                      schema:about wd:Q87719492 ;
+                                                      
+                                                      schema:isPartOf <https://it.wikipedia.org/> .
+
+
+
+###  https://ja.wikipedia.org/wiki/COVID-19%E3%83%AF%E3%82%AF%E3%83%81%E3%83%B3
+
+<https://ja.wikipedia.org/wiki/COVID-19%E3%83%AF%E3%82%AF%E3%83%81%E3%83%B3> rdf:type schema:Article ,
+                                                                                      owl:NamedIndividual ;
+                                                                             
+                                                                             schema:name "COVID-19ワクチン"@ja ;
+                                                                             
+                                                                             schema:inLanguage "ja" ;
+                                                                             
+                                                                             schema:about wd:Q87719492 ;
+                                                                             
+                                                                             schema:isPartOf <https://ja.wikipedia.org/> .
+
+
+
+###  https://ka.wikipedia.org/wiki/COVID-19-%E1%83%98%E1%83%A1_%E1%83%95%E1%83%90%E1%83%A5%E1%83%AA%E1%83%98%E1%83%9C%E1%83%90
+
+<https://ka.wikipedia.org/wiki/COVID-19-%E1%83%98%E1%83%A1_%E1%83%95%E1%83%90%E1%83%A5%E1%83%AA%E1%83%98%E1%83%9C%E1%83%90> rdf:type schema:Article ,
+                                                                                                                                     owl:NamedIndividual ;
+                                                                                                                            
+                                                                                                                            schema:name "COVID-19-ის ვაქცინა"@ka ;
+                                                                                                                            
+                                                                                                                            schema:inLanguage "ka" ;
+                                                                                                                            
+                                                                                                                            schema:about wd:Q87719492 ;
+                                                                                                                            
+                                                                                                                            schema:isPartOf <https://ka.wikipedia.org/> .
+
+
+
+###  https://kab.wikipedia.org/wiki/Tigezt_mgal_Covid-19
+
+<https://kab.wikipedia.org/wiki/Tigezt_mgal_Covid-19> rdf:type schema:Article ,
+                                                               owl:NamedIndividual ;
+                                                      
+                                                      schema:inLanguage "kab" ;
+                                                      
+                                                      schema:name "Tigezt mgal Covid-19"@kab ;
+                                                      
+                                                      schema:about wd:Q87719492 ;
+                                                      
+                                                      schema:isPartOf <https://kab.wikipedia.org/> .
+
+
+
+###  https://kn.wikipedia.org/wiki/%E0%B2%95%E0%B3%8B%E0%B2%B5%E0%B2%BF%E0%B2%A1%E0%B3%8D-%E0%B3%A7%E0%B3%AF_%E0%B2%B2%E0%B2%B8%E0%B2%BF%E0%B2%95%E0%B3%86
+
+<https://kn.wikipedia.org/wiki/%E0%B2%95%E0%B3%8B%E0%B2%B5%E0%B2%BF%E0%B2%A1%E0%B3%8D-%E0%B3%A7%E0%B3%AF_%E0%B2%B2%E0%B2%B8%E0%B2%BF%E0%B2%95%E0%B3%86> rdf:type schema:Article ,
+                                                                                                                                                                 owl:NamedIndividual ;
+                                                                                                                                                        
+                                                                                                                                                        schema:inLanguage "kn" ;
+                                                                                                                                                        
+                                                                                                                                                        schema:name "ಕೋವಿಡ್-೧೯ ಲಸಿಕೆ"@kn ;
+                                                                                                                                                        
+                                                                                                                                                        schema:about wd:Q87719492 ;
+                                                                                                                                                        
+                                                                                                                                                        schema:isPartOf <https://kn.wikipedia.org/> .
+
+
+
+###  https://ko.wikipedia.org/wiki/%EC%BD%94%EB%A1%9C%EB%82%9819_%EB%B0%B1%EC%8B%A0
+
+<https://ko.wikipedia.org/wiki/%EC%BD%94%EB%A1%9C%EB%82%9819_%EB%B0%B1%EC%8B%A0> rdf:type schema:Article ,
+                                                                                          owl:NamedIndividual ;
+                                                                                 
+                                                                                 schema:inLanguage "ko" ;
+                                                                                 
+                                                                                 schema:name "코로나19 백신"@ko ;
+                                                                                 
+                                                                                 schema:about wd:Q87719492 ;
+                                                                                 
+                                                                                 schema:isPartOf <https://ko.wikipedia.org/> .
+
+
+
+###  https://lmo.wikipedia.org/wiki/Vacin_contra_el_SARS-CoV-2
+
+<https://lmo.wikipedia.org/wiki/Vacin_contra_el_SARS-CoV-2> rdf:type schema:Article ,
+                                                                     owl:NamedIndividual ;
+                                                            
+                                                            schema:name "Vacin contra el SARS-CoV-2"@lmo ;
+                                                            
+                                                            schema:inLanguage "lmo" ;
+                                                            
+                                                            schema:about wd:Q87719492 ;
+                                                            
+                                                            schema:isPartOf <https://lmo.wikipedia.org/> .
+
+
+
+###  https://lt.wikipedia.org/wiki/COVID-19_vakcina
+
+<https://lt.wikipedia.org/wiki/COVID-19_vakcina> rdf:type schema:Article ,
+                                                          owl:NamedIndividual ;
+                                                 
+                                                 schema:name "COVID-19 vakcina"@lt ;
+                                                 
+                                                 schema:inLanguage "lt" ;
+                                                 
+                                                 schema:about wd:Q87719492 ;
+                                                 
+                                                 schema:isPartOf <https://lt.wikipedia.org/> .
+
+
+
+###  https://lv.wikipedia.org/wiki/COVID-19_vakc%C4%ABna
+
+<https://lv.wikipedia.org/wiki/COVID-19_vakc%C4%ABna> rdf:type schema:Article ,
+                                                               owl:NamedIndividual ;
+                                                      
+                                                      schema:name "COVID-19 vakcīna"@lv ;
+                                                      
+                                                      schema:inLanguage "lv" ;
+                                                      
+                                                      schema:about wd:Q87719492 ;
+                                                      
+                                                      schema:isPartOf <https://lv.wikipedia.org/> .
+
+
+
+###  https://ml.wikipedia.org/wiki/%E0%B4%95%E0%B5%8A%E0%B4%B1%E0%B5%8B%E0%B4%A3%E0%B4%B5%E0%B5%88%E0%B4%B1%E0%B4%B8%E0%B5%8D_%E0%B4%B0%E0%B5%8B%E0%B4%97%E0%B4%82_2019_%E0%B4%B5%E0%B4%BE%E0%B4%95%E0%B5%8D%E0%B4%B8%E0%B4%BF%E0%B5%BB
+
+<https://ml.wikipedia.org/wiki/%E0%B4%95%E0%B5%8A%E0%B4%B1%E0%B5%8B%E0%B4%A3%E0%B4%B5%E0%B5%88%E0%B4%B1%E0%B4%B8%E0%B5%8D_%E0%B4%B0%E0%B5%8B%E0%B4%97%E0%B4%82_2019_%E0%B4%B5%E0%B4%BE%E0%B4%95%E0%B5%8D%E0%B4%B8%E0%B4%BF%E0%B5%BB> rdf:type schema:Article ,
+                                                                                                                                                                                                                                              owl:NamedIndividual ;
+                                                                                                                                                                                                                                     
+                                                                                                                                                                                                                                     schema:inLanguage "ml" ;
+                                                                                                                                                                                                                                     
+                                                                                                                                                                                                                                     schema:name "കൊറോണവൈറസ് രോഗം 2019 വാക്സിൻ"@ml ;
+                                                                                                                                                                                                                                     
+                                                                                                                                                                                                                                     schema:about wd:Q87719492 ;
+                                                                                                                                                                                                                                     
+                                                                                                                                                                                                                                     schema:isPartOf <https://ml.wikipedia.org/> .
+
+
+
+###  https://mnw.wikipedia.org/wiki/%E1%80%9D%E1%80%80%E1%80%BA%E1%80%9E%E1%80%AD%E1%80%94%E1%80%BA_%E1%80%80%E1%80%9D%E1%80%BA%E1%80%9D%E1%80%AD%E1%80%92%E1%80%BA-%E1%81%81%E1%81%89
+
+<https://mnw.wikipedia.org/wiki/%E1%80%9D%E1%80%80%E1%80%BA%E1%80%9E%E1%80%AD%E1%80%94%E1%80%BA_%E1%80%80%E1%80%9D%E1%80%BA%E1%80%9D%E1%80%AD%E1%80%92%E1%80%BA-%E1%81%81%E1%81%89> rdf:type schema:Article ,
+                                                                                                                                                                                             owl:NamedIndividual ;
+                                                                                                                                                                                    
+                                                                                                                                                                                    schema:inLanguage "mnw" ;
+                                                                                                                                                                                    
+                                                                                                                                                                                    schema:name "ဝက်သိန် ကဝ်ဝိဒ်-၁၉"@mnw ;
+                                                                                                                                                                                    
+                                                                                                                                                                                    schema:about wd:Q87719492 ;
+                                                                                                                                                                                    
+                                                                                                                                                                                    schema:isPartOf <https://mnw.wikipedia.org/> .
+
+
+
+###  https://mr.wikipedia.org/wiki/%E0%A4%95%E0%A5%8B%E0%A4%B5%E0%A5%8D%E0%A4%B9%E0%A4%BF%E0%A4%A1-%E0%A5%A7%E0%A5%AF_%E0%A4%B2%E0%A4%B8
+
+<https://mr.wikipedia.org/wiki/%E0%A4%95%E0%A5%8B%E0%A4%B5%E0%A5%8D%E0%A4%B9%E0%A4%BF%E0%A4%A1-%E0%A5%A7%E0%A5%AF_%E0%A4%B2%E0%A4%B8> rdf:type schema:Article ,
+                                                                                                                                               owl:NamedIndividual ;
+                                                                                                                                      
+                                                                                                                                      schema:inLanguage "mr" ;
+                                                                                                                                      
+                                                                                                                                      schema:name "कोव्हिड-१९ लस"@mr ;
+                                                                                                                                      
+                                                                                                                                      schema:about wd:Q87719492 ;
+                                                                                                                                      
+                                                                                                                                      schema:isPartOf <https://mr.wikipedia.org/> .
+
+
+
+###  https://ms.wikipedia.org/wiki/Vaksin_COVID-19
+
+<https://ms.wikipedia.org/wiki/Vaksin_COVID-19> rdf:type schema:Article ,
+                                                         owl:NamedIndividual ;
+                                                
+                                                schema:name "Vaksin COVID-19"@ms ;
+                                                
+                                                schema:inLanguage "ms" ;
+                                                
+                                                schema:about wd:Q87719492 ;
+                                                
+                                                schema:isPartOf <https://ms.wikipedia.org/> .
+
+
+
+###  https://nl.wikinews.org/wiki/Categorie:COVID-19-vaccin
+
+<https://nl.wikinews.org/wiki/Categorie:COVID-19-vaccin> rdf:type schema:Article ,
+                                                                  owl:NamedIndividual ;
+                                                         
+                                                         schema:name "Categorie:COVID-19-vaccin"@nl ;
+                                                         
+                                                         schema:inLanguage "nl" ;
+                                                         
+                                                         schema:about wd:Q87719492 ;
+                                                         
+                                                         schema:isPartOf <https://nl.wikinews.org/> .
+
+
+
+###  https://nl.wikipedia.org/wiki/COVID-19-vaccin
+
+<https://nl.wikipedia.org/wiki/COVID-19-vaccin> rdf:type schema:Article ,
+                                                         owl:NamedIndividual ;
+                                                
+                                                schema:name "COVID-19-vaccin"@nl ;
+                                                
+                                                schema:inLanguage "nl" ;
+                                                
+                                                schema:about wd:Q87719492 ;
+                                                
+                                                schema:isPartOf <https://nl.wikipedia.org/> .
+
+
+
+###  https://no.wikipedia.org/wiki/Covid-19-vaksiner
+
+<https://no.wikipedia.org/wiki/Covid-19-vaksiner> rdf:type schema:Article ,
+                                                           owl:NamedIndividual ;
+                                                  
+                                                  schema:name "Covid-19-vaksiner"@nb ;
+                                                  
+                                                  schema:inLanguage "nb" ;
+                                                  
+                                                  schema:about wd:Q87719492 ;
+                                                  
+                                                  schema:isPartOf <https://no.wikipedia.org/> .
+
+
+
+###  https://pl.wikipedia.org/wiki/Szczepionka_przeciw_COVID-19
+
+<https://pl.wikipedia.org/wiki/Szczepionka_przeciw_COVID-19> rdf:type schema:Article ,
+                                                                      owl:NamedIndividual ;
+                                                             
+                                                             schema:name "Szczepionka przeciw COVID-19"@pl ;
+                                                             
+                                                             schema:inLanguage "pl" ;
+                                                             
+                                                             schema:about wd:Q87719492 ;
+                                                             
+                                                             schema:isPartOf <https://pl.wikipedia.org/> .
+
+
+
+###  https://pnb.wikipedia.org/wiki/%DA%A9%D9%88%D9%88%DA%88-%D9%A1%D9%A9_%D9%88%DB%8C%DA%A9%D8%B3%DB%8C%D9%86
+
+<https://pnb.wikipedia.org/wiki/%DA%A9%D9%88%D9%88%DA%88-%D9%A1%D9%A9_%D9%88%DB%8C%DA%A9%D8%B3%DB%8C%D9%86> rdf:type schema:Article ,
+                                                                                                                     owl:NamedIndividual ;
+                                                                                                            
+                                                                                                            schema:inLanguage "pnb" ;
+                                                                                                            
+                                                                                                            schema:name "کووڈ-١٩ ویکسین"@pnb ;
+                                                                                                            
+                                                                                                            schema:about wd:Q87719492 ;
+                                                                                                            
+                                                                                                            schema:isPartOf <https://pnb.wikipedia.org/> .
+
+
+
+###  https://pt.wikipedia.org/wiki/Vacina_contra_a_COVID-19
+
+<https://pt.wikipedia.org/wiki/Vacina_contra_a_COVID-19> rdf:type schema:Article ,
+                                                                  owl:NamedIndividual ;
+                                                         
+                                                         schema:inLanguage "pt" ;
+                                                         
+                                                         schema:name "Vacina contra a COVID-19"@pt ;
+                                                         
+                                                         schema:about wd:Q87719492 ;
+                                                         
+                                                         schema:isPartOf <https://pt.wikipedia.org/> .
+
+
+
+###  https://ro.wikipedia.org/wiki/Vaccin_anti-COVID-19
+
+<https://ro.wikipedia.org/wiki/Vaccin_anti-COVID-19> rdf:type schema:Article ,
+                                                              owl:NamedIndividual ;
+                                                     
+                                                     schema:inLanguage "ro" ;
+                                                     
+                                                     schema:name "Vaccin anti-COVID-19"@ro ;
+                                                     
+                                                     schema:about wd:Q87719492 ;
+                                                     
+                                                     schema:isPartOf <https://ro.wikipedia.org/> .
+
+
+
+###  https://ru.wikinews.org/wiki/%D0%9A%D0%B0%D1%82%D0%B5%D0%B3%D0%BE%D1%80%D0%B8%D1%8F:%D0%92%D0%B0%D0%BA%D1%86%D0%B8%D0%BD%D1%8B_%D0%BF%D1%80%D0%BE%D1%82%D0%B8%D0%B2_COVID-19
+
+<https://ru.wikinews.org/wiki/%D0%9A%D0%B0%D1%82%D0%B5%D0%B3%D0%BE%D1%80%D0%B8%D1%8F:%D0%92%D0%B0%D0%BA%D1%86%D0%B8%D0%BD%D1%8B_%D0%BF%D1%80%D0%BE%D1%82%D0%B8%D0%B2_COVID-19> rdf:type schema:Article ,
+                                                                                                                                                                                        owl:NamedIndividual ;
+                                                                                                                                                                               
+                                                                                                                                                                               schema:inLanguage "ru" ;
+                                                                                                                                                                               
+                                                                                                                                                                               schema:name "Категория:Вакцины против COVID-19"@ru ;
+                                                                                                                                                                               
+                                                                                                                                                                               schema:about wd:Q87719492 ;
+                                                                                                                                                                               
+                                                                                                                                                                               schema:isPartOf <https://ru.wikinews.org/> .
+
+
+
+###  https://ru.wikipedia.org/wiki/%D0%92%D0%B0%D0%BA%D1%86%D0%B8%D0%BD%D0%B0_%D0%BF%D1%80%D0%BE%D1%82%D0%B8%D0%B2_COVID-19
+
+<https://ru.wikipedia.org/wiki/%D0%92%D0%B0%D0%BA%D1%86%D0%B8%D0%BD%D0%B0_%D0%BF%D1%80%D0%BE%D1%82%D0%B8%D0%B2_COVID-19> rdf:type schema:Article ,
+                                                                                                                                  owl:NamedIndividual ;
+                                                                                                                         
+                                                                                                                         schema:inLanguage "ru" ;
+                                                                                                                         
+                                                                                                                         schema:name "Вакцина против COVID-19"@ru ;
+                                                                                                                         
+                                                                                                                         schema:about wd:Q87719492 ;
+                                                                                                                         
+                                                                                                                         schema:isPartOf <https://ru.wikipedia.org/> .
+
+
+
+###  https://sat.wikipedia.org/wiki/%E1%B1%A0%E1%B1%B3%E1%B1%B5%E1%B1%B7%E1%B1%A4%E1%B1%B0-%E1%B1%91%E1%B1%99_%E1%B1%B4%E1%B1%A4%E1%B1%A0%E1%B1%9F%E1%B1%B9
+
+<https://sat.wikipedia.org/wiki/%E1%B1%A0%E1%B1%B3%E1%B1%B5%E1%B1%B7%E1%B1%A4%E1%B1%B0-%E1%B1%91%E1%B1%99_%E1%B1%B4%E1%B1%A4%E1%B1%A0%E1%B1%9F%E1%B1%B9> rdf:type schema:Article ,
+                                                                                                                                                                  owl:NamedIndividual ;
+                                                                                                                                                         
+                                                                                                                                                         schema:inLanguage "sat" ;
+                                                                                                                                                         
+                                                                                                                                                         schema:name "ᱠᱳᱵᱷᱤᱰ-᱑᱙ ᱴᱤᱠᱟᱹ"@sat ;
+                                                                                                                                                         
+                                                                                                                                                         schema:about wd:Q87719492 ;
+                                                                                                                                                         
+                                                                                                                                                         schema:isPartOf <https://sat.wikipedia.org/> .
+
+
+
+###  https://sd.wikipedia.org/wiki/%DA%AA%D9%88%D9%88%DA%8A-%D9%A1%D9%A9_%D9%88%D9%8A%DA%AA%D8%B3%D9%8A%D9%86
+
+<https://sd.wikipedia.org/wiki/%DA%AA%D9%88%D9%88%DA%8A-%D9%A1%D9%A9_%D9%88%D9%8A%DA%AA%D8%B3%D9%8A%D9%86> rdf:type schema:Article ,
+                                                                                                                    owl:NamedIndividual ;
+                                                                                                           
+                                                                                                           schema:inLanguage "sd" ;
+                                                                                                           
+                                                                                                           schema:name "ڪووڊ-١٩ ويڪسين"@sd ;
+                                                                                                           
+                                                                                                           schema:about wd:Q87719492 ;
+                                                                                                           
+                                                                                                           schema:isPartOf <https://sd.wikipedia.org/> .
+
+
+
+###  https://si.wikipedia.org/wiki/%E0%B6%9A%E0%B7%9C%E0%B7%80%E0%B7%92%E0%B6%A9%E0%B7%8A-19_%E0%B6%91%E0%B6%B1%E0%B7%8A%E0%B6%B1%E0%B6%AD
+
+<https://si.wikipedia.org/wiki/%E0%B6%9A%E0%B7%9C%E0%B7%80%E0%B7%92%E0%B6%A9%E0%B7%8A-19_%E0%B6%91%E0%B6%B1%E0%B7%8A%E0%B6%B1%E0%B6%AD> rdf:type schema:Article ,
+                                                                                                                                                 owl:NamedIndividual ;
+                                                                                                                                        
+                                                                                                                                        schema:inLanguage "si" ;
+                                                                                                                                        
+                                                                                                                                        schema:name "කොවිඩ්-19 එන්නත"@si ;
+                                                                                                                                        
+                                                                                                                                        schema:about wd:Q87719492 ;
+                                                                                                                                        
+                                                                                                                                        schema:isPartOf <https://si.wikipedia.org/> .
+
+
+
+###  https://simple.wikipedia.org/wiki/COVID-19_vaccine
+
+<https://simple.wikipedia.org/wiki/COVID-19_vaccine> rdf:type schema:Article ,
+                                                              owl:NamedIndividual ;
+                                                     
+                                                     schema:inLanguage "en-simple" ;
+                                                     
+                                                     schema:name "COVID-19 vaccine"@en-simple ;
+                                                     
+                                                     schema:about wd:Q87719492 ;
+                                                     
+                                                     schema:isPartOf <https://simple.wikipedia.org/> .
+
+
+
+###  https://sk.wikipedia.org/wiki/Vakc%C3%ADna_proti_chorobe_COVID-19
+
+<https://sk.wikipedia.org/wiki/Vakc%C3%ADna_proti_chorobe_COVID-19> rdf:type schema:Article ,
+                                                                             owl:NamedIndividual ;
+                                                                    
+                                                                    schema:inLanguage "sk" ;
+                                                                    
+                                                                    schema:name "Vakcína proti chorobe COVID-19"@sk ;
+                                                                    
+                                                                    schema:about wd:Q87719492 ;
+                                                                    
+                                                                    schema:isPartOf <https://sk.wikipedia.org/> .
+
+
+
+###  https://sl.wikipedia.org/wiki/Cepivo_proti_covidu-19
+
+<https://sl.wikipedia.org/wiki/Cepivo_proti_covidu-19> rdf:type schema:Article ,
+                                                                owl:NamedIndividual ;
+                                                       
+                                                       schema:inLanguage "sl" ;
+                                                       
+                                                       schema:name "Cepivo proti covidu-19"@sl ;
+                                                       
+                                                       schema:about wd:Q87719492 ;
+                                                       
+                                                       schema:isPartOf <https://sl.wikipedia.org/> .
+
+
+
+###  https://sq.wikipedia.org/wiki/Vaksina_p%C3%ABr_COVID-19
+
+<https://sq.wikipedia.org/wiki/Vaksina_p%C3%ABr_COVID-19> rdf:type schema:Article ,
+                                                                   owl:NamedIndividual ;
+                                                          
+                                                          schema:inLanguage "sq" ;
+                                                          
+                                                          schema:name "Vaksina për COVID-19"@sq ;
+                                                          
+                                                          schema:about wd:Q87719492 ;
+                                                          
+                                                          schema:isPartOf <https://sq.wikipedia.org/> .
+
+
+
+###  https://sr.wikipedia.org/wiki/%D0%92%D0%B0%D0%BA%D1%86%D0%B8%D0%BD%D0%B0_%D0%BF%D1%80%D0%BE%D1%82%D0%B8%D0%B2_%D0%BA%D0%BE%D0%B2%D0%B8%D0%B4%D0%B0_19
+
+<https://sr.wikipedia.org/wiki/%D0%92%D0%B0%D0%BA%D1%86%D0%B8%D0%BD%D0%B0_%D0%BF%D1%80%D0%BE%D1%82%D0%B8%D0%B2_%D0%BA%D0%BE%D0%B2%D0%B8%D0%B4%D0%B0_19> rdf:type schema:Article ,
+                                                                                                                                                                 owl:NamedIndividual ;
+                                                                                                                                                        
+                                                                                                                                                        schema:inLanguage "sr" ;
+                                                                                                                                                        
+                                                                                                                                                        schema:name "Вакцина против ковида 19"@sr ;
+                                                                                                                                                        
+                                                                                                                                                        schema:about wd:Q87719492 ;
+                                                                                                                                                        
+                                                                                                                                                        schema:isPartOf <https://sr.wikipedia.org/> .
+
+
+
+###  https://sv.wikipedia.org/wiki/Covid-19-vaccin
+
+<https://sv.wikipedia.org/wiki/Covid-19-vaccin> rdf:type schema:Article ,
+                                                         owl:NamedIndividual ;
+                                                
+                                                schema:name "Covid-19-vaccin"@sv ;
+                                                
+                                                schema:inLanguage "sv" ;
+                                                
+                                                schema:about wd:Q87719492 ;
+                                                
+                                                schema:isPartOf <https://sv.wikipedia.org/> .
+
+
+
+###  https://ta.wikipedia.org/wiki/%E0%AE%95%E0%AF%8A%E0%AE%B0%E0%AF%8B%E0%AE%A9%E0%AE%BE%E0%AE%B5%E0%AF%88%E0%AE%B0%E0%AE%9A%E0%AF%81%E0%AE%A4%E0%AF%8D_%E0%AE%A4%E0%AF%8A%E0%AE%B1%E0%AF%8D%E0%AE%B1%E0%AF%81_2019_%E0%AE%A4%E0%AE%9F%E0%AF%81%E0%AE%AA%E0%AF%8D%E0%AE%AA%E0%AF%82%E0%AE%9A%E0%AE%BF_%E0%AE%86%E0%AE%AF%E0%AF%8D%E0%AE%B5%E0%AF%81
+
+<https://ta.wikipedia.org/wiki/%E0%AE%95%E0%AF%8A%E0%AE%B0%E0%AF%8B%E0%AE%A9%E0%AE%BE%E0%AE%B5%E0%AF%88%E0%AE%B0%E0%AE%9A%E0%AF%81%E0%AE%A4%E0%AF%8D_%E0%AE%A4%E0%AF%8A%E0%AE%B1%E0%AF%8D%E0%AE%B1%E0%AF%81_2019_%E0%AE%A4%E0%AE%9F%E0%AF%81%E0%AE%AA%E0%AF%8D%E0%AE%AA%E0%AF%82%E0%AE%9A%E0%AE%BF_%E0%AE%86%E0%AE%AF%E0%AF%8D%E0%AE%B5%E0%AF%81> rdf:type schema:Article ,
+                                                                                                                                                                                                                                                                                                                                                           owl:NamedIndividual ;
+                                                                                                                                                                                                                                                                                                                                                  
+                                                                                                                                                                                                                                                                                                                                                  schema:inLanguage "ta" ;
+                                                                                                                                                                                                                                                                                                                                                  
+                                                                                                                                                                                                                                                                                                                                                  schema:name "கொரோனாவைரசுத் தொற்று 2019 தடுப்பூசி ஆய்வு"@ta ;
+                                                                                                                                                                                                                                                                                                                                                  
+                                                                                                                                                                                                                                                                                                                                                  schema:about wd:Q87719492 ;
+                                                                                                                                                                                                                                                                                                                                                  
+                                                                                                                                                                                                                                                                                                                                                  schema:isPartOf <https://ta.wikipedia.org/> .
+
+
+
+###  https://te.wikipedia.org/wiki/%E0%B0%95%E0%B1%8B%E0%B0%B5%E0%B0%BF%E0%B0%A1%E0%B1%8D-19_%E0%B0%B5%E0%B0%BE%E0%B0%95%E0%B1%8D%E0%B0%B8%E0%B0%BF%E0%B0%A8%E0%B1%8D
+
+<https://te.wikipedia.org/wiki/%E0%B0%95%E0%B1%8B%E0%B0%B5%E0%B0%BF%E0%B0%A1%E0%B1%8D-19_%E0%B0%B5%E0%B0%BE%E0%B0%95%E0%B1%8D%E0%B0%B8%E0%B0%BF%E0%B0%A8%E0%B1%8D> rdf:type schema:Article ,
+                                                                                                                                                                            owl:NamedIndividual ;
+                                                                                                                                                                   
+                                                                                                                                                                   schema:inLanguage "te" ;
+                                                                                                                                                                   
+                                                                                                                                                                   schema:name "కోవిడ్-19 వాక్సిన్"@te ;
+                                                                                                                                                                   
+                                                                                                                                                                   schema:about wd:Q87719492 ;
+                                                                                                                                                                   
+                                                                                                                                                                   schema:isPartOf <https://te.wikipedia.org/> .
+
+
+
+###  https://th.wikipedia.org/wiki/%E0%B8%A7%E0%B8%B1%E0%B8%84%E0%B8%8B%E0%B8%B5%E0%B8%99%E0%B9%82%E0%B8%84%E0%B8%A7%E0%B8%B4%E0%B8%94-19
+
+<https://th.wikipedia.org/wiki/%E0%B8%A7%E0%B8%B1%E0%B8%84%E0%B8%8B%E0%B8%B5%E0%B8%99%E0%B9%82%E0%B8%84%E0%B8%A7%E0%B8%B4%E0%B8%94-19> rdf:type schema:Article ,
+                                                                                                                                                owl:NamedIndividual ;
+                                                                                                                                       
+                                                                                                                                       schema:inLanguage "th" ;
+                                                                                                                                       
+                                                                                                                                       schema:name "วัคซีนโควิด-19"@th ;
+                                                                                                                                       
+                                                                                                                                       schema:about wd:Q87719492 ;
+                                                                                                                                       
+                                                                                                                                       schema:isPartOf <https://th.wikipedia.org/> .
+
+
+
+###  https://tr.wikipedia.org/wiki/COVID-19_a%C5%9F%C4%B1s%C4%B1
+
+<https://tr.wikipedia.org/wiki/COVID-19_a%C5%9F%C4%B1s%C4%B1> rdf:type schema:Article ,
+                                                                       owl:NamedIndividual ;
+                                                              
+                                                              schema:name "COVID-19 aşısı"@tr ;
+                                                              
+                                                              schema:inLanguage "tr" ;
+                                                              
+                                                              schema:about wd:Q87719492 ;
+                                                              
+                                                              schema:isPartOf <https://tr.wikipedia.org/> .
+
+
+
+###  https://ts.wikipedia.org/wiki/Nthlavelo_wa_COVID-19
+
+<https://ts.wikipedia.org/wiki/Nthlavelo_wa_COVID-19> rdf:type schema:Article ,
+                                                               owl:NamedIndividual ;
+                                                      
+                                                      schema:name "Nthlavelo wa COVID-19"@ts ;
+                                                      
+                                                      schema:inLanguage "ts" ;
+                                                      
+                                                      schema:about wd:Q87719492 ;
+                                                      
+                                                      schema:isPartOf <https://ts.wikipedia.org/> .
+
+
+
+###  https://ug.wikipedia.org/wiki/%D9%8A%DB%90%DA%AD%D9%89_%D8%AA%D9%89%D9%BE%D8%AA%D9%89%D9%83%D9%89_%D8%AA%D8%A7%D8%AC%D8%B3%D9%89%D9%85%D8%A7%D9%86_%DB%8B%D9%89%D8%B1%DB%87%D8%B3_%D9%83%DB%90%D8%B3%D9%89%D9%84%D9%89_%DB%8B%D8%A7%D9%83%D8%B3%D9%89%D9%86%D9%89%D8%B3%D9%89(%D9%83%D9%88%DB%8B%D9%89%D8%AF-19_%D9%83%DB%90%D8%B3%D9%89%D9%84%D9%89_%DB%8B%D8%A7%D9%83%D8%B3%D9%89%D9%86%D9%89%D8%B3%D9%89)
+
+<https://ug.wikipedia.org/wiki/%D9%8A%DB%90%DA%AD%D9%89_%D8%AA%D9%89%D9%BE%D8%AA%D9%89%D9%83%D9%89_%D8%AA%D8%A7%D8%AC%D8%B3%D9%89%D9%85%D8%A7%D9%86_%DB%8B%D9%89%D8%B1%DB%87%D8%B3_%D9%83%DB%90%D8%B3%D9%89%D9%84%D9%89_%DB%8B%D8%A7%D9%83%D8%B3%D9%89%D9%86%D9%89%D8%B3%D9%89(%D9%83%D9%88%DB%8B%D9%89%D8%AF-19_%D9%83%DB%90%D8%B3%D9%89%D9%84%D9%89_%DB%8B%D8%A7%D9%83%D8%B3%D9%89%D9%86%D9%89%D8%B3%D9%89)> rdf:type schema:Article ,
+                                                                                                                                                                                                                                                                                                                                                                                                                        owl:NamedIndividual ;
+                                                                                                                                                                                                                                                                                                                                                                                                               
+                                                                                                                                                                                                                                                                                                                                                                                                               schema:inLanguage "ug" ;
+                                                                                                                                                                                                                                                                                                                                                                                                               
+                                                                                                                                                                                                                                                                                                                                                                                                               schema:name "يېڭى تىپتىكى تاجسىمان ۋىرۇس كېسىلى ۋاكسىنىسى(كوۋىد-19 كېسىلى ۋاكسىنىسى)"@ug ;
+                                                                                                                                                                                                                                                                                                                                                                                                               
+                                                                                                                                                                                                                                                                                                                                                                                                               schema:about wd:Q87719492 ;
+                                                                                                                                                                                                                                                                                                                                                                                                               
+                                                                                                                                                                                                                                                                                                                                                                                                               schema:isPartOf <https://ug.wikipedia.org/> .
+
+
+
+###  https://uk.wikipedia.org/wiki/%D0%92%D0%B0%D0%BA%D1%86%D0%B8%D0%BD%D0%B0_%D0%BF%D1%80%D0%BE%D1%82%D0%B8_COVID-19
+
+<https://uk.wikipedia.org/wiki/%D0%92%D0%B0%D0%BA%D1%86%D0%B8%D0%BD%D0%B0_%D0%BF%D1%80%D0%BE%D1%82%D0%B8_COVID-19> rdf:type schema:Article ,
+                                                                                                                            owl:NamedIndividual ;
+                                                                                                                   
+                                                                                                                   schema:inLanguage "uk" ;
+                                                                                                                   
+                                                                                                                   schema:name "Вакцина проти COVID-19"@uk ;
+                                                                                                                   
+                                                                                                                   schema:about wd:Q87719492 ;
+                                                                                                                   
+                                                                                                                   schema:isPartOf <https://uk.wikipedia.org/> .
+
+
+
+###  https://ur.wikipedia.org/wiki/%DA%A9%D9%88%D9%88%DA%88-19_%D9%88%DB%8C%DA%A9%D8%B3%DB%8C%D9%86
+
+<https://ur.wikipedia.org/wiki/%DA%A9%D9%88%D9%88%DA%88-19_%D9%88%DB%8C%DA%A9%D8%B3%DB%8C%D9%86> rdf:type schema:Article ,
+                                                                                                          owl:NamedIndividual ;
+                                                                                                 
+                                                                                                 schema:inLanguage "ur" ;
+                                                                                                 
+                                                                                                 schema:name "کووڈ-19 ویکسین"@ur ;
+                                                                                                 
+                                                                                                 schema:about wd:Q87719492 ;
+                                                                                                 
+                                                                                                 schema:isPartOf <https://ur.wikipedia.org/> .
+
+
+
+###  https://vi.wikipedia.org/wiki/V%E1%BA%AFc-xin_COVID-19
+
+<https://vi.wikipedia.org/wiki/V%E1%BA%AFc-xin_COVID-19> rdf:type schema:Article ,
+                                                                  owl:NamedIndividual ;
+                                                         
+                                                         schema:name "Vắc-xin COVID-19"@vi ;
+                                                         
+                                                         schema:inLanguage "vi" ;
+                                                         
+                                                         schema:about wd:Q87719492 ;
+                                                         
+                                                         schema:isPartOf <https://vi.wikipedia.org/> .
+
+
+
+###  https://wuu.wikipedia.org/wiki/2019%E5%86%A0%E7%8A%B6%E7%97%85%E6%AF%92%E7%97%85%E7%96%AB%E8%8B%97
+
+<https://wuu.wikipedia.org/wiki/2019%E5%86%A0%E7%8A%B6%E7%97%85%E6%AF%92%E7%97%85%E7%96%AB%E8%8B%97> rdf:type schema:Article ,
+                                                                                                              owl:NamedIndividual ;
+                                                                                                     
+                                                                                                     schema:inLanguage "wuu" ;
+                                                                                                     
+                                                                                                     schema:name "2019冠状病毒病疫苗"@wuu ;
+                                                                                                     
+                                                                                                     schema:about wd:Q87719492 ;
+                                                                                                     
+                                                                                                     schema:isPartOf <https://wuu.wikipedia.org/> .
+
+
+
+###  https://www.mayoclinic.org/diseases-conditions/coronavirus/in-depth/coronavirus-vaccine/art-20484859
+
+<https://www.mayoclinic.org/diseases-conditions/coronavirus/in-depth/coronavirus-vaccine/art-20484859> rdf:type owl:NamedIndividual .
+
+
+
+###  https://www.wikidata.org/wiki/Special:EntityData/Q87719492
+
+data:Q87719492 rdf:type schema:Dataset ,
+                        owl:NamedIndividual ;
+               
+               schema:version 1519324234 ;
+               
+               wikibase:statements 16 ;
+               
+               schema:dateModified "2021-10-29T23:32:25Z"^^xsd:dateTime ;
+               
+               wikibase:identifiers 6 ;
+               
+               wikibase:sitelinks 77 ;
+               
+               schema:softwareVersion "1.0.0" ;
+               
+               cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+               
+               schema:about wd:Q87719492 .
+
+
+
+###  https://zh-min-nan.wikipedia.org/wiki/COVID-19_e%CC%8Dk-chu
+
+<https://zh-min-nan.wikipedia.org/wiki/COVID-19_e%CC%8Dk-chu> rdf:type schema:Article ,
+                                                                       owl:NamedIndividual ;
+                                                              
+                                                              schema:name "COVID-19 e̍k-chu"@nan ;
+                                                              
+                                                              schema:inLanguage "nan" ;
+                                                              
+                                                              schema:about wd:Q87719492 ;
+                                                              
+                                                              schema:isPartOf <https://zh-min-nan.wikipedia.org/> .
+
+
+
+###  https://zh-yue.wikipedia.org/wiki/%E6%AD%A6%E6%BC%A2%E8%82%BA%E7%82%8E%E7%96%AB%E8%8B%97
+
+<https://zh-yue.wikipedia.org/wiki/%E6%AD%A6%E6%BC%A2%E8%82%BA%E7%82%8E%E7%96%AB%E8%8B%97> rdf:type schema:Article ,
+                                                                                                    owl:NamedIndividual ;
+                                                                                           
+                                                                                           schema:inLanguage "yue" ;
+                                                                                           
+                                                                                           schema:name "武漢肺炎疫苗"@yue ;
+                                                                                           
+                                                                                           schema:about wd:Q87719492 ;
+                                                                                           
+                                                                                           schema:isPartOf <https://zh-yue.wikipedia.org/> .
+
+
+
+###  https://zh.wikinews.org/wiki/Category:%E6%96%B0%E5%86%A0%E7%96%AB%E8%8B%97
+
+<https://zh.wikinews.org/wiki/Category:%E6%96%B0%E5%86%A0%E7%96%AB%E8%8B%97> rdf:type schema:Article ,
+                                                                                      owl:NamedIndividual ;
+                                                                             
+                                                                             schema:inLanguage "zh" ;
+                                                                             
+                                                                             schema:name "Category:新冠疫苗"@zh ;
+                                                                             
+                                                                             schema:about wd:Q87719492 ;
+                                                                             
+                                                                             schema:isPartOf <https://zh.wikinews.org/> .
+
+
+
+###  https://zh.wikipedia.org/wiki/2019%E5%86%A0%E7%8A%B6%E7%97%85%E6%AF%92%E7%97%85%E7%96%AB%E8%8B%97
+
+<https://zh.wikipedia.org/wiki/2019%E5%86%A0%E7%8A%B6%E7%97%85%E6%AF%92%E7%97%85%E7%96%AB%E8%8B%97> rdf:type schema:Article ,
+                                                                                                             owl:NamedIndividual ;
+                                                                                                    
+                                                                                                    schema:name "2019冠状病毒病疫苗"@zh ;
+                                                                                                    
+                                                                                                    schema:inLanguage "zh" ;
+                                                                                                    
+                                                                                                    schema:about wd:Q87719492 ;
+                                                                                                    
+                                                                                                    schema:isPartOf <https://zh.wikipedia.org/> .
+
+
+
+
+
+#################################################################
+#
+#    Annotations
+#
+#################################################################
+
+
+<https://no.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+
+
+<https://fa.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+
+
+<https://cdo.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+
+
+<https://mr.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+
+
+<https://es.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+
+
+<https://ts.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+
+
+<https://sr.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+
+
+<https://ru.wikinews.org/> wikibase:wikiGroup "wikinews" .
+
+
+
+<https://ug.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+
+
+<https://hr.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+
+
+<https://az.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+
+
+<https://kn.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+
+
+<https://sk.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+
+
+<https://ru.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+
+
+<https://et.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+
+
+<https://pl.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+
+
+<https://lmo.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+
+
+<https://nl.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+
+
+<https://mnw.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+
+
+<https://el.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+
+
+<https://tr.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+
+
+<https://zh-yue.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+
+
+<https://cs.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+
+
+<https://fr.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+
+
+<https://wuu.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+
+
+<https://bs.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+
+
+<https://ca.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+
+
+<https://sq.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+
+
+<https://ta.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+
+
+<https://ko.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+
+
+<https://sl.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+
+
+<https://vi.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+
+
+<https://uk.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+
+
+<https://bn.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+
+
+<https://si.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+
+
+<https://de.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+
+
+<https://ml.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+
+
+<https://en.wikiquote.org/> wikibase:wikiGroup "wikiquote" .
+
+
+
+<https://th.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+
+
+<https://ka.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+
+
+<https://te.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+
+
+<https://he.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+
+
+<https://pt.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+
+
+<https://simple.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+
+
+<https://sd.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+
+
+<https://ckb.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+
+
+<https://ms.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+
+
+<https://bg.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+
+
+<https://sv.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+
+
+<https://eu.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+
+
+<https://nl.wikinews.org/> wikibase:wikiGroup "wikinews" .
+
+
+
+<https://lt.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+
+
+<https://gl.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+
+
+<https://pnb.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+
+
+<https://af.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+
+
+<https://ur.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+
+
+<https://ja.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+
+
+<https://fr.wikinews.org/> wikibase:wikiGroup "wikinews" .
+
+
+
+<https://sat.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+
+
+<https://ar.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+
+
+<https://arz.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+
+
+<https://da.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+
+
+<https://hi.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+
+
+<https://en.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+
+
+<https://zh.wikinews.org/> wikibase:wikiGroup "wikinews" .
+
+
+
+<https://an.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+
+
+<https://id.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+
+
+<https://ro.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+
+
+<https://zh-min-nan.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+
+
+<https://ha.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+
+
+<https://it.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+
+
+<https://fi.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+
+
+<https://zh.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+
+
+<https://hu.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+
+
+<https://lv.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+
+
+<https://kab.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+
+
+<https://bjn.wikipedia.org/> wikibase:wikiGroup "wikipedia" .
+
+
+
+
+###  Generated by the OWL API (version 3.4.2) http://owlapi.sourceforge.net
+

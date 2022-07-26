@@ -1,0 +1,274 @@
+<?xml version="1.0"?>
+
+
+<!DOCTYPE rdf:RDF [
+    <!ENTITY owl "http://www.w3.org/2002/07/owl#" >
+    <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
+    <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
+    <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
+    <!ENTITY University "http://www.semanticweb.org/prabalghosh/ontologies/2021/8/University.owl#" >
+]>
+
+
+<rdf:RDF xmlns="http://www.semanticweb.org/prabalghosh/ontologies/2021/8/University.owl#"
+     xml:base="http://www.semanticweb.org/prabalghosh/ontologies/2021/8/University.owl"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:University="http://www.semanticweb.org/prabalghosh/ontologies/2021/8/University.owl#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/prabalghosh/ontologies/2021/8/University.owl"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/prabalghosh/ontologies/2021/8/University.owl#studies -->
+
+    <owl:ObjectProperty rdf:about="&University;studies">
+        <rdfs:range rdf:resource="&University;Module"/>
+        <rdfs:domain rdf:resource="&University;Student"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/prabalghosh/ontologies/2021/8/University.owl#teaches -->
+
+    <owl:ObjectProperty rdf:about="&University;teaches">
+        <rdfs:domain rdf:resource="&University;Lecturer"/>
+        <rdfs:range rdf:resource="&University;Module"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/prabalghosh/ontologies/2021/8/University.owl#first_name -->
+
+    <owl:DatatypeProperty rdf:about="&University;first_name">
+        <rdfs:domain rdf:resource="&University;Person"/>
+        <rdfs:range rdf:resource="&xsd;string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/prabalghosh/ontologies/2021/8/University.owl#last_name -->
+
+    <owl:DatatypeProperty rdf:about="&University;last_name">
+        <rdfs:domain rdf:resource="&University;Person"/>
+        <rdfs:range rdf:resource="&xsd;string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/prabalghosh/ontologies/2021/8/University.owl#staff_id -->
+
+    <owl:DatatypeProperty rdf:about="&University;staff_id">
+        <rdfs:domain rdf:resource="&University;Lecturer"/>
+        <rdfs:range rdf:resource="&xsd;int"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/prabalghosh/ontologies/2021/8/University.owl#student_id -->
+
+    <owl:DatatypeProperty rdf:about="&University;student_id">
+        <rdfs:domain rdf:resource="&University;Student"/>
+        <rdfs:range rdf:resource="&xsd;integer"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/prabalghosh/ontologies/2021/8/University.owl#CsModule -->
+
+    <owl:Class rdf:about="&University;CsModule">
+        <rdfs:subClassOf rdf:resource="&University;Module"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/prabalghosh/ontologies/2021/8/University.owl#Lecturer -->
+
+    <owl:Class rdf:about="&University;Lecturer">
+        <rdfs:subClassOf rdf:resource="&University;Person"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/prabalghosh/ontologies/2021/8/University.owl#MathsModule -->
+
+    <owl:Class rdf:about="&University;MathsModule">
+        <rdfs:subClassOf rdf:resource="&University;Module"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/prabalghosh/ontologies/2021/8/University.owl#Module -->
+
+    <owl:Class rdf:about="&University;Module"/>
+    
+
+
+    <!-- http://www.semanticweb.org/prabalghosh/ontologies/2021/8/University.owl#Person -->
+
+    <owl:Class rdf:about="&University;Person"/>
+    
+
+
+    <!-- http://www.semanticweb.org/prabalghosh/ontologies/2021/8/University.owl#Student -->
+
+    <owl:Class rdf:about="&University;Student">
+        <rdfs:subClassOf rdf:resource="&University;Person"/>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/prabalghosh/ontologies/2021/8/University.owl#cs101 -->
+
+    <owl:NamedIndividual rdf:about="&University;cs101">
+        <rdf:type rdf:resource="&University;CsModule"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/prabalghosh/ontologies/2021/8/University.owl#cs102 -->
+
+    <owl:NamedIndividual rdf:about="&University;cs102">
+        <rdf:type rdf:resource="&University;CsModule"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/prabalghosh/ontologies/2021/8/University.owl#lecturer1 -->
+
+    <owl:NamedIndividual rdf:about="&University;lecturer1">
+        <rdf:type rdf:resource="&University;Lecturer"/>
+        <staff_id rdf:datatype="&xsd;integer">11111</staff_id>
+        <last_name rdf:datatype="&xsd;string">Rajesh</last_name>
+        <first_name rdf:datatype="&xsd;string">Remya</first_name>
+        <teaches rdf:resource="&University;cs101"/>
+        <teaches rdf:resource="&University;m201"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/prabalghosh/ontologies/2021/8/University.owl#lecturer2 -->
+
+    <owl:NamedIndividual rdf:about="&University;lecturer2">
+        <rdf:type rdf:resource="&University;Lecturer"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/prabalghosh/ontologies/2021/8/University.owl#m201 -->
+
+    <owl:NamedIndividual rdf:about="&University;m201">
+        <rdf:type rdf:resource="&University;MathsModule"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/prabalghosh/ontologies/2021/8/University.owl#m202 -->
+
+    <owl:NamedIndividual rdf:about="&University;m202">
+        <rdf:type rdf:resource="&University;MathsModule"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/prabalghosh/ontologies/2021/8/University.owl#student1 -->
+
+    <owl:NamedIndividual rdf:about="&University;student1">
+        <rdf:type rdf:resource="&University;Student"/>
+        <student_id rdf:datatype="&xsd;string">5555</student_id>
+        <last_name rdf:datatype="&xsd;string">ghosh</last_name>
+        <first_name rdf:datatype="&xsd;string">prabal</first_name>
+        <studies rdf:resource="&University;cs101"/>
+        <studies rdf:resource="&University;m201"/>
+        <studies rdf:resource="&University;m202"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/prabalghosh/ontologies/2021/8/University.owl#student2 -->
+
+    <owl:NamedIndividual rdf:about="&University;student2">
+        <rdf:type rdf:resource="&University;Student"/>
+        <studies rdf:resource="&University;cs102"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/prabalghosh/ontologies/2021/8/University.owl#student3 -->
+
+    <owl:NamedIndividual rdf:about="&University;student3">
+        <rdf:type rdf:resource="&University;Student"/>
+        <studies rdf:resource="&University;cs102"/>
+        <studies rdf:resource="&University;m202"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // General axioms
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <rdf:Description>
+        <rdf:type rdf:resource="&owl;AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="&University;CsModule"/>
+            <rdf:Description rdf:about="&University;Lecturer"/>
+            <rdf:Description rdf:about="&University;MathsModule"/>
+            <rdf:Description rdf:about="&University;Student"/>
+        </owl:members>
+    </rdf:Description>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 3.4.2) http://owlapi.sourceforge.net -->
+

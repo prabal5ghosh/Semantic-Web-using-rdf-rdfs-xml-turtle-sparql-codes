@@ -1,0 +1,2303 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:ontolex="http://www.w3.org/ns/lemon/ontolex#" xmlns:dct="http://purl.org/dc/terms/" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:wikibase="http://wikiba.se/ontology#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:schema="http://schema.org/" xmlns:cc="http://creativecommons.org/ns#" xmlns:geo="http://www.opengis.net/ont/geosparql#" xmlns:prov="http://www.w3.org/ns/prov#" xmlns:wd="http://www.wikidata.org/entity/" xmlns:data="https://www.wikidata.org/wiki/Special:EntityData/" xmlns:s="http://www.wikidata.org/entity/statement/" xmlns:ref="http://www.wikidata.org/reference/" xmlns:v="http://www.wikidata.org/value/" xmlns:wdt="http://www.wikidata.org/prop/direct/" xmlns:wdtn="http://www.wikidata.org/prop/direct-normalized/" xmlns:p="http://www.wikidata.org/prop/" xmlns:ps="http://www.wikidata.org/prop/statement/" xmlns:psv="http://www.wikidata.org/prop/statement/value/" xmlns:psn="http://www.wikidata.org/prop/statement/value-normalized/" xmlns:pq="http://www.wikidata.org/prop/qualifier/" xmlns:pqv="http://www.wikidata.org/prop/qualifier/value/" xmlns:pqn="http://www.wikidata.org/prop/qualifier/value-normalized/" xmlns:pr="http://www.wikidata.org/prop/reference/" xmlns:prv="http://www.wikidata.org/prop/reference/value/" xmlns:prn="http://www.wikidata.org/prop/reference/value-normalized/" xmlns:wdno="http://www.wikidata.org/prop/novalue/">
+	<rdf:Description rdf:about="https://www.wikidata.org/wiki/Special:EntityData/Q87719492">
+		<rdf:type rdf:resource="http://schema.org/Dataset"/>
+		<schema:about rdf:resource="http://www.wikidata.org/entity/Q87719492"/>
+		<cc:license rdf:resource="http://creativecommons.org/publicdomain/zero/1.0/"/>
+		<schema:softwareVersion>1.0.0</schema:softwareVersion>
+		<schema:version rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1519324234</schema:version>
+		<schema:dateModified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-10-29T23:32:25Z</schema:dateModified>
+		<wikibase:statements rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">16</wikibase:statements>
+		<wikibase:sitelinks rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">77</wikibase:sitelinks>
+		<wikibase:identifiers rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">6</wikibase:identifiers>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.wikidata.org/entity/Q87719492">
+		<rdf:type rdf:resource="http://wikiba.se/ontology#Item"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="https://de.wikipedia.org/wiki/SARS-CoV-2-Impfstoff">
+		<rdf:type rdf:resource="http://schema.org/Article"/>
+		<schema:about rdf:resource="http://www.wikidata.org/entity/Q87719492"/>
+		<schema:inLanguage>de</schema:inLanguage>
+		<schema:isPartOf rdf:resource="https://de.wikipedia.org/"/>
+		<schema:name xml:lang="de">SARS-CoV-2-Impfstoff</schema:name>
+	</rdf:Description>
+	<rdf:Description rdf:about="https://de.wikipedia.org/">
+		<wikibase:wikiGroup>wikipedia</wikibase:wikiGroup>
+	</rdf:Description>
+	<rdf:Description rdf:about="https://fr.wikipedia.org/wiki/Vaccin_contre_la_Covid-19">
+		<rdf:type rdf:resource="http://schema.org/Article"/>
+		<schema:about rdf:resource="http://www.wikidata.org/entity/Q87719492"/>
+		<schema:inLanguage>fr</schema:inLanguage>
+		<schema:isPartOf rdf:resource="https://fr.wikipedia.org/"/>
+		<schema:name xml:lang="fr">Vaccin contre la Covid-19</schema:name>
+	</rdf:Description>
+	<rdf:Description rdf:about="https://fr.wikipedia.org/">
+		<wikibase:wikiGroup>wikipedia</wikibase:wikiGroup>
+	</rdf:Description>
+	<rdf:Description rdf:about="https://ru.wikipedia.org/wiki/%D0%92%D0%B0%D0%BA%D1%86%D0%B8%D0%BD%D0%B0_%D0%BF%D1%80%D0%BE%D1%82%D0%B8%D0%B2_COVID-19">
+		<rdf:type rdf:resource="http://schema.org/Article"/>
+		<schema:about rdf:resource="http://www.wikidata.org/entity/Q87719492"/>
+		<schema:inLanguage>ru</schema:inLanguage>
+		<schema:isPartOf rdf:resource="https://ru.wikipedia.org/"/>
+		<schema:name xml:lang="ru">Вакцина против COVID-19</schema:name>
+	</rdf:Description>
+	<rdf:Description rdf:about="https://ru.wikipedia.org/">
+		<wikibase:wikiGroup>wikipedia</wikibase:wikiGroup>
+	</rdf:Description>
+	<rdf:Description rdf:about="https://ja.wikipedia.org/wiki/COVID-19%E3%83%AF%E3%82%AF%E3%83%81%E3%83%B3">
+		<rdf:type rdf:resource="http://schema.org/Article"/>
+		<schema:about rdf:resource="http://www.wikidata.org/entity/Q87719492"/>
+		<schema:inLanguage>ja</schema:inLanguage>
+		<schema:isPartOf rdf:resource="https://ja.wikipedia.org/"/>
+		<schema:name xml:lang="ja">COVID-19ワクチン</schema:name>
+	</rdf:Description>
+	<rdf:Description rdf:about="https://ja.wikipedia.org/">
+		<wikibase:wikiGroup>wikipedia</wikibase:wikiGroup>
+	</rdf:Description>
+	<rdf:Description rdf:about="https://nl.wikipedia.org/wiki/COVID-19-vaccin">
+		<rdf:type rdf:resource="http://schema.org/Article"/>
+		<schema:about rdf:resource="http://www.wikidata.org/entity/Q87719492"/>
+		<schema:inLanguage>nl</schema:inLanguage>
+		<schema:isPartOf rdf:resource="https://nl.wikipedia.org/"/>
+		<schema:name xml:lang="nl">COVID-19-vaccin</schema:name>
+	</rdf:Description>
+	<rdf:Description rdf:about="https://nl.wikipedia.org/">
+		<wikibase:wikiGroup>wikipedia</wikibase:wikiGroup>
+	</rdf:Description>
+	<rdf:Description rdf:about="https://zh.wikipedia.org/wiki/2019%E5%86%A0%E7%8A%B6%E7%97%85%E6%AF%92%E7%97%85%E7%96%AB%E8%8B%97">
+		<rdf:type rdf:resource="http://schema.org/Article"/>
+		<schema:about rdf:resource="http://www.wikidata.org/entity/Q87719492"/>
+		<schema:inLanguage>zh</schema:inLanguage>
+		<schema:isPartOf rdf:resource="https://zh.wikipedia.org/"/>
+		<schema:name xml:lang="zh">2019冠状病毒病疫苗</schema:name>
+	</rdf:Description>
+	<rdf:Description rdf:about="https://zh.wikipedia.org/">
+		<wikibase:wikiGroup>wikipedia</wikibase:wikiGroup>
+	</rdf:Description>
+	<rdf:Description rdf:about="https://tr.wikipedia.org/wiki/COVID-19_a%C5%9F%C4%B1s%C4%B1">
+		<rdf:type rdf:resource="http://schema.org/Article"/>
+		<schema:about rdf:resource="http://www.wikidata.org/entity/Q87719492"/>
+		<schema:inLanguage>tr</schema:inLanguage>
+		<schema:isPartOf rdf:resource="https://tr.wikipedia.org/"/>
+		<schema:name xml:lang="tr">COVID-19 aşısı</schema:name>
+	</rdf:Description>
+	<rdf:Description rdf:about="https://tr.wikipedia.org/">
+		<wikibase:wikiGroup>wikipedia</wikibase:wikiGroup>
+	</rdf:Description>
+	<rdf:Description rdf:about="https://hu.wikipedia.org/wiki/Covid19-vakcina">
+		<rdf:type rdf:resource="http://schema.org/Article"/>
+		<schema:about rdf:resource="http://www.wikidata.org/entity/Q87719492"/>
+		<schema:inLanguage>hu</schema:inLanguage>
+		<schema:isPartOf rdf:resource="https://hu.wikipedia.org/"/>
+		<schema:name xml:lang="hu">Covid19-vakcina</schema:name>
+	</rdf:Description>
+	<rdf:Description rdf:about="https://hu.wikipedia.org/">
+		<wikibase:wikiGroup>wikipedia</wikibase:wikiGroup>
+	</rdf:Description>
+	<rdf:Description rdf:about="https://ar.wikipedia.org/wiki/%D9%84%D9%82%D8%A7%D8%AD_%D9%83%D9%88%D9%81%D9%8A%D8%AF-19">
+		<rdf:type rdf:resource="http://schema.org/Article"/>
+		<schema:about rdf:resource="http://www.wikidata.org/entity/Q87719492"/>
+		<schema:inLanguage>ar</schema:inLanguage>
+		<schema:isPartOf rdf:resource="https://ar.wikipedia.org/"/>
+		<schema:name xml:lang="ar">لقاح كوفيد-19</schema:name>
+	</rdf:Description>
+	<rdf:Description rdf:about="https://ar.wikipedia.org/">
+		<wikibase:wikiGroup>wikipedia</wikibase:wikiGroup>
+	</rdf:Description>
+	<rdf:Description rdf:about="https://vi.wikipedia.org/wiki/V%E1%BA%AFc-xin_COVID-19">
+		<rdf:type rdf:resource="http://schema.org/Article"/>
+		<schema:about rdf:resource="http://www.wikidata.org/entity/Q87719492"/>
+		<schema:inLanguage>vi</schema:inLanguage>
+		<schema:isPartOf rdf:resource="https://vi.wikipedia.org/"/>
+		<schema:name xml:lang="vi">Vắc-xin COVID-19</schema:name>
+	</rdf:Description>
+	<rdf:Description rdf:about="https://vi.wikipedia.org/">
+		<wikibase:wikiGroup>wikipedia</wikibase:wikiGroup>
+	</rdf:Description>
+	<rdf:Description rdf:about="https://uk.wikipedia.org/wiki/%D0%92%D0%B0%D0%BA%D1%86%D0%B8%D0%BD%D0%B0_%D0%BF%D1%80%D0%BE%D1%82%D0%B8_COVID-19">
+		<rdf:type rdf:resource="http://schema.org/Article"/>
+		<schema:about rdf:resource="http://www.wikidata.org/entity/Q87719492"/>
+		<schema:inLanguage>uk</schema:inLanguage>
+		<schema:isPartOf rdf:resource="https://uk.wikipedia.org/"/>
+		<schema:name xml:lang="uk">Вакцина проти COVID-19</schema:name>
+	</rdf:Description>
+	<rdf:Description rdf:about="https://uk.wikipedia.org/">
+		<wikibase:wikiGroup>wikipedia</wikibase:wikiGroup>
+	</rdf:Description>
+	<rdf:Description rdf:about="https://ca.wikipedia.org/wiki/Vacuna_contra_la_COVID-19">
+		<rdf:type rdf:resource="http://schema.org/Article"/>
+		<schema:about rdf:resource="http://www.wikidata.org/entity/Q87719492"/>
+		<schema:inLanguage>ca</schema:inLanguage>
+		<schema:isPartOf rdf:resource="https://ca.wikipedia.org/"/>
+		<schema:name xml:lang="ca">Vacuna contra la COVID-19</schema:name>
+	</rdf:Description>
+	<rdf:Description rdf:about="https://ca.wikipedia.org/">
+		<wikibase:wikiGroup>wikipedia</wikibase:wikiGroup>
+	</rdf:Description>
+	<rdf:Description rdf:about="https://simple.wikipedia.org/wiki/COVID-19_vaccine">
+		<rdf:type rdf:resource="http://schema.org/Article"/>
+		<schema:about rdf:resource="http://www.wikidata.org/entity/Q87719492"/>
+		<schema:inLanguage>en-simple</schema:inLanguage>
+		<schema:isPartOf rdf:resource="https://simple.wikipedia.org/"/>
+		<schema:name xml:lang="en-simple">COVID-19 vaccine</schema:name>
+	</rdf:Description>
+	<rdf:Description rdf:about="https://simple.wikipedia.org/">
+		<wikibase:wikiGroup>wikipedia</wikibase:wikiGroup>
+	</rdf:Description>
+	<rdf:Description rdf:about="https://bn.wikipedia.org/wiki/%E0%A6%95%E0%A7%8B%E0%A6%AD%E0%A6%BF%E0%A6%A1-%E0%A7%A7%E0%A7%AF_%E0%A6%9F%E0%A6%BF%E0%A6%95%E0%A6%BE">
+		<rdf:type rdf:resource="http://schema.org/Article"/>
+		<schema:about rdf:resource="http://www.wikidata.org/entity/Q87719492"/>
+		<schema:inLanguage>bn</schema:inLanguage>
+		<schema:isPartOf rdf:resource="https://bn.wikipedia.org/"/>
+		<schema:name xml:lang="bn">কোভিড-১৯ টিকা</schema:name>
+	</rdf:Description>
+	<rdf:Description rdf:about="https://bn.wikipedia.org/">
+		<wikibase:wikiGroup>wikipedia</wikibase:wikiGroup>
+	</rdf:Description>
+	<rdf:Description rdf:about="https://el.wikipedia.org/wiki/%CE%95%CE%BC%CE%B2%CF%8C%CE%BB%CE%B9%CE%BF_COVID-19">
+		<rdf:type rdf:resource="http://schema.org/Article"/>
+		<schema:about rdf:resource="http://www.wikidata.org/entity/Q87719492"/>
+		<schema:inLanguage>el</schema:inLanguage>
+		<schema:isPartOf rdf:resource="https://el.wikipedia.org/"/>
+		<schema:name xml:lang="el">Εμβόλιο COVID-19</schema:name>
+	</rdf:Description>
+	<rdf:Description rdf:about="https://el.wikipedia.org/">
+		<wikibase:wikiGroup>wikipedia</wikibase:wikiGroup>
+	</rdf:Description>
+	<rdf:Description rdf:about="https://gl.wikipedia.org/wiki/Vacina_da_COVID-19">
+		<rdf:type rdf:resource="http://schema.org/Article"/>
+		<schema:about rdf:resource="http://www.wikidata.org/entity/Q87719492"/>
+		<schema:inLanguage>gl</schema:inLanguage>
+		<schema:isPartOf rdf:resource="https://gl.wikipedia.org/"/>
+		<schema:name xml:lang="gl">Vacina da COVID-19</schema:name>
+	</rdf:Description>
+	<rdf:Description rdf:about="https://gl.wikipedia.org/">
+		<wikibase:wikiGroup>wikipedia</wikibase:wikiGroup>
+	</rdf:Description>
+	<rdf:Description rdf:about="https://kab.wikipedia.org/wiki/Tigezt_mgal_Covid-19">
+		<rdf:type rdf:resource="http://schema.org/Article"/>
+		<schema:about rdf:resource="http://www.wikidata.org/entity/Q87719492"/>
+		<schema:inLanguage>kab</schema:inLanguage>
+		<schema:isPartOf rdf:resource="https://kab.wikipedia.org/"/>
+		<schema:name xml:lang="kab">Tigezt mgal Covid-19</schema:name>
+	</rdf:Description>
+	<rdf:Description rdf:about="https://kab.wikipedia.org/">
+		<wikibase:wikiGroup>wikipedia</wikibase:wikiGroup>
+	</rdf:Description>
+	<rdf:Description rdf:about="https://kn.wikipedia.org/wiki/%E0%B2%95%E0%B3%8B%E0%B2%B5%E0%B2%BF%E0%B2%A1%E0%B3%8D-%E0%B3%A7%E0%B3%AF_%E0%B2%B2%E0%B2%B8%E0%B2%BF%E0%B2%95%E0%B3%86">
+		<rdf:type rdf:resource="http://schema.org/Article"/>
+		<schema:about rdf:resource="http://www.wikidata.org/entity/Q87719492"/>
+		<schema:inLanguage>kn</schema:inLanguage>
+		<schema:isPartOf rdf:resource="https://kn.wikipedia.org/"/>
+		<schema:name xml:lang="kn">ಕೋವಿಡ್-೧೯ ಲಸಿಕೆ</schema:name>
+	</rdf:Description>
+	<rdf:Description rdf:about="https://kn.wikipedia.org/">
+		<wikibase:wikiGroup>wikipedia</wikibase:wikiGroup>
+	</rdf:Description>
+	<rdf:Description rdf:about="https://lt.wikipedia.org/wiki/COVID-19_vakcina">
+		<rdf:type rdf:resource="http://schema.org/Article"/>
+		<schema:about rdf:resource="http://www.wikidata.org/entity/Q87719492"/>
+		<schema:inLanguage>lt</schema:inLanguage>
+		<schema:isPartOf rdf:resource="https://lt.wikipedia.org/"/>
+		<schema:name xml:lang="lt">COVID-19 vakcina</schema:name>
+	</rdf:Description>
+	<rdf:Description rdf:about="https://lt.wikipedia.org/">
+		<wikibase:wikiGroup>wikipedia</wikibase:wikiGroup>
+	</rdf:Description>
+	<rdf:Description rdf:about="https://ml.wikipedia.org/wiki/%E0%B4%95%E0%B5%8A%E0%B4%B1%E0%B5%8B%E0%B4%A3%E0%B4%B5%E0%B5%88%E0%B4%B1%E0%B4%B8%E0%B5%8D_%E0%B4%B0%E0%B5%8B%E0%B4%97%E0%B4%82_2019_%E0%B4%B5%E0%B4%BE%E0%B4%95%E0%B5%8D%E0%B4%B8%E0%B4%BF%E0%B5%BB">
+		<rdf:type rdf:resource="http://schema.org/Article"/>
+		<schema:about rdf:resource="http://www.wikidata.org/entity/Q87719492"/>
+		<schema:inLanguage>ml</schema:inLanguage>
+		<schema:isPartOf rdf:resource="https://ml.wikipedia.org/"/>
+		<schema:name xml:lang="ml">കൊറോണവൈറസ് രോഗം 2019 വാക്സിൻ</schema:name>
+	</rdf:Description>
+	<rdf:Description rdf:about="https://ml.wikipedia.org/">
+		<wikibase:wikiGroup>wikipedia</wikibase:wikiGroup>
+	</rdf:Description>
+	<rdf:Description rdf:about="https://ms.wikipedia.org/wiki/Vaksin_COVID-19">
+		<rdf:type rdf:resource="http://schema.org/Article"/>
+		<schema:about rdf:resource="http://www.wikidata.org/entity/Q87719492"/>
+		<schema:inLanguage>ms</schema:inLanguage>
+		<schema:isPartOf rdf:resource="https://ms.wikipedia.org/"/>
+		<schema:name xml:lang="ms">Vaksin COVID-19</schema:name>
+	</rdf:Description>
+	<rdf:Description rdf:about="https://ms.wikipedia.org/">
+		<wikibase:wikiGroup>wikipedia</wikibase:wikiGroup>
+	</rdf:Description>
+	<rdf:Description rdf:about="https://sd.wikipedia.org/wiki/%DA%AA%D9%88%D9%88%DA%8A-%D9%A1%D9%A9_%D9%88%D9%8A%DA%AA%D8%B3%D9%8A%D9%86">
+		<rdf:type rdf:resource="http://schema.org/Article"/>
+		<schema:about rdf:resource="http://www.wikidata.org/entity/Q87719492"/>
+		<schema:inLanguage>sd</schema:inLanguage>
+		<schema:isPartOf rdf:resource="https://sd.wikipedia.org/"/>
+		<schema:name xml:lang="sd">ڪووڊ-١٩ ويڪسين</schema:name>
+	</rdf:Description>
+	<rdf:Description rdf:about="https://sd.wikipedia.org/">
+		<wikibase:wikiGroup>wikipedia</wikibase:wikiGroup>
+	</rdf:Description>
+	<rdf:Description rdf:about="https://si.wikipedia.org/wiki/%E0%B6%9A%E0%B7%9C%E0%B7%80%E0%B7%92%E0%B6%A9%E0%B7%8A-19_%E0%B6%91%E0%B6%B1%E0%B7%8A%E0%B6%B1%E0%B6%AD">
+		<rdf:type rdf:resource="http://schema.org/Article"/>
+		<schema:about rdf:resource="http://www.wikidata.org/entity/Q87719492"/>
+		<schema:inLanguage>si</schema:inLanguage>
+		<schema:isPartOf rdf:resource="https://si.wikipedia.org/"/>
+		<schema:name xml:lang="si">කොවිඩ්-19 එන්නත</schema:name>
+	</rdf:Description>
+	<rdf:Description rdf:about="https://si.wikipedia.org/">
+		<wikibase:wikiGroup>wikipedia</wikibase:wikiGroup>
+	</rdf:Description>
+	<rdf:Description rdf:about="https://sq.wikipedia.org/wiki/Vaksina_p%C3%ABr_COVID-19">
+		<rdf:type rdf:resource="http://schema.org/Article"/>
+		<schema:about rdf:resource="http://www.wikidata.org/entity/Q87719492"/>
+		<schema:inLanguage>sq</schema:inLanguage>
+		<schema:isPartOf rdf:resource="https://sq.wikipedia.org/"/>
+		<schema:name xml:lang="sq">Vaksina për COVID-19</schema:name>
+	</rdf:Description>
+	<rdf:Description rdf:about="https://sq.wikipedia.org/">
+		<wikibase:wikiGroup>wikipedia</wikibase:wikiGroup>
+	</rdf:Description>
+	<rdf:Description rdf:about="https://ta.wikipedia.org/wiki/%E0%AE%95%E0%AF%8A%E0%AE%B0%E0%AF%8B%E0%AE%A9%E0%AE%BE%E0%AE%B5%E0%AF%88%E0%AE%B0%E0%AE%9A%E0%AF%81%E0%AE%A4%E0%AF%8D_%E0%AE%A4%E0%AF%8A%E0%AE%B1%E0%AF%8D%E0%AE%B1%E0%AF%81_2019_%E0%AE%A4%E0%AE%9F%E0%AF%81%E0%AE%AA%E0%AF%8D%E0%AE%AA%E0%AF%82%E0%AE%9A%E0%AE%BF_%E0%AE%86%E0%AE%AF%E0%AF%8D%E0%AE%B5%E0%AF%81">
+		<rdf:type rdf:resource="http://schema.org/Article"/>
+		<schema:about rdf:resource="http://www.wikidata.org/entity/Q87719492"/>
+		<schema:inLanguage>ta</schema:inLanguage>
+		<schema:isPartOf rdf:resource="https://ta.wikipedia.org/"/>
+		<schema:name xml:lang="ta">கொரோனாவைரசுத் தொற்று 2019 தடுப்பூசி ஆய்வு</schema:name>
+	</rdf:Description>
+	<rdf:Description rdf:about="https://ta.wikipedia.org/">
+		<wikibase:wikiGroup>wikipedia</wikibase:wikiGroup>
+	</rdf:Description>
+	<rdf:Description rdf:about="https://ug.wikipedia.org/wiki/%D9%8A%DB%90%DA%AD%D9%89_%D8%AA%D9%89%D9%BE%D8%AA%D9%89%D9%83%D9%89_%D8%AA%D8%A7%D8%AC%D8%B3%D9%89%D9%85%D8%A7%D9%86_%DB%8B%D9%89%D8%B1%DB%87%D8%B3_%D9%83%DB%90%D8%B3%D9%89%D9%84%D9%89_%DB%8B%D8%A7%D9%83%D8%B3%D9%89%D9%86%D9%89%D8%B3%D9%89(%D9%83%D9%88%DB%8B%D9%89%D8%AF-19_%D9%83%DB%90%D8%B3%D9%89%D9%84%D9%89_%DB%8B%D8%A7%D9%83%D8%B3%D9%89%D9%86%D9%89%D8%B3%D9%89)">
+		<rdf:type rdf:resource="http://schema.org/Article"/>
+		<schema:about rdf:resource="http://www.wikidata.org/entity/Q87719492"/>
+		<schema:inLanguage>ug</schema:inLanguage>
+		<schema:isPartOf rdf:resource="https://ug.wikipedia.org/"/>
+		<schema:name xml:lang="ug">يېڭى تىپتىكى تاجسىمان ۋىرۇس كېسىلى ۋاكسىنىسى(كوۋىد-19 كېسىلى ۋاكسىنىسى)</schema:name>
+	</rdf:Description>
+	<rdf:Description rdf:about="https://ug.wikipedia.org/">
+		<wikibase:wikiGroup>wikipedia</wikibase:wikiGroup>
+	</rdf:Description>
+	<rdf:Description rdf:about="https://hr.wikipedia.org/wiki/Cjepivo_protiv_COVID-19">
+		<rdf:type rdf:resource="http://schema.org/Article"/>
+		<schema:about rdf:resource="http://www.wikidata.org/entity/Q87719492"/>
+		<schema:inLanguage>hr</schema:inLanguage>
+		<schema:isPartOf rdf:resource="https://hr.wikipedia.org/"/>
+		<schema:name xml:lang="hr">Cjepivo protiv COVID-19</schema:name>
+	</rdf:Description>
+	<rdf:Description rdf:about="https://hr.wikipedia.org/">
+		<wikibase:wikiGroup>wikipedia</wikibase:wikiGroup>
+	</rdf:Description>
+	<rdf:Description rdf:about="https://ko.wikipedia.org/wiki/%EC%BD%94%EB%A1%9C%EB%82%9819_%EB%B0%B1%EC%8B%A0">
+		<rdf:type rdf:resource="http://schema.org/Article"/>
+		<schema:about rdf:resource="http://www.wikidata.org/entity/Q87719492"/>
+		<schema:inLanguage>ko</schema:inLanguage>
+		<schema:isPartOf rdf:resource="https://ko.wikipedia.org/"/>
+		<schema:name xml:lang="ko">코로나19 백신</schema:name>
+	</rdf:Description>
+	<rdf:Description rdf:about="https://ko.wikipedia.org/">
+		<wikibase:wikiGroup>wikipedia</wikibase:wikiGroup>
+	</rdf:Description>
+	<rdf:Description rdf:about="https://sv.wikipedia.org/wiki/Covid-19-vaccin">
+		<rdf:type rdf:resource="http://schema.org/Article"/>
+		<schema:about rdf:resource="http://www.wikidata.org/entity/Q87719492"/>
+		<schema:inLanguage>sv</schema:inLanguage>
+		<schema:isPartOf rdf:resource="https://sv.wikipedia.org/"/>
+		<schema:name xml:lang="sv">Covid-19-vaccin</schema:name>
+	</rdf:Description>
+	<rdf:Description rdf:about="https://sv.wikipedia.org/">
+		<wikibase:wikiGroup>wikipedia</wikibase:wikiGroup>
+	</rdf:Description>
+	<rdf:Description rdf:about="https://sk.wikipedia.org/wiki/Vakc%C3%ADna_proti_chorobe_COVID-19">
+		<rdf:type rdf:resource="http://schema.org/Article"/>
+		<schema:about rdf:resource="http://www.wikidata.org/entity/Q87719492"/>
+		<schema:inLanguage>sk</schema:inLanguage>
+		<schema:isPartOf rdf:resource="https://sk.wikipedia.org/"/>
+		<schema:name xml:lang="sk">Vakcína proti chorobe COVID-19</schema:name>
+	</rdf:Description>
+	<rdf:Description rdf:about="https://sk.wikipedia.org/">
+		<wikibase:wikiGroup>wikipedia</wikibase:wikiGroup>
+	</rdf:Description>
+	<rdf:Description rdf:about="https://hi.wikipedia.org/wiki/%E0%A4%95%E0%A5%8B%E0%A4%B5%E0%A4%BF%E0%A4%A1-19_%E0%A4%95%E0%A4%BE_%E0%A4%9F%E0%A5%80%E0%A4%95%E0%A4%BE">
+		<rdf:type rdf:resource="http://schema.org/Article"/>
+		<schema:about rdf:resource="http://www.wikidata.org/entity/Q87719492"/>
+		<schema:inLanguage>hi</schema:inLanguage>
+		<schema:isPartOf rdf:resource="https://hi.wikipedia.org/"/>
+		<schema:name xml:lang="hi">कोविड-19 का टीका</schema:name>
+	</rdf:Description>
+	<rdf:Description rdf:about="https://hi.wikipedia.org/">
+		<wikibase:wikiGroup>wikipedia</wikibase:wikiGroup>
+	</rdf:Description>
+	<rdf:Description rdf:about="https://no.wikipedia.org/wiki/Covid-19-vaksiner">
+		<rdf:type rdf:resource="http://schema.org/Article"/>
+		<schema:about rdf:resource="http://www.wikidata.org/entity/Q87719492"/>
+		<schema:inLanguage>nb</schema:inLanguage>
+		<schema:isPartOf rdf:resource="https://no.wikipedia.org/"/>
+		<schema:name xml:lang="nb">Covid-19-vaksiner</schema:name>
+	</rdf:Description>
+	<rdf:Description rdf:about="https://no.wikipedia.org/">
+		<wikibase:wikiGroup>wikipedia</wikibase:wikiGroup>
+	</rdf:Description>
+	<rdf:Description rdf:about="https://ru.wikinews.org/wiki/%D0%9A%D0%B0%D1%82%D0%B5%D0%B3%D0%BE%D1%80%D0%B8%D1%8F:%D0%92%D0%B0%D0%BA%D1%86%D0%B8%D0%BD%D1%8B_%D0%BF%D1%80%D0%BE%D1%82%D0%B8%D0%B2_COVID-19">
+		<rdf:type rdf:resource="http://schema.org/Article"/>
+		<schema:about rdf:resource="http://www.wikidata.org/entity/Q87719492"/>
+		<schema:inLanguage>ru</schema:inLanguage>
+		<schema:isPartOf rdf:resource="https://ru.wikinews.org/"/>
+		<schema:name xml:lang="ru">Категория:Вакцины против COVID-19</schema:name>
+	</rdf:Description>
+	<rdf:Description rdf:about="https://ru.wikinews.org/">
+		<wikibase:wikiGroup>wikinews</wikibase:wikiGroup>
+	</rdf:Description>
+	<rdf:Description rdf:about="https://da.wikipedia.org/wiki/COVID-19-vaccine">
+		<rdf:type rdf:resource="http://schema.org/Article"/>
+		<schema:about rdf:resource="http://www.wikidata.org/entity/Q87719492"/>
+		<schema:inLanguage>da</schema:inLanguage>
+		<schema:isPartOf rdf:resource="https://da.wikipedia.org/"/>
+		<schema:name xml:lang="da">COVID-19-vaccine</schema:name>
+	</rdf:Description>
+	<rdf:Description rdf:about="https://da.wikipedia.org/">
+		<wikibase:wikiGroup>wikipedia</wikibase:wikiGroup>
+	</rdf:Description>
+	<rdf:Description rdf:about="https://en.wikipedia.org/wiki/COVID-19_vaccine">
+		<rdf:type rdf:resource="http://schema.org/Article"/>
+		<schema:about rdf:resource="http://www.wikidata.org/entity/Q87719492"/>
+		<schema:inLanguage>en</schema:inLanguage>
+		<schema:isPartOf rdf:resource="https://en.wikipedia.org/"/>
+		<schema:name xml:lang="en">COVID-19 vaccine</schema:name>
+	</rdf:Description>
+	<rdf:Description rdf:about="https://en.wikipedia.org/">
+		<wikibase:wikiGroup>wikipedia</wikibase:wikiGroup>
+	</rdf:Description>
+	<rdf:Description rdf:about="https://fr.wikinews.org/wiki/Cat%C3%A9gorie:Vaccin_contre_la_Covid-19">
+		<rdf:type rdf:resource="http://schema.org/Article"/>
+		<schema:about rdf:resource="http://www.wikidata.org/entity/Q87719492"/>
+		<schema:inLanguage>fr</schema:inLanguage>
+		<schema:isPartOf rdf:resource="https://fr.wikinews.org/"/>
+		<schema:name xml:lang="fr">Catégorie:Vaccin contre la Covid-19</schema:name>
+	</rdf:Description>
+	<rdf:Description rdf:about="https://fr.wikinews.org/">
+		<wikibase:wikiGroup>wikinews</wikibase:wikiGroup>
+	</rdf:Description>
+	<rdf:Description rdf:about="https://fi.wikipedia.org/wiki/SARS-CoV-2-rokote">
+		<rdf:type rdf:resource="http://schema.org/Article"/>
+		<schema:about rdf:resource="http://www.wikidata.org/entity/Q87719492"/>
+		<schema:inLanguage>fi</schema:inLanguage>
+		<schema:isPartOf rdf:resource="https://fi.wikipedia.org/"/>
+		<schema:name xml:lang="fi">SARS-CoV-2-rokote</schema:name>
+	</rdf:Description>
+	<rdf:Description rdf:about="https://fi.wikipedia.org/">
+		<wikibase:wikiGroup>wikipedia</wikibase:wikiGroup>
+	</rdf:Description>
+	<rdf:Description rdf:about="https://lmo.wikipedia.org/wiki/Vacin_contra_el_SARS-CoV-2">
+		<rdf:type rdf:resource="http://schema.org/Article"/>
+		<schema:about rdf:resource="http://www.wikidata.org/entity/Q87719492"/>
+		<schema:inLanguage>lmo</schema:inLanguage>
+		<schema:isPartOf rdf:resource="https://lmo.wikipedia.org/"/>
+		<schema:name xml:lang="lmo">Vacin contra el SARS-CoV-2</schema:name>
+	</rdf:Description>
+	<rdf:Description rdf:about="https://lmo.wikipedia.org/">
+		<wikibase:wikiGroup>wikipedia</wikibase:wikiGroup>
+	</rdf:Description>
+	<rdf:Description rdf:about="https://arz.wikipedia.org/wiki/%D8%B7%D9%88%D8%B9%D9%85_%D9%83%D9%88%DA%A4%D9%8A%D8%AF-19">
+		<rdf:type rdf:resource="http://schema.org/Article"/>
+		<schema:about rdf:resource="http://www.wikidata.org/entity/Q87719492"/>
+		<schema:inLanguage>arz</schema:inLanguage>
+		<schema:isPartOf rdf:resource="https://arz.wikipedia.org/"/>
+		<schema:name xml:lang="arz">طوعم كوڤيد-19</schema:name>
+	</rdf:Description>
+	<rdf:Description rdf:about="https://arz.wikipedia.org/">
+		<wikibase:wikiGroup>wikipedia</wikibase:wikiGroup>
+	</rdf:Description>
+	<rdf:Description rdf:about="https://he.wikipedia.org/wiki/%D7%97%D7%99%D7%A1%D7%95%D7%9F_%D7%A0%D7%92%D7%93_COVID-19">
+		<rdf:type rdf:resource="http://schema.org/Article"/>
+		<schema:about rdf:resource="http://www.wikidata.org/entity/Q87719492"/>
+		<schema:inLanguage>he</schema:inLanguage>
+		<schema:isPartOf rdf:resource="https://he.wikipedia.org/"/>
+		<schema:name xml:lang="he">חיסון נגד COVID-19</schema:name>
+	</rdf:Description>
+	<rdf:Description rdf:about="https://he.wikipedia.org/">
+		<wikibase:wikiGroup>wikipedia</wikibase:wikiGroup>
+	</rdf:Description>
+	<rdf:Description rdf:about="https://pl.wikipedia.org/wiki/Szczepionka_przeciw_COVID-19">
+		<rdf:type rdf:resource="http://schema.org/Article"/>
+		<schema:about rdf:resource="http://www.wikidata.org/entity/Q87719492"/>
+		<schema:inLanguage>pl</schema:inLanguage>
+		<schema:isPartOf rdf:resource="https://pl.wikipedia.org/"/>
+		<schema:name xml:lang="pl">Szczepionka przeciw COVID-19</schema:name>
+	</rdf:Description>
+	<rdf:Description rdf:about="https://pl.wikipedia.org/">
+		<wikibase:wikiGroup>wikipedia</wikibase:wikiGroup>
+	</rdf:Description>
+	<rdf:Description rdf:about="https://sr.wikipedia.org/wiki/%D0%92%D0%B0%D0%BA%D1%86%D0%B8%D0%BD%D0%B0_%D0%BF%D1%80%D0%BE%D1%82%D0%B8%D0%B2_%D0%BA%D0%BE%D0%B2%D0%B8%D0%B4%D0%B0_19">
+		<rdf:type rdf:resource="http://schema.org/Article"/>
+		<schema:about rdf:resource="http://www.wikidata.org/entity/Q87719492"/>
+		<schema:inLanguage>sr</schema:inLanguage>
+		<schema:isPartOf rdf:resource="https://sr.wikipedia.org/"/>
+		<schema:name xml:lang="sr">Вакцина против ковида 19</schema:name>
+	</rdf:Description>
+	<rdf:Description rdf:about="https://sr.wikipedia.org/">
+		<wikibase:wikiGroup>wikipedia</wikibase:wikiGroup>
+	</rdf:Description>
+	<rdf:Description rdf:about="https://pt.wikipedia.org/wiki/Vacina_contra_a_COVID-19">
+		<rdf:type rdf:resource="http://schema.org/Article"/>
+		<schema:about rdf:resource="http://www.wikidata.org/entity/Q87719492"/>
+		<schema:inLanguage>pt</schema:inLanguage>
+		<schema:isPartOf rdf:resource="https://pt.wikipedia.org/"/>
+		<schema:name xml:lang="pt">Vacina contra a COVID-19</schema:name>
+	</rdf:Description>
+	<rdf:Description rdf:about="https://pt.wikipedia.org/">
+		<wikibase:wikiGroup>wikipedia</wikibase:wikiGroup>
+	</rdf:Description>
+	<rdf:Description rdf:about="https://zh.wikinews.org/wiki/Category:%E6%96%B0%E5%86%A0%E7%96%AB%E8%8B%97">
+		<rdf:type rdf:resource="http://schema.org/Article"/>
+		<schema:about rdf:resource="http://www.wikidata.org/entity/Q87719492"/>
+		<schema:inLanguage>zh</schema:inLanguage>
+		<schema:isPartOf rdf:resource="https://zh.wikinews.org/"/>
+		<schema:name xml:lang="zh">Category:新冠疫苗</schema:name>
+	</rdf:Description>
+	<rdf:Description rdf:about="https://zh.wikinews.org/">
+		<wikibase:wikiGroup>wikinews</wikibase:wikiGroup>
+	</rdf:Description>
+	<rdf:Description rdf:about="https://ts.wikipedia.org/wiki/Nthlavelo_wa_COVID-19">
+		<rdf:type rdf:resource="http://schema.org/Article"/>
+		<schema:about rdf:resource="http://www.wikidata.org/entity/Q87719492"/>
+		<schema:inLanguage>ts</schema:inLanguage>
+		<schema:isPartOf rdf:resource="https://ts.wikipedia.org/"/>
+		<schema:name xml:lang="ts">Nthlavelo wa COVID-19</schema:name>
+	</rdf:Description>
+	<rdf:Description rdf:about="https://ts.wikipedia.org/">
+		<wikibase:wikiGroup>wikipedia</wikibase:wikiGroup>
+	</rdf:Description>
+	<rdf:Description rdf:about="https://mnw.wikipedia.org/wiki/%E1%80%9D%E1%80%80%E1%80%BA%E1%80%9E%E1%80%AD%E1%80%94%E1%80%BA_%E1%80%80%E1%80%9D%E1%80%BA%E1%80%9D%E1%80%AD%E1%80%92%E1%80%BA-%E1%81%81%E1%81%89">
+		<rdf:type rdf:resource="http://schema.org/Article"/>
+		<schema:about rdf:resource="http://www.wikidata.org/entity/Q87719492"/>
+		<schema:inLanguage>mnw</schema:inLanguage>
+		<schema:isPartOf rdf:resource="https://mnw.wikipedia.org/"/>
+		<schema:name xml:lang="mnw">ဝက်သိန် ကဝ်ဝိဒ်-၁၉</schema:name>
+	</rdf:Description>
+	<rdf:Description rdf:about="https://mnw.wikipedia.org/">
+		<wikibase:wikiGroup>wikipedia</wikibase:wikiGroup>
+	</rdf:Description>
+	<rdf:Description rdf:about="https://ckb.wikipedia.org/wiki/%DA%A4%D8%A7%DA%A9%D8%B3%DB%8C%D9%86%DB%8C_%DA%A9%DB%86%DA%A4%DB%8C%D8%AF-%D9%A1%D9%A9">
+		<rdf:type rdf:resource="http://schema.org/Article"/>
+		<schema:about rdf:resource="http://www.wikidata.org/entity/Q87719492"/>
+		<schema:inLanguage>ckb</schema:inLanguage>
+		<schema:isPartOf rdf:resource="https://ckb.wikipedia.org/"/>
+		<schema:name xml:lang="ckb">ڤاکسینی کۆڤید-١٩</schema:name>
+	</rdf:Description>
+	<rdf:Description rdf:about="https://ckb.wikipedia.org/">
+		<wikibase:wikiGroup>wikipedia</wikibase:wikiGroup>
+	</rdf:Description>
+	<rdf:Description rdf:about="https://et.wikipedia.org/wiki/Koroonavaktsiin">
+		<rdf:type rdf:resource="http://schema.org/Article"/>
+		<schema:about rdf:resource="http://www.wikidata.org/entity/Q87719492"/>
+		<schema:inLanguage>et</schema:inLanguage>
+		<schema:isPartOf rdf:resource="https://et.wikipedia.org/"/>
+		<schema:name xml:lang="et">Koroonavaktsiin</schema:name>
+	</rdf:Description>
+	<rdf:Description rdf:about="https://et.wikipedia.org/">
+		<wikibase:wikiGroup>wikipedia</wikibase:wikiGroup>
+	</rdf:Description>
+	<rdf:Description rdf:about="https://cs.wikipedia.org/wiki/Vakc%C3%ADna_proti_covidu-19">
+		<rdf:type rdf:resource="http://schema.org/Article"/>
+		<schema:about rdf:resource="http://www.wikidata.org/entity/Q87719492"/>
+		<schema:inLanguage>cs</schema:inLanguage>
+		<schema:isPartOf rdf:resource="https://cs.wikipedia.org/"/>
+		<schema:name xml:lang="cs">Vakcína proti covidu-19</schema:name>
+	</rdf:Description>
+	<rdf:Description rdf:about="https://cs.wikipedia.org/">
+		<wikibase:wikiGroup>wikipedia</wikibase:wikiGroup>
+	</rdf:Description>
+	<rdf:Description rdf:about="https://pnb.wikipedia.org/wiki/%DA%A9%D9%88%D9%88%DA%88-%D9%A1%D9%A9_%D9%88%DB%8C%DA%A9%D8%B3%DB%8C%D9%86">
+		<rdf:type rdf:resource="http://schema.org/Article"/>
+		<schema:about rdf:resource="http://www.wikidata.org/entity/Q87719492"/>
+		<schema:inLanguage>pnb</schema:inLanguage>
+		<schema:isPartOf rdf:resource="https://pnb.wikipedia.org/"/>
+		<schema:name xml:lang="pnb">کووڈ-١٩ ویکسین</schema:name>
+	</rdf:Description>
+	<rdf:Description rdf:about="https://pnb.wikipedia.org/">
+		<wikibase:wikiGroup>wikipedia</wikibase:wikiGroup>
+	</rdf:Description>
+	<rdf:Description rdf:about="https://az.wikipedia.org/wiki/COVID-19_qar%C5%9F%C4%B1_peyv%C9%99nd">
+		<rdf:type rdf:resource="http://schema.org/Article"/>
+		<schema:about rdf:resource="http://www.wikidata.org/entity/Q87719492"/>
+		<schema:inLanguage>az</schema:inLanguage>
+		<schema:isPartOf rdf:resource="https://az.wikipedia.org/"/>
+		<schema:name xml:lang="az">COVID-19 qarşı peyvənd</schema:name>
+	</rdf:Description>
+	<rdf:Description rdf:about="https://az.wikipedia.org/">
+		<wikibase:wikiGroup>wikipedia</wikibase:wikiGroup>
+	</rdf:Description>
+	<rdf:Description rdf:about="https://it.wikipedia.org/wiki/Vaccino_anti_COVID-19">
+		<rdf:type rdf:resource="http://schema.org/Article"/>
+		<schema:about rdf:resource="http://www.wikidata.org/entity/Q87719492"/>
+		<schema:inLanguage>it</schema:inLanguage>
+		<schema:isPartOf rdf:resource="https://it.wikipedia.org/"/>
+		<schema:name xml:lang="it">Vaccino anti COVID-19</schema:name>
+	</rdf:Description>
+	<rdf:Description rdf:about="https://it.wikipedia.org/">
+		<wikibase:wikiGroup>wikipedia</wikibase:wikiGroup>
+	</rdf:Description>
+	<rdf:Description rdf:about="https://ur.wikipedia.org/wiki/%DA%A9%D9%88%D9%88%DA%88-19_%D9%88%DB%8C%DA%A9%D8%B3%DB%8C%D9%86">
+		<rdf:type rdf:resource="http://schema.org/Article"/>
+		<schema:about rdf:resource="http://www.wikidata.org/entity/Q87719492"/>
+		<schema:inLanguage>ur</schema:inLanguage>
+		<schema:isPartOf rdf:resource="https://ur.wikipedia.org/"/>
+		<schema:name xml:lang="ur">کووڈ-19 ویکسین</schema:name>
+	</rdf:Description>
+	<rdf:Description rdf:about="https://ur.wikipedia.org/">
+		<wikibase:wikiGroup>wikipedia</wikibase:wikiGroup>
+	</rdf:Description>
+	<rdf:Description rdf:about="https://zh-yue.wikipedia.org/wiki/%E6%AD%A6%E6%BC%A2%E8%82%BA%E7%82%8E%E7%96%AB%E8%8B%97">
+		<rdf:type rdf:resource="http://schema.org/Article"/>
+		<schema:about rdf:resource="http://www.wikidata.org/entity/Q87719492"/>
+		<schema:inLanguage>yue</schema:inLanguage>
+		<schema:isPartOf rdf:resource="https://zh-yue.wikipedia.org/"/>
+		<schema:name xml:lang="yue">武漢肺炎疫苗</schema:name>
+	</rdf:Description>
+	<rdf:Description rdf:about="https://zh-yue.wikipedia.org/">
+		<wikibase:wikiGroup>wikipedia</wikibase:wikiGroup>
+	</rdf:Description>
+	<rdf:Description rdf:about="https://nl.wikinews.org/wiki/Categorie:COVID-19-vaccin">
+		<rdf:type rdf:resource="http://schema.org/Article"/>
+		<schema:about rdf:resource="http://www.wikidata.org/entity/Q87719492"/>
+		<schema:inLanguage>nl</schema:inLanguage>
+		<schema:isPartOf rdf:resource="https://nl.wikinews.org/"/>
+		<schema:name xml:lang="nl">Categorie:COVID-19-vaccin</schema:name>
+	</rdf:Description>
+	<rdf:Description rdf:about="https://nl.wikinews.org/">
+		<wikibase:wikiGroup>wikinews</wikibase:wikiGroup>
+	</rdf:Description>
+	<rdf:Description rdf:about="https://es.wikipedia.org/wiki/Vacuna_contra_la_COVID-19">
+		<rdf:type rdf:resource="http://schema.org/Article"/>
+		<schema:about rdf:resource="http://www.wikidata.org/entity/Q87719492"/>
+		<schema:inLanguage>es</schema:inLanguage>
+		<schema:isPartOf rdf:resource="https://es.wikipedia.org/"/>
+		<schema:name xml:lang="es">Vacuna contra la COVID-19</schema:name>
+	</rdf:Description>
+	<rdf:Description rdf:about="https://es.wikipedia.org/">
+		<wikibase:wikiGroup>wikipedia</wikibase:wikiGroup>
+	</rdf:Description>
+	<rdf:Description rdf:about="https://mr.wikipedia.org/wiki/%E0%A4%95%E0%A5%8B%E0%A4%B5%E0%A5%8D%E0%A4%B9%E0%A4%BF%E0%A4%A1-%E0%A5%A7%E0%A5%AF_%E0%A4%B2%E0%A4%B8">
+		<rdf:type rdf:resource="http://schema.org/Article"/>
+		<schema:about rdf:resource="http://www.wikidata.org/entity/Q87719492"/>
+		<schema:inLanguage>mr</schema:inLanguage>
+		<schema:isPartOf rdf:resource="https://mr.wikipedia.org/"/>
+		<schema:name xml:lang="mr">कोव्हिड-१९ लस</schema:name>
+	</rdf:Description>
+	<rdf:Description rdf:about="https://mr.wikipedia.org/">
+		<wikibase:wikiGroup>wikipedia</wikibase:wikiGroup>
+	</rdf:Description>
+	<rdf:Description rdf:about="https://eu.wikipedia.org/wiki/COVID-19aren_aurkako_txertoak">
+		<rdf:type rdf:resource="http://schema.org/Article"/>
+		<schema:about rdf:resource="http://www.wikidata.org/entity/Q87719492"/>
+		<schema:inLanguage>eu</schema:inLanguage>
+		<schema:isPartOf rdf:resource="https://eu.wikipedia.org/"/>
+		<schema:name xml:lang="eu">COVID-19aren aurkako txertoak</schema:name>
+	</rdf:Description>
+	<rdf:Description rdf:about="https://eu.wikipedia.org/">
+		<wikibase:wikiGroup>wikipedia</wikibase:wikiGroup>
+	</rdf:Description>
+	<rdf:Description rdf:about="https://fa.wikipedia.org/wiki/%D9%88%D8%A7%DA%A9%D8%B3%D9%86_%DA%A9%D9%88%D9%88%DB%8C%D8%AF-%DB%B1%DB%B9">
+		<rdf:type rdf:resource="http://schema.org/Article"/>
+		<schema:about rdf:resource="http://www.wikidata.org/entity/Q87719492"/>
+		<schema:inLanguage>fa</schema:inLanguage>
+		<schema:isPartOf rdf:resource="https://fa.wikipedia.org/"/>
+		<schema:name xml:lang="fa">واکسن کووید-۱۹</schema:name>
+	</rdf:Description>
+	<rdf:Description rdf:about="https://fa.wikipedia.org/">
+		<wikibase:wikiGroup>wikipedia</wikibase:wikiGroup>
+	</rdf:Description>
+	<rdf:Description rdf:about="https://wuu.wikipedia.org/wiki/2019%E5%86%A0%E7%8A%B6%E7%97%85%E6%AF%92%E7%97%85%E7%96%AB%E8%8B%97">
+		<rdf:type rdf:resource="http://schema.org/Article"/>
+		<schema:about rdf:resource="http://www.wikidata.org/entity/Q87719492"/>
+		<schema:inLanguage>wuu</schema:inLanguage>
+		<schema:isPartOf rdf:resource="https://wuu.wikipedia.org/"/>
+		<schema:name xml:lang="wuu">2019冠状病毒病疫苗</schema:name>
+	</rdf:Description>
+	<rdf:Description rdf:about="https://wuu.wikipedia.org/">
+		<wikibase:wikiGroup>wikipedia</wikibase:wikiGroup>
+	</rdf:Description>
+	<rdf:Description rdf:about="https://en.wikiquote.org/wiki/COVID-19_vaccine">
+		<rdf:type rdf:resource="http://schema.org/Article"/>
+		<schema:about rdf:resource="http://www.wikidata.org/entity/Q87719492"/>
+		<schema:inLanguage>en</schema:inLanguage>
+		<schema:isPartOf rdf:resource="https://en.wikiquote.org/"/>
+		<schema:name xml:lang="en">COVID-19 vaccine</schema:name>
+	</rdf:Description>
+	<rdf:Description rdf:about="https://en.wikiquote.org/">
+		<wikibase:wikiGroup>wikiquote</wikibase:wikiGroup>
+	</rdf:Description>
+	<rdf:Description rdf:about="https://te.wikipedia.org/wiki/%E0%B0%95%E0%B1%8B%E0%B0%B5%E0%B0%BF%E0%B0%A1%E0%B1%8D-19_%E0%B0%B5%E0%B0%BE%E0%B0%95%E0%B1%8D%E0%B0%B8%E0%B0%BF%E0%B0%A8%E0%B1%8D">
+		<rdf:type rdf:resource="http://schema.org/Article"/>
+		<schema:about rdf:resource="http://www.wikidata.org/entity/Q87719492"/>
+		<schema:inLanguage>te</schema:inLanguage>
+		<schema:isPartOf rdf:resource="https://te.wikipedia.org/"/>
+		<schema:name xml:lang="te">కోవిడ్-19 వాక్సిన్</schema:name>
+	</rdf:Description>
+	<rdf:Description rdf:about="https://te.wikipedia.org/">
+		<wikibase:wikiGroup>wikipedia</wikibase:wikiGroup>
+	</rdf:Description>
+	<rdf:Description rdf:about="https://sl.wikipedia.org/wiki/Cepivo_proti_covidu-19">
+		<rdf:type rdf:resource="http://schema.org/Article"/>
+		<schema:about rdf:resource="http://www.wikidata.org/entity/Q87719492"/>
+		<schema:inLanguage>sl</schema:inLanguage>
+		<schema:isPartOf rdf:resource="https://sl.wikipedia.org/"/>
+		<schema:name xml:lang="sl">Cepivo proti covidu-19</schema:name>
+	</rdf:Description>
+	<rdf:Description rdf:about="https://sl.wikipedia.org/">
+		<wikibase:wikiGroup>wikipedia</wikibase:wikiGroup>
+	</rdf:Description>
+	<rdf:Description rdf:about="https://an.wikipedia.org/wiki/Vacuna_contra_la_COVID-19">
+		<rdf:type rdf:resource="http://schema.org/Article"/>
+		<schema:about rdf:resource="http://www.wikidata.org/entity/Q87719492"/>
+		<schema:inLanguage>an</schema:inLanguage>
+		<schema:isPartOf rdf:resource="https://an.wikipedia.org/"/>
+		<schema:name xml:lang="an">Vacuna contra la COVID-19</schema:name>
+	</rdf:Description>
+	<rdf:Description rdf:about="https://an.wikipedia.org/">
+		<wikibase:wikiGroup>wikipedia</wikibase:wikiGroup>
+	</rdf:Description>
+	<rdf:Description rdf:about="https://lv.wikipedia.org/wiki/COVID-19_vakc%C4%ABna">
+		<rdf:type rdf:resource="http://schema.org/Article"/>
+		<schema:about rdf:resource="http://www.wikidata.org/entity/Q87719492"/>
+		<schema:inLanguage>lv</schema:inLanguage>
+		<schema:isPartOf rdf:resource="https://lv.wikipedia.org/"/>
+		<schema:name xml:lang="lv">COVID-19 vakcīna</schema:name>
+	</rdf:Description>
+	<rdf:Description rdf:about="https://lv.wikipedia.org/">
+		<wikibase:wikiGroup>wikipedia</wikibase:wikiGroup>
+	</rdf:Description>
+	<rdf:Description rdf:about="https://ro.wikipedia.org/wiki/Vaccin_anti-COVID-19">
+		<rdf:type rdf:resource="http://schema.org/Article"/>
+		<schema:about rdf:resource="http://www.wikidata.org/entity/Q87719492"/>
+		<schema:inLanguage>ro</schema:inLanguage>
+		<schema:isPartOf rdf:resource="https://ro.wikipedia.org/"/>
+		<schema:name xml:lang="ro">Vaccin anti-COVID-19</schema:name>
+	</rdf:Description>
+	<rdf:Description rdf:about="https://ro.wikipedia.org/">
+		<wikibase:wikiGroup>wikipedia</wikibase:wikiGroup>
+	</rdf:Description>
+	<rdf:Description rdf:about="https://bs.wikipedia.org/wiki/Vakcina_protiv_COVID-a_19">
+		<rdf:type rdf:resource="http://schema.org/Article"/>
+		<schema:about rdf:resource="http://www.wikidata.org/entity/Q87719492"/>
+		<schema:inLanguage>bs</schema:inLanguage>
+		<schema:isPartOf rdf:resource="https://bs.wikipedia.org/"/>
+		<schema:name xml:lang="bs">Vakcina protiv COVID-a 19</schema:name>
+	</rdf:Description>
+	<rdf:Description rdf:about="https://bs.wikipedia.org/">
+		<wikibase:wikiGroup>wikipedia</wikibase:wikiGroup>
+	</rdf:Description>
+	<rdf:Description rdf:about="https://zh-min-nan.wikipedia.org/wiki/COVID-19_e%CC%8Dk-chu">
+		<rdf:type rdf:resource="http://schema.org/Article"/>
+		<schema:about rdf:resource="http://www.wikidata.org/entity/Q87719492"/>
+		<schema:inLanguage>nan</schema:inLanguage>
+		<schema:isPartOf rdf:resource="https://zh-min-nan.wikipedia.org/"/>
+		<schema:name xml:lang="nan">COVID-19 e̍k-chu</schema:name>
+	</rdf:Description>
+	<rdf:Description rdf:about="https://zh-min-nan.wikipedia.org/">
+		<wikibase:wikiGroup>wikipedia</wikibase:wikiGroup>
+	</rdf:Description>
+	<rdf:Description rdf:about="https://id.wikipedia.org/wiki/Vaksin_Covid-19">
+		<rdf:type rdf:resource="http://schema.org/Article"/>
+		<schema:about rdf:resource="http://www.wikidata.org/entity/Q87719492"/>
+		<schema:inLanguage>id</schema:inLanguage>
+		<schema:isPartOf rdf:resource="https://id.wikipedia.org/"/>
+		<schema:name xml:lang="id">Vaksin Covid-19</schema:name>
+	</rdf:Description>
+	<rdf:Description rdf:about="https://id.wikipedia.org/">
+		<wikibase:wikiGroup>wikipedia</wikibase:wikiGroup>
+	</rdf:Description>
+	<rdf:Description rdf:about="https://af.wikipedia.org/wiki/Covid-19-entstof">
+		<rdf:type rdf:resource="http://schema.org/Article"/>
+		<schema:about rdf:resource="http://www.wikidata.org/entity/Q87719492"/>
+		<schema:inLanguage>af</schema:inLanguage>
+		<schema:isPartOf rdf:resource="https://af.wikipedia.org/"/>
+		<schema:name xml:lang="af">Covid-19-entstof</schema:name>
+	</rdf:Description>
+	<rdf:Description rdf:about="https://af.wikipedia.org/">
+		<wikibase:wikiGroup>wikipedia</wikibase:wikiGroup>
+	</rdf:Description>
+	<rdf:Description rdf:about="https://th.wikipedia.org/wiki/%E0%B8%A7%E0%B8%B1%E0%B8%84%E0%B8%8B%E0%B8%B5%E0%B8%99%E0%B9%82%E0%B8%84%E0%B8%A7%E0%B8%B4%E0%B8%94-19">
+		<rdf:type rdf:resource="http://schema.org/Article"/>
+		<schema:about rdf:resource="http://www.wikidata.org/entity/Q87719492"/>
+		<schema:inLanguage>th</schema:inLanguage>
+		<schema:isPartOf rdf:resource="https://th.wikipedia.org/"/>
+		<schema:name xml:lang="th">วัคซีนโควิด-19</schema:name>
+	</rdf:Description>
+	<rdf:Description rdf:about="https://th.wikipedia.org/">
+		<wikibase:wikiGroup>wikipedia</wikibase:wikiGroup>
+	</rdf:Description>
+	<rdf:Description rdf:about="https://cdo.wikipedia.org/wiki/COVID-19_%C4%ADk-mi%C3%A8u">
+		<rdf:type rdf:resource="http://schema.org/Article"/>
+		<schema:about rdf:resource="http://www.wikidata.org/entity/Q87719492"/>
+		<schema:inLanguage>cdo</schema:inLanguage>
+		<schema:isPartOf rdf:resource="https://cdo.wikipedia.org/"/>
+		<schema:name xml:lang="cdo">COVID-19 ĭk-mièu</schema:name>
+	</rdf:Description>
+	<rdf:Description rdf:about="https://cdo.wikipedia.org/">
+		<wikibase:wikiGroup>wikipedia</wikibase:wikiGroup>
+	</rdf:Description>
+	<rdf:Description rdf:about="https://sat.wikipedia.org/wiki/%E1%B1%A0%E1%B1%B3%E1%B1%B5%E1%B1%B7%E1%B1%A4%E1%B1%B0-%E1%B1%91%E1%B1%99_%E1%B1%B4%E1%B1%A4%E1%B1%A0%E1%B1%9F%E1%B1%B9">
+		<rdf:type rdf:resource="http://schema.org/Article"/>
+		<schema:about rdf:resource="http://www.wikidata.org/entity/Q87719492"/>
+		<schema:inLanguage>sat</schema:inLanguage>
+		<schema:isPartOf rdf:resource="https://sat.wikipedia.org/"/>
+		<schema:name xml:lang="sat">ᱠᱳᱵᱷᱤᱰ-᱑᱙ ᱴᱤᱠᱟᱹ</schema:name>
+	</rdf:Description>
+	<rdf:Description rdf:about="https://sat.wikipedia.org/">
+		<wikibase:wikiGroup>wikipedia</wikibase:wikiGroup>
+	</rdf:Description>
+	<rdf:Description rdf:about="https://ka.wikipedia.org/wiki/COVID-19-%E1%83%98%E1%83%A1_%E1%83%95%E1%83%90%E1%83%A5%E1%83%AA%E1%83%98%E1%83%9C%E1%83%90">
+		<rdf:type rdf:resource="http://schema.org/Article"/>
+		<schema:about rdf:resource="http://www.wikidata.org/entity/Q87719492"/>
+		<schema:inLanguage>ka</schema:inLanguage>
+		<schema:isPartOf rdf:resource="https://ka.wikipedia.org/"/>
+		<schema:name xml:lang="ka">COVID-19-ის ვაქცინა</schema:name>
+	</rdf:Description>
+	<rdf:Description rdf:about="https://ka.wikipedia.org/">
+		<wikibase:wikiGroup>wikipedia</wikibase:wikiGroup>
+	</rdf:Description>
+	<rdf:Description rdf:about="https://ha.wikipedia.org/wiki/Rigakafin_Covid-19">
+		<rdf:type rdf:resource="http://schema.org/Article"/>
+		<schema:about rdf:resource="http://www.wikidata.org/entity/Q87719492"/>
+		<schema:inLanguage>ha</schema:inLanguage>
+		<schema:isPartOf rdf:resource="https://ha.wikipedia.org/"/>
+		<schema:name xml:lang="ha">Rigakafin Covid-19</schema:name>
+	</rdf:Description>
+	<rdf:Description rdf:about="https://ha.wikipedia.org/">
+		<wikibase:wikiGroup>wikipedia</wikibase:wikiGroup>
+	</rdf:Description>
+	<rdf:Description rdf:about="https://bjn.wikipedia.org/wiki/Vaksin_Covid-19">
+		<rdf:type rdf:resource="http://schema.org/Article"/>
+		<schema:about rdf:resource="http://www.wikidata.org/entity/Q87719492"/>
+		<schema:inLanguage>bjn</schema:inLanguage>
+		<schema:isPartOf rdf:resource="https://bjn.wikipedia.org/"/>
+		<schema:name xml:lang="bjn">Vaksin Covid-19</schema:name>
+	</rdf:Description>
+	<rdf:Description rdf:about="https://bjn.wikipedia.org/">
+		<wikibase:wikiGroup>wikipedia</wikibase:wikiGroup>
+	</rdf:Description>
+	<rdf:Description rdf:about="https://bg.wikipedia.org/wiki/%D0%92%D0%B0%D0%BA%D1%81%D0%B8%D0%BD%D0%B0_%D1%81%D1%80%D0%B5%D1%89%D1%83_COVID-19">
+		<rdf:type rdf:resource="http://schema.org/Article"/>
+		<schema:about rdf:resource="http://www.wikidata.org/entity/Q87719492"/>
+		<schema:inLanguage>bg</schema:inLanguage>
+		<schema:isPartOf rdf:resource="https://bg.wikipedia.org/"/>
+		<schema:name xml:lang="bg">Ваксина срещу COVID-19</schema:name>
+	</rdf:Description>
+	<rdf:Description rdf:about="https://bg.wikipedia.org/">
+		<wikibase:wikiGroup>wikipedia</wikibase:wikiGroup>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.wikidata.org/entity/Q87719492">
+		<wdt:P279 rdf:resource="http://www.wikidata.org/entity/Q87752017"/>
+		<wdt:P373>COVID-19 vaccines</wdt:P373>
+		<wdt:P5008 rdf:resource="http://www.wikidata.org/entity/Q87748614"/>
+		<wdt:P5008 rdf:resource="http://www.wikidata.org/entity/Q4099686"/>
+		<wdt:P1924 rdf:resource="http://www.wikidata.org/entity/Q84263196"/>
+		<wdt:P910 rdf:resource="http://www.wikidata.org/entity/Q98725931"/>
+		<wdt:P1424 rdf:resource="http://www.wikidata.org/entity/Q99707960"/>
+		<wdt:P5337>CAAqBwgKMOKumwswprmzAw</wdt:P5337>
+		<wdt:P18 rdf:resource="http://commons.wikimedia.org/wiki/Special:FilePath/2020%2012%2027%20mas%20vacunados%20en%20la%20residencia%20mixta%201.jpg"/>
+		<wdt:P2671>/g/11j8_9sv06</wdt:P2671>
+		<wdtn:P2671 rdf:resource="http://g.co/kg/g/11j8_9sv06"/>
+		<wdt:P2184 rdf:resource="http://www.wikidata.org/entity/Q105080622"/>
+		<wdt:P9346>coronavirus</wdt:P9346>
+		<wdt:P9318>koronavaksiidna</wdt:P9318>
+		<wdt:P2354 rdf:resource="http://www.wikidata.org/entity/Q106016986"/>
+		<wdt:P6200>c87z0we2g0zt</wdt:P6200>
+		<wdt:P9368>covid-19-vaccine</wdt:P9368>
+		<p:P279 rdf:resource="http://www.wikidata.org/entity/statement/Q87719492-5ffd9c79-41ce-40c6-12f6-5ebc2cd9e520"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.wikidata.org/entity/statement/Q87719492-5ffd9c79-41ce-40c6-12f6-5ebc2cd9e520">
+		<rdf:type rdf:resource="http://wikiba.se/ontology#Statement"/>
+		<rdf:type rdf:resource="http://wikiba.se/ontology#BestRank"/>
+		<wikibase:rank rdf:resource="http://wikiba.se/ontology#NormalRank"/>
+		<ps:P279 rdf:resource="http://www.wikidata.org/entity/Q87752017"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.wikidata.org/entity/Q87719492">
+		<p:P373 rdf:resource="http://www.wikidata.org/entity/statement/Q87719492-bd97b357-4997-d7c7-3730-b4ddcac6d645"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.wikidata.org/entity/statement/Q87719492-bd97b357-4997-d7c7-3730-b4ddcac6d645">
+		<rdf:type rdf:resource="http://wikiba.se/ontology#Statement"/>
+		<rdf:type rdf:resource="http://wikiba.se/ontology#BestRank"/>
+		<wikibase:rank rdf:resource="http://wikiba.se/ontology#NormalRank"/>
+		<ps:P373>COVID-19 vaccines</ps:P373>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.wikidata.org/entity/Q87719492">
+		<p:P5008 rdf:resource="http://www.wikidata.org/entity/statement/Q87719492-6541D96E-21EF-475E-AA7F-ADF3CCD7272A"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.wikidata.org/entity/statement/Q87719492-6541D96E-21EF-475E-AA7F-ADF3CCD7272A">
+		<rdf:type rdf:resource="http://wikiba.se/ontology#Statement"/>
+		<rdf:type rdf:resource="http://wikiba.se/ontology#BestRank"/>
+		<wikibase:rank rdf:resource="http://wikiba.se/ontology#NormalRank"/>
+		<ps:P5008 rdf:resource="http://www.wikidata.org/entity/Q87748614"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.wikidata.org/entity/Q87719492">
+		<p:P5008 rdf:resource="http://www.wikidata.org/entity/statement/Q87719492-1265fb89-4cbc-54d6-c4b7-4be23076e5cc"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.wikidata.org/entity/statement/Q87719492-1265fb89-4cbc-54d6-c4b7-4be23076e5cc">
+		<rdf:type rdf:resource="http://wikiba.se/ontology#Statement"/>
+		<rdf:type rdf:resource="http://wikiba.se/ontology#BestRank"/>
+		<wikibase:rank rdf:resource="http://wikiba.se/ontology#NormalRank"/>
+		<ps:P5008 rdf:resource="http://www.wikidata.org/entity/Q4099686"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.wikidata.org/entity/Q87719492">
+		<p:P1924 rdf:resource="http://www.wikidata.org/entity/statement/Q87719492-ee330763-41d1-351f-ed5d-119a10903ff9"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.wikidata.org/entity/statement/Q87719492-ee330763-41d1-351f-ed5d-119a10903ff9">
+		<rdf:type rdf:resource="http://wikiba.se/ontology#Statement"/>
+		<rdf:type rdf:resource="http://wikiba.se/ontology#BestRank"/>
+		<wikibase:rank rdf:resource="http://wikiba.se/ontology#NormalRank"/>
+		<ps:P1924 rdf:resource="http://www.wikidata.org/entity/Q84263196"/>
+		<pq:P5102 rdf:resource="http://www.wikidata.org/entity/Q41719"/>
+		<prov:wasDerivedFrom rdf:resource="http://www.wikidata.org/reference/875a48a1cceb4b509c7388ae46dedfb0630f97e9"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.wikidata.org/entity/Q87719492">
+		<p:P910 rdf:resource="http://www.wikidata.org/entity/statement/Q87719492-b92ab515-4ca5-cc61-2666-85d8fa76862d"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.wikidata.org/entity/statement/Q87719492-b92ab515-4ca5-cc61-2666-85d8fa76862d">
+		<rdf:type rdf:resource="http://wikiba.se/ontology#Statement"/>
+		<rdf:type rdf:resource="http://wikiba.se/ontology#BestRank"/>
+		<wikibase:rank rdf:resource="http://wikiba.se/ontology#NormalRank"/>
+		<ps:P910 rdf:resource="http://www.wikidata.org/entity/Q98725931"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.wikidata.org/entity/Q87719492">
+		<p:P1424 rdf:resource="http://www.wikidata.org/entity/statement/Q87719492-fb3de751-4594-53d1-2351-40b6cb7418fc"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.wikidata.org/entity/statement/Q87719492-fb3de751-4594-53d1-2351-40b6cb7418fc">
+		<rdf:type rdf:resource="http://wikiba.se/ontology#Statement"/>
+		<rdf:type rdf:resource="http://wikiba.se/ontology#BestRank"/>
+		<wikibase:rank rdf:resource="http://wikiba.se/ontology#NormalRank"/>
+		<ps:P1424 rdf:resource="http://www.wikidata.org/entity/Q99707960"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.wikidata.org/entity/Q87719492">
+		<p:P5337 rdf:resource="http://www.wikidata.org/entity/statement/Q87719492-07b7cd7e-43e4-2f14-a037-073f4fd4dc8b"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.wikidata.org/entity/statement/Q87719492-07b7cd7e-43e4-2f14-a037-073f4fd4dc8b">
+		<rdf:type rdf:resource="http://wikiba.se/ontology#Statement"/>
+		<rdf:type rdf:resource="http://wikiba.se/ontology#BestRank"/>
+		<wikibase:rank rdf:resource="http://wikiba.se/ontology#NormalRank"/>
+		<ps:P5337>CAAqBwgKMOKumwswprmzAw</ps:P5337>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.wikidata.org/entity/Q87719492">
+		<p:P18 rdf:resource="http://www.wikidata.org/entity/statement/Q87719492-14b24125-41e6-5753-9ed1-fae56aec13db"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.wikidata.org/entity/statement/Q87719492-14b24125-41e6-5753-9ed1-fae56aec13db">
+		<rdf:type rdf:resource="http://wikiba.se/ontology#Statement"/>
+		<rdf:type rdf:resource="http://wikiba.se/ontology#BestRank"/>
+		<wikibase:rank rdf:resource="http://wikiba.se/ontology#NormalRank"/>
+		<ps:P18 rdf:resource="http://commons.wikimedia.org/wiki/Special:FilePath/2020%2012%2027%20mas%20vacunados%20en%20la%20residencia%20mixta%201.jpg"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.wikidata.org/entity/Q87719492">
+		<p:P2671 rdf:resource="http://www.wikidata.org/entity/statement/Q87719492-9F87F319-733D-4AD9-B427-FC9EBBC2A0EC"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.wikidata.org/entity/statement/Q87719492-9F87F319-733D-4AD9-B427-FC9EBBC2A0EC">
+		<rdf:type rdf:resource="http://wikiba.se/ontology#Statement"/>
+		<rdf:type rdf:resource="http://wikiba.se/ontology#BestRank"/>
+		<wikibase:rank rdf:resource="http://wikiba.se/ontology#NormalRank"/>
+		<ps:P2671>/g/11j8_9sv06</ps:P2671>
+		<psn:P2671 rdf:resource="http://g.co/kg/g/11j8_9sv06"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.wikidata.org/entity/Q87719492">
+		<p:P2184 rdf:resource="http://www.wikidata.org/entity/statement/Q87719492-611bc19f-49c9-26c6-539b-15f190de5910"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.wikidata.org/entity/statement/Q87719492-611bc19f-49c9-26c6-539b-15f190de5910">
+		<rdf:type rdf:resource="http://wikiba.se/ontology#Statement"/>
+		<rdf:type rdf:resource="http://wikiba.se/ontology#BestRank"/>
+		<wikibase:rank rdf:resource="http://wikiba.se/ontology#NormalRank"/>
+		<ps:P2184 rdf:resource="http://www.wikidata.org/entity/Q105080622"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.wikidata.org/entity/Q87719492">
+		<p:P9346 rdf:resource="http://www.wikidata.org/entity/statement/Q87719492-00826075-43bb-f6a9-ea49-57d023ff78f4"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.wikidata.org/entity/statement/Q87719492-00826075-43bb-f6a9-ea49-57d023ff78f4">
+		<rdf:type rdf:resource="http://wikiba.se/ontology#Statement"/>
+		<rdf:type rdf:resource="http://wikiba.se/ontology#BestRank"/>
+		<wikibase:rank rdf:resource="http://wikiba.se/ontology#NormalRank"/>
+		<ps:P9346>coronavirus</ps:P9346>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.wikidata.org/entity/Q87719492">
+		<p:P9318 rdf:resource="http://www.wikidata.org/entity/statement/Q87719492-7afb173c-4e9a-732d-c426-457af629c489"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.wikidata.org/entity/statement/Q87719492-7afb173c-4e9a-732d-c426-457af629c489">
+		<rdf:type rdf:resource="http://wikiba.se/ontology#Statement"/>
+		<rdf:type rdf:resource="http://wikiba.se/ontology#BestRank"/>
+		<wikibase:rank rdf:resource="http://wikiba.se/ontology#NormalRank"/>
+		<ps:P9318>koronavaksiidna</ps:P9318>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.wikidata.org/entity/Q87719492">
+		<p:P2354 rdf:resource="http://www.wikidata.org/entity/statement/Q87719492-c89b81cf-4093-3770-0d9f-a84ec0b73096"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.wikidata.org/entity/statement/Q87719492-c89b81cf-4093-3770-0d9f-a84ec0b73096">
+		<rdf:type rdf:resource="http://wikiba.se/ontology#Statement"/>
+		<rdf:type rdf:resource="http://wikiba.se/ontology#BestRank"/>
+		<wikibase:rank rdf:resource="http://wikiba.se/ontology#NormalRank"/>
+		<ps:P2354 rdf:resource="http://www.wikidata.org/entity/Q106016986"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.wikidata.org/entity/Q87719492">
+		<p:P6200 rdf:resource="http://www.wikidata.org/entity/statement/Q87719492-f2dc9534-41ad-dd2f-a251-6b7e62395e05"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.wikidata.org/entity/statement/Q87719492-f2dc9534-41ad-dd2f-a251-6b7e62395e05">
+		<rdf:type rdf:resource="http://wikiba.se/ontology#Statement"/>
+		<rdf:type rdf:resource="http://wikiba.se/ontology#BestRank"/>
+		<wikibase:rank rdf:resource="http://wikiba.se/ontology#NormalRank"/>
+		<ps:P6200>c87z0we2g0zt</ps:P6200>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.wikidata.org/entity/Q87719492">
+		<p:P9368 rdf:resource="http://www.wikidata.org/entity/statement/Q87719492-29a17cbe-4a58-7ff9-9db0-beefc336972d"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.wikidata.org/entity/statement/Q87719492-29a17cbe-4a58-7ff9-9db0-beefc336972d">
+		<rdf:type rdf:resource="http://wikiba.se/ontology#Statement"/>
+		<rdf:type rdf:resource="http://wikiba.se/ontology#BestRank"/>
+		<wikibase:rank rdf:resource="http://wikiba.se/ontology#NormalRank"/>
+		<ps:P9368>covid-19-vaccine</ps:P9368>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.wikidata.org/entity/Q87719492">
+		<rdfs:label xml:lang="ro">Vaccin anti-COVID-19</rdfs:label>
+		<skos:prefLabel xml:lang="ro">Vaccin anti-COVID-19</skos:prefLabel>
+		<schema:name xml:lang="ro">Vaccin anti-COVID-19</schema:name>
+		<rdfs:label xml:lang="en">COVID-19 vaccine</rdfs:label>
+		<skos:prefLabel xml:lang="en">COVID-19 vaccine</skos:prefLabel>
+		<schema:name xml:lang="en">COVID-19 vaccine</schema:name>
+		<rdfs:label xml:lang="nn">covid-19-vaksine</rdfs:label>
+		<skos:prefLabel xml:lang="nn">covid-19-vaksine</skos:prefLabel>
+		<schema:name xml:lang="nn">covid-19-vaksine</schema:name>
+		<rdfs:label xml:lang="ar">لقاح كوفيد-19</rdfs:label>
+		<skos:prefLabel xml:lang="ar">لقاح كوفيد-19</skos:prefLabel>
+		<schema:name xml:lang="ar">لقاح كوفيد-19</schema:name>
+		<rdfs:label xml:lang="ko">코로나19 백신</rdfs:label>
+		<skos:prefLabel xml:lang="ko">코로나19 백신</skos:prefLabel>
+		<schema:name xml:lang="ko">코로나19 백신</schema:name>
+		<rdfs:label xml:lang="pt-br">vacina contra a COVID-19</rdfs:label>
+		<skos:prefLabel xml:lang="pt-br">vacina contra a COVID-19</skos:prefLabel>
+		<schema:name xml:lang="pt-br">vacina contra a COVID-19</schema:name>
+		<rdfs:label xml:lang="pt">vacina contra a COVID-19</rdfs:label>
+		<skos:prefLabel xml:lang="pt">vacina contra a COVID-19</skos:prefLabel>
+		<schema:name xml:lang="pt">vacina contra a COVID-19</schema:name>
+		<rdfs:label xml:lang="ca">vacuna contra la COVID-19</rdfs:label>
+		<skos:prefLabel xml:lang="ca">vacuna contra la COVID-19</skos:prefLabel>
+		<schema:name xml:lang="ca">vacuna contra la COVID-19</schema:name>
+		<rdfs:label xml:lang="id">vaksin COVID-19</rdfs:label>
+		<skos:prefLabel xml:lang="id">vaksin COVID-19</skos:prefLabel>
+		<schema:name xml:lang="id">vaksin COVID-19</schema:name>
+		<rdfs:label xml:lang="de">SARS-CoV-2-Impfstoff</rdfs:label>
+		<skos:prefLabel xml:lang="de">SARS-CoV-2-Impfstoff</skos:prefLabel>
+		<schema:name xml:lang="de">SARS-CoV-2-Impfstoff</schema:name>
+		<rdfs:label xml:lang="tr">COVID-19 aşısı</rdfs:label>
+		<skos:prefLabel xml:lang="tr">COVID-19 aşısı</skos:prefLabel>
+		<schema:name xml:lang="tr">COVID-19 aşısı</schema:name>
+		<rdfs:label xml:lang="bn">কোভিড-১৯ টিকা</rdfs:label>
+		<skos:prefLabel xml:lang="bn">কোভিড-১৯ টিকা</skos:prefLabel>
+		<schema:name xml:lang="bn">কোভিড-১৯ টিকা</schema:name>
+		<rdfs:label xml:lang="ml">കൊറോണവൈറസ് രോഗം 2019 വാക്സിൻ</rdfs:label>
+		<skos:prefLabel xml:lang="ml">കൊറോണവൈറസ് രോഗം 2019 വാക്സിൻ</skos:prefLabel>
+		<schema:name xml:lang="ml">കൊറോണവൈറസ് രോഗം 2019 വാക്സിൻ</schema:name>
+		<rdfs:label xml:lang="hu">Covid19-vakcina</rdfs:label>
+		<skos:prefLabel xml:lang="hu">Covid19-vakcina</skos:prefLabel>
+		<schema:name xml:lang="hu">Covid19-vakcina</schema:name>
+		<rdfs:label xml:lang="sq">Vaksina për COVID-19</rdfs:label>
+		<skos:prefLabel xml:lang="sq">Vaksina për COVID-19</skos:prefLabel>
+		<schema:name xml:lang="sq">Vaksina për COVID-19</schema:name>
+		<rdfs:label xml:lang="el">Εμβόλιο COVID-19</rdfs:label>
+		<skos:prefLabel xml:lang="el">Εμβόλιο COVID-19</skos:prefLabel>
+		<schema:name xml:lang="el">Εμβόλιο COVID-19</schema:name>
+		<rdfs:label xml:lang="ta">கொரோனாவைரசுத் தொற்று 2019 தடுப்பூசி ஆய்வு</rdfs:label>
+		<skos:prefLabel xml:lang="ta">கொரோனாவைரசுத் தொற்று 2019 தடுப்பூசி ஆய்வு</skos:prefLabel>
+		<schema:name xml:lang="ta">கொரோனாவைரசுத் தொற்று 2019 தடுப்பூசி ஆய்வு</schema:name>
+		<rdfs:label xml:lang="vi">Vắc-xin COVID-19</rdfs:label>
+		<skos:prefLabel xml:lang="vi">Vắc-xin COVID-19</skos:prefLabel>
+		<schema:name xml:lang="vi">Vắc-xin COVID-19</schema:name>
+		<rdfs:label xml:lang="ug">يېڭى تىپتىكى تاجسىمان ۋىرۇس كېسىلى ۋاكسىنىسى(كوۋىد-19 كېسىلى ۋاكسىنىسى)</rdfs:label>
+		<skos:prefLabel xml:lang="ug">يېڭى تىپتىكى تاجسىمان ۋىرۇس كېسىلى ۋاكسىنىسى(كوۋىد-19 كېسىلى ۋاكسىنىسى)</skos:prefLabel>
+		<schema:name xml:lang="ug">يېڭى تىپتىكى تاجسىمان ۋىرۇس كېسىلى ۋاكسىنىسى(كوۋىد-19 كېسىلى ۋاكسىنىسى)</schema:name>
+		<rdfs:label xml:lang="ru">вакцина против COVID-19</rdfs:label>
+		<skos:prefLabel xml:lang="ru">вакцина против COVID-19</skos:prefLabel>
+		<schema:name xml:lang="ru">вакцина против COVID-19</schema:name>
+		<rdfs:label xml:lang="ms">Vaksin COVID-19</rdfs:label>
+		<skos:prefLabel xml:lang="ms">Vaksin COVID-19</skos:prefLabel>
+		<schema:name xml:lang="ms">Vaksin COVID-19</schema:name>
+		<rdfs:label xml:lang="zh">2019冠状病毒病疫苗</rdfs:label>
+		<skos:prefLabel xml:lang="zh">2019冠状病毒病疫苗</skos:prefLabel>
+		<schema:name xml:lang="zh">2019冠状病毒病疫苗</schema:name>
+		<rdfs:label xml:lang="fr">vaccin contre la Covid-19</rdfs:label>
+		<skos:prefLabel xml:lang="fr">vaccin contre la Covid-19</skos:prefLabel>
+		<schema:name xml:lang="fr">vaccin contre la Covid-19</schema:name>
+		<rdfs:label xml:lang="uk">Вакцина проти COVID-19</rdfs:label>
+		<skos:prefLabel xml:lang="uk">Вакцина проти COVID-19</skos:prefLabel>
+		<schema:name xml:lang="uk">Вакцина проти COVID-19</schema:name>
+		<rdfs:label xml:lang="kn">ಕೋವಿಡ್-೧೯ ಲಸಿಕೆ</rdfs:label>
+		<skos:prefLabel xml:lang="kn">ಕೋವಿಡ್-೧೯ ಲಸಿಕೆ</skos:prefLabel>
+		<schema:name xml:lang="kn">ಕೋವಿಡ್-೧೯ ಲಸಿಕೆ</schema:name>
+		<rdfs:label xml:lang="kab">Tigezt mgal Covid-19</rdfs:label>
+		<skos:prefLabel xml:lang="kab">Tigezt mgal Covid-19</skos:prefLabel>
+		<schema:name xml:lang="kab">Tigezt mgal Covid-19</schema:name>
+		<rdfs:label xml:lang="es">vacuna contra COVID-19</rdfs:label>
+		<skos:prefLabel xml:lang="es">vacuna contra COVID-19</skos:prefLabel>
+		<schema:name xml:lang="es">vacuna contra COVID-19</schema:name>
+		<rdfs:label xml:lang="fi">COVID-19-rokote</rdfs:label>
+		<skos:prefLabel xml:lang="fi">COVID-19-rokote</skos:prefLabel>
+		<schema:name xml:lang="fi">COVID-19-rokote</schema:name>
+		<rdfs:label xml:lang="si">කොවිඩ්-19 එන්නත</rdfs:label>
+		<skos:prefLabel xml:lang="si">කොවිඩ්-19 එන්නත</skos:prefLabel>
+		<schema:name xml:lang="si">කොවිඩ්-19 එන්නත</schema:name>
+		<rdfs:label xml:lang="gl">Vacina da COVID-19</rdfs:label>
+		<skos:prefLabel xml:lang="gl">Vacina da COVID-19</skos:prefLabel>
+		<schema:name xml:lang="gl">Vacina da COVID-19</schema:name>
+		<rdfs:label xml:lang="bs">Vakcina protiv bolesti COVID-19</rdfs:label>
+		<skos:prefLabel xml:lang="bs">Vakcina protiv bolesti COVID-19</skos:prefLabel>
+		<schema:name xml:lang="bs">Vakcina protiv bolesti COVID-19</schema:name>
+		<rdfs:label xml:lang="sd">ڪووڊ-١٩ ويڪسين</rdfs:label>
+		<skos:prefLabel xml:lang="sd">ڪووڊ-١٩ ويڪسين</skos:prefLabel>
+		<schema:name xml:lang="sd">ڪووڊ-١٩ ويڪسين</schema:name>
+		<rdfs:label xml:lang="ur">کووڈ-١٩ ویکسین</rdfs:label>
+		<skos:prefLabel xml:lang="ur">کووڈ-١٩ ویکسین</skos:prefLabel>
+		<schema:name xml:lang="ur">کووڈ-١٩ ویکسین</schema:name>
+		<rdfs:label xml:lang="ja">COVID-19ワクチン</rdfs:label>
+		<skos:prefLabel xml:lang="ja">COVID-19ワクチン</skos:prefLabel>
+		<schema:name xml:lang="ja">COVID-19ワクチン</schema:name>
+		<rdfs:label xml:lang="eu">COVID-19aren aurkako txertoa</rdfs:label>
+		<skos:prefLabel xml:lang="eu">COVID-19aren aurkako txertoa</skos:prefLabel>
+		<schema:name xml:lang="eu">COVID-19aren aurkako txertoa</schema:name>
+		<rdfs:label xml:lang="nl">COVID-19-vaccin</rdfs:label>
+		<skos:prefLabel xml:lang="nl">COVID-19-vaccin</skos:prefLabel>
+		<schema:name xml:lang="nl">COVID-19-vaccin</schema:name>
+		<rdfs:label xml:lang="hi">COVID-19 का टीका</rdfs:label>
+		<skos:prefLabel xml:lang="hi">COVID-19 का टीका</skos:prefLabel>
+		<schema:name xml:lang="hi">COVID-19 का टीका</schema:name>
+		<rdfs:label xml:lang="sv">COVID-19-vaccin</rdfs:label>
+		<skos:prefLabel xml:lang="sv">COVID-19-vaccin</skos:prefLabel>
+		<schema:name xml:lang="sv">COVID-19-vaccin</schema:name>
+		<rdfs:label xml:lang="fa">واکسن بیماری کروناویروس ۲۰۱۹</rdfs:label>
+		<skos:prefLabel xml:lang="fa">واکسن بیماری کروناویروس ۲۰۱۹</skos:prefLabel>
+		<schema:name xml:lang="fa">واکسن بیماری کروناویروس ۲۰۱۹</schema:name>
+		<rdfs:label xml:lang="lt">COVID-19 vakcina</rdfs:label>
+		<skos:prefLabel xml:lang="lt">COVID-19 vakcina</skos:prefLabel>
+		<schema:name xml:lang="lt">COVID-19 vakcina</schema:name>
+		<rdfs:label xml:lang="hr">Cjepivo protiv COVID-19</rdfs:label>
+		<skos:prefLabel xml:lang="hr">Cjepivo protiv COVID-19</skos:prefLabel>
+		<schema:name xml:lang="hr">Cjepivo protiv COVID-19</schema:name>
+		<rdfs:label xml:lang="th">วัคซีนโรคติดเชื้อไวรัสโคโรนา 2019</rdfs:label>
+		<skos:prefLabel xml:lang="th">วัคซีนโรคติดเชื้อไวรัสโคโรนา 2019</skos:prefLabel>
+		<schema:name xml:lang="th">วัคซีนโรคติดเชื้อไวรัสโคโรนา 2019</schema:name>
+		<rdfs:label xml:lang="it">vaccino anti COVID-19</rdfs:label>
+		<skos:prefLabel xml:lang="it">vaccino anti COVID-19</skos:prefLabel>
+		<schema:name xml:lang="it">vaccino anti COVID-19</schema:name>
+		<rdfs:label xml:lang="sk">Vakcína proti chorobe COVID-19</rdfs:label>
+		<skos:prefLabel xml:lang="sk">Vakcína proti chorobe COVID-19</skos:prefLabel>
+		<schema:name xml:lang="sk">Vakcína proti chorobe COVID-19</schema:name>
+		<rdfs:label xml:lang="sr">вакцина против вируса корона САРС-КоВ-2</rdfs:label>
+		<skos:prefLabel xml:lang="sr">вакцина против вируса корона САРС-КоВ-2</skos:prefLabel>
+		<schema:name xml:lang="sr">вакцина против вируса корона САРС-КоВ-2</schema:name>
+		<rdfs:label xml:lang="en-ca">COVID-19 vaccine</rdfs:label>
+		<skos:prefLabel xml:lang="en-ca">COVID-19 vaccine</skos:prefLabel>
+		<schema:name xml:lang="en-ca">COVID-19 vaccine</schema:name>
+		<rdfs:label xml:lang="en-gb">COVID-19 vaccine</rdfs:label>
+		<skos:prefLabel xml:lang="en-gb">COVID-19 vaccine</skos:prefLabel>
+		<schema:name xml:lang="en-gb">COVID-19 vaccine</schema:name>
+		<rdfs:label xml:lang="nb">Covid-19-vaksiner</rdfs:label>
+		<skos:prefLabel xml:lang="nb">Covid-19-vaksiner</skos:prefLabel>
+		<schema:name xml:lang="nb">Covid-19-vaksiner</schema:name>
+		<rdfs:label xml:lang="da">COVID-19-vaccine</rdfs:label>
+		<skos:prefLabel xml:lang="da">COVID-19-vaccine</skos:prefLabel>
+		<schema:name xml:lang="da">COVID-19-vaccine</schema:name>
+		<rdfs:label xml:lang="he">חיסון נגד קורונה</rdfs:label>
+		<skos:prefLabel xml:lang="he">חיסון נגד קורונה</skos:prefLabel>
+		<schema:name xml:lang="he">חיסון נגד קורונה</schema:name>
+		<rdfs:label xml:lang="pl">szczepionka przeciw COVID-19</rdfs:label>
+		<skos:prefLabel xml:lang="pl">szczepionka przeciw COVID-19</skos:prefLabel>
+		<schema:name xml:lang="pl">szczepionka przeciw COVID-19</schema:name>
+		<rdfs:label xml:lang="de-ch">SARS-CoV-2-Impfstoff</rdfs:label>
+		<skos:prefLabel xml:lang="de-ch">SARS-CoV-2-Impfstoff</skos:prefLabel>
+		<schema:name xml:lang="de-ch">SARS-CoV-2-Impfstoff</schema:name>
+		<rdfs:label xml:lang="de-at">SARS-CoV-2-Impfstoff</rdfs:label>
+		<skos:prefLabel xml:lang="de-at">SARS-CoV-2-Impfstoff</skos:prefLabel>
+		<schema:name xml:lang="de-at">SARS-CoV-2-Impfstoff</schema:name>
+		<rdfs:label xml:lang="cs">vakcína proti covidu-19</rdfs:label>
+		<skos:prefLabel xml:lang="cs">vakcína proti covidu-19</skos:prefLabel>
+		<schema:name xml:lang="cs">vakcína proti covidu-19</schema:name>
+		<rdfs:label xml:lang="eo">vakcino kontraŭ KOVIM-19</rdfs:label>
+		<skos:prefLabel xml:lang="eo">vakcino kontraŭ KOVIM-19</skos:prefLabel>
+		<schema:name xml:lang="eo">vakcino kontraŭ KOVIM-19</schema:name>
+		<rdfs:label xml:lang="lmo">Vacin contra el SARS-CoV-2</rdfs:label>
+		<skos:prefLabel xml:lang="lmo">Vacin contra el SARS-CoV-2</skos:prefLabel>
+		<schema:name xml:lang="lmo">Vacin contra el SARS-CoV-2</schema:name>
+		<rdfs:label xml:lang="arz">طوعم كوڤيد-19</rdfs:label>
+		<skos:prefLabel xml:lang="arz">طوعم كوڤيد-19</skos:prefLabel>
+		<schema:name xml:lang="arz">طوعم كوڤيد-19</schema:name>
+		<rdfs:label xml:lang="ts">Nthlavelo wa COVID-19</rdfs:label>
+		<skos:prefLabel xml:lang="ts">Nthlavelo wa COVID-19</skos:prefLabel>
+		<schema:name xml:lang="ts">Nthlavelo wa COVID-19</schema:name>
+		<rdfs:label xml:lang="ckb">ڤاکسینی کۆڤید-١٩</rdfs:label>
+		<skos:prefLabel xml:lang="ckb">ڤاکسینی کۆڤید-١٩</skos:prefLabel>
+		<schema:name xml:lang="ckb">ڤاکسینی کۆڤید-١٩</schema:name>
+		<rdfs:label xml:lang="az">COVID-19 qarşı peyvənd</rdfs:label>
+		<skos:prefLabel xml:lang="az">COVID-19 qarşı peyvənd</skos:prefLabel>
+		<schema:name xml:lang="az">COVID-19 qarşı peyvənd</schema:name>
+		<rdfs:label xml:lang="mnw">ဝက်သိန် ကဝ်ဝိဒ်-၁၉</rdfs:label>
+		<skos:prefLabel xml:lang="mnw">ဝက်သိန် ကဝ်ဝိဒ်-၁၉</skos:prefLabel>
+		<schema:name xml:lang="mnw">ဝက်သိန် ကဝ်ဝိဒ်-၁၉</schema:name>
+		<rdfs:label xml:lang="et">Koroonavaktsiin</rdfs:label>
+		<skos:prefLabel xml:lang="et">Koroonavaktsiin</skos:prefLabel>
+		<schema:name xml:lang="et">Koroonavaktsiin</schema:name>
+		<rdfs:label xml:lang="pnb">کووڈ-١٩ ویکسین</rdfs:label>
+		<skos:prefLabel xml:lang="pnb">کووڈ-١٩ ویکسین</skos:prefLabel>
+		<schema:name xml:lang="pnb">کووڈ-١٩ ویکسین</schema:name>
+		<rdfs:label xml:lang="yue">武漢肺炎疫苗</rdfs:label>
+		<skos:prefLabel xml:lang="yue">武漢肺炎疫苗</skos:prefLabel>
+		<schema:name xml:lang="yue">武漢肺炎疫苗</schema:name>
+		<rdfs:label xml:lang="mr">कोव्हिड-१९ लस</rdfs:label>
+		<skos:prefLabel xml:lang="mr">कोव्हिड-१९ लस</skos:prefLabel>
+		<schema:name xml:lang="mr">कोव्हिड-१९ लस</schema:name>
+		<rdfs:label xml:lang="kk-cyrl">COVID-19ға қарсы вакцина</rdfs:label>
+		<skos:prefLabel xml:lang="kk-cyrl">COVID-19ға қарсы вакцина</skos:prefLabel>
+		<schema:name xml:lang="kk-cyrl">COVID-19ға қарсы вакцина</schema:name>
+		<rdfs:label xml:lang="wuu">2019冠状病毒病疫苗</rdfs:label>
+		<skos:prefLabel xml:lang="wuu">2019冠状病毒病疫苗</skos:prefLabel>
+		<schema:name xml:lang="wuu">2019冠状病毒病疫苗</schema:name>
+		<rdfs:label xml:lang="te">కోవిడ్-19 వాక్సిన్</rdfs:label>
+		<skos:prefLabel xml:lang="te">కోవిడ్-19 వాక్సిన్</skos:prefLabel>
+		<schema:name xml:lang="te">కోవిడ్-19 వాక్సిన్</schema:name>
+		<rdfs:label xml:lang="ne">काेराेनाकाे खाेप</rdfs:label>
+		<skos:prefLabel xml:lang="ne">काेराेनाकाे खाेप</skos:prefLabel>
+		<schema:name xml:lang="ne">काेराेनाकाे खाेप</schema:name>
+		<rdfs:label xml:lang="lv">COVID-19 vakcīna</rdfs:label>
+		<skos:prefLabel xml:lang="lv">COVID-19 vakcīna</skos:prefLabel>
+		<schema:name xml:lang="lv">COVID-19 vakcīna</schema:name>
+		<rdfs:label xml:lang="an">Vacuna contra la COVID-19</rdfs:label>
+		<skos:prefLabel xml:lang="an">Vacuna contra la COVID-19</skos:prefLabel>
+		<schema:name xml:lang="an">Vacuna contra la COVID-19</schema:name>
+		<rdfs:label xml:lang="bg">Ваксина срещу COVID-19</rdfs:label>
+		<skos:prefLabel xml:lang="bg">Ваксина срещу COVID-19</skos:prefLabel>
+		<schema:name xml:lang="bg">Ваксина срещу COVID-19</schema:name>
+		<rdfs:label xml:lang="sl">Cepivo proti covidu-19</rdfs:label>
+		<skos:prefLabel xml:lang="sl">Cepivo proti covidu-19</skos:prefLabel>
+		<schema:name xml:lang="sl">Cepivo proti covidu-19</schema:name>
+		<rdfs:label xml:lang="nan">COVID-19 e̍k-chu</rdfs:label>
+		<skos:prefLabel xml:lang="nan">COVID-19 e̍k-chu</skos:prefLabel>
+		<schema:name xml:lang="nan">COVID-19 e̍k-chu</schema:name>
+		<rdfs:label xml:lang="zh-tw">嚴重特殊傳染性肺炎疫苗</rdfs:label>
+		<skos:prefLabel xml:lang="zh-tw">嚴重特殊傳染性肺炎疫苗</skos:prefLabel>
+		<schema:name xml:lang="zh-tw">嚴重特殊傳染性肺炎疫苗</schema:name>
+		<rdfs:label xml:lang="zh-hant">嚴重特殊傳染性肺炎疫苗</rdfs:label>
+		<skos:prefLabel xml:lang="zh-hant">嚴重特殊傳染性肺炎疫苗</skos:prefLabel>
+		<schema:name xml:lang="zh-hant">嚴重特殊傳染性肺炎疫苗</schema:name>
+		<rdfs:label xml:lang="af">Covid-19-entstof</rdfs:label>
+		<skos:prefLabel xml:lang="af">Covid-19-entstof</skos:prefLabel>
+		<schema:name xml:lang="af">Covid-19-entstof</schema:name>
+		<rdfs:label xml:lang="cdo">COVID-19 ĭk-mièu</rdfs:label>
+		<skos:prefLabel xml:lang="cdo">COVID-19 ĭk-mièu</skos:prefLabel>
+		<schema:name xml:lang="cdo">COVID-19 ĭk-mièu</schema:name>
+		<rdfs:label xml:lang="sat">ᱠᱳᱵᱷᱤᱰ-᱑᱙ ᱴᱤᱠᱟᱹ</rdfs:label>
+		<skos:prefLabel xml:lang="sat">ᱠᱳᱵᱷᱤᱰ-᱑᱙ ᱴᱤᱠᱟᱹ</skos:prefLabel>
+		<schema:name xml:lang="sat">ᱠᱳᱵᱷᱤᱰ-᱑᱙ ᱴᱤᱠᱟᱹ</schema:name>
+		<rdfs:label xml:lang="ka">COVID-19-ის ვაქცინა</rdfs:label>
+		<skos:prefLabel xml:lang="ka">COVID-19-ის ვაქცინა</skos:prefLabel>
+		<schema:name xml:lang="ka">COVID-19-ის ვაქცინა</schema:name>
+		<rdfs:label xml:lang="bjn">Vaksin COVID-19</rdfs:label>
+		<skos:prefLabel xml:lang="bjn">Vaksin COVID-19</skos:prefLabel>
+		<schema:name xml:lang="bjn">Vaksin COVID-19</schema:name>
+		<rdfs:label xml:lang="ha">Rigakafin Covid-19</rdfs:label>
+		<skos:prefLabel xml:lang="ha">Rigakafin Covid-19</skos:prefLabel>
+		<schema:name xml:lang="ha">Rigakafin Covid-19</schema:name>
+		<schema:description xml:lang="nn">vaksine mot koronavirussjukdommen covid-19</schema:description>
+		<schema:description xml:lang="ar">لقاح مُعتمد ضد مرض فيروس كورونا</schema:description>
+		<schema:description xml:lang="en">vaccine against SARS-CoV-2 coronavirus</schema:description>
+		<schema:description xml:lang="de">Impfstoff gegen das SARS-CoV-2-Virus</schema:description>
+		<schema:description xml:lang="tr">COVID-19 hastalığına karşı bağışıklık sağlamayı amaçlayan biyoteknoloji ürünü</schema:description>
+		<schema:description xml:lang="ro">Vaccin împotriva coronavirus SARS-CoV-2</schema:description>
+		<schema:description xml:lang="sq">vaksina hipotetike kundër COVID-19</schema:description>
+		<schema:description xml:lang="vi">vắc-xin chống bệnh virus corona chủng mới 2019</schema:description>
+		<schema:description xml:lang="it">vaccino contro la COVID-19</schema:description>
+		<schema:description xml:lang="ca">vacuna</schema:description>
+		<schema:description xml:lang="ko">코로나19 바이러스의 백신</schema:description>
+		<schema:description xml:lang="de-at">Impfstoff gegen SARS-Cov-2</schema:description>
+		<schema:description xml:lang="de-ch">Impfstoff gegen SARS-Cov-2</schema:description>
+		<schema:description xml:lang="sv">vaccin mot coronavirus</schema:description>
+		<schema:description xml:lang="fi">rokote SARS-CoV-2-koronavirusta vastaan</schema:description>
+		<schema:description xml:lang="id">Vaksin atau vaksin potensial penanggulangan COVID-19</schema:description>
+		<schema:description xml:lang="fr">vaccin contre le coronavirus SARS-CoV-2</schema:description>
+		<schema:description xml:lang="pl">szczepionka przeciw koronawirusowi SARS-CoV-2</schema:description>
+		<schema:description xml:lang="es">conjunto de vacunas creadas para prevenir el Covid-19</schema:description>
+		<schema:description xml:lang="cs">vakcína proti koronaviru SARS-CoV-2</schema:description>
+		<schema:description xml:lang="he">חיסון שמטרתו להקנות חסינות נרכשת כנגד מחלת נגיף קורונה 2019 (COVID-19)</schema:description>
+		<schema:description xml:lang="ja">新型コロナウイルス感染症（COVID‑19）に対する獲得免疫を提供することを目的とした、いくつかの異なるワクチン技術の総称</schema:description>
+		<schema:description xml:lang="ru">Тип вакцин против COVID-19</schema:description>
+		<schema:description xml:lang="hi">एसएआरएस-कोव्ह-२ कोरोनाव्हायरस विरोधी टीका</schema:description>
+		<schema:description xml:lang="mr">एसएआरएस-कोव्ह-२ कोरोनाव्हायरस विरोधी लस</schema:description>
+		<schema:description xml:lang="pt">detalhes das vacinas existentes contra a COVID-19</schema:description>
+		<schema:description xml:lang="th">วัคซีนเพื่อลดการติดเชื้อโควิด-19</schema:description>
+		<schema:description xml:lang="ne">काेभिड - १९ विरूद्दकाे खाेप</schema:description>
+		<schema:description xml:lang="zh-tw">用來對抗SARS-CoV-2冠狀病毒的疫苗</schema:description>
+		<schema:description xml:lang="zh-hant">用來對抗SARS-CoV-2冠狀病毒的疫苗</schema:description>
+		<schema:description xml:lang="fa">انواع واکسن کووید ۱۹</schema:description>
+		<schema:description xml:lang="zh">针对SARS-CoV-2新型冠状病毒的疫苗</schema:description>
+		<skos:altLabel xml:lang="nn">vaksine mot covid-19</skos:altLabel>
+		<skos:altLabel xml:lang="pt-br">Vacina para COVID-19</skos:altLabel>
+		<skos:altLabel xml:lang="id">vaksin penyakit koronavirus 2019</skos:altLabel>
+		<skos:altLabel xml:lang="ca">vacuna de la COVID-19</skos:altLabel>
+		<skos:altLabel xml:lang="ca">vaccí contra la COVID-19</skos:altLabel>
+		<skos:altLabel xml:lang="ca">vaccí de la COVID-19</skos:altLabel>
+		<skos:altLabel xml:lang="de">Coronavirus-Impfstoff</skos:altLabel>
+		<skos:altLabel xml:lang="de">Corona-Impfstoff</skos:altLabel>
+		<skos:altLabel xml:lang="es">Vacuna para el COVID-19</skos:altLabel>
+		<skos:altLabel xml:lang="es">Vacuna contra el coronavirus</skos:altLabel>
+		<skos:altLabel xml:lang="es">Vacuna COVID-19</skos:altLabel>
+		<skos:altLabel xml:lang="fi">koronavirusrokote</skos:altLabel>
+		<skos:altLabel xml:lang="sr">Ковид-19 – вакцина у истраживању</skos:altLabel>
+		<skos:altLabel xml:lang="nl">coronavaccin</skos:altLabel>
+		<skos:altLabel xml:lang="nl">coronavirusvaccin</skos:altLabel>
+		<skos:altLabel xml:lang="en">corona vaccine</skos:altLabel>
+		<skos:altLabel xml:lang="en">COVID vaccine</skos:altLabel>
+		<skos:altLabel xml:lang="en">SARS-CoV-2 vaccine</skos:altLabel>
+		<skos:altLabel xml:lang="en">COVID-19 vaccines</skos:altLabel>
+		<skos:altLabel xml:lang="en">coronvirus vaccine</skos:altLabel>
+		<skos:altLabel xml:lang="cs">očkování proti covidu-19</skos:altLabel>
+		<skos:altLabel xml:lang="cs">vakcína proti koronaviru</skos:altLabel>
+		<skos:altLabel xml:lang="de-at">Coronavirus-Impfstoff</skos:altLabel>
+		<skos:altLabel xml:lang="de-at">Corona-Impfstoff</skos:altLabel>
+		<skos:altLabel xml:lang="de-ch">Coronavirus-Impfstoff</skos:altLabel>
+		<skos:altLabel xml:lang="de-ch">Corona-Impfstoff</skos:altLabel>
+		<skos:altLabel xml:lang="sv">coronavaccin</skos:altLabel>
+		<skos:altLabel xml:lang="it">vaccino contro la COVID-19</skos:altLabel>
+		<skos:altLabel xml:lang="it">vaccino contro il SARS-CoV-2</skos:altLabel>
+		<skos:altLabel xml:lang="it">vaccino anti SARS-CoV-2</skos:altLabel>
+		<skos:altLabel xml:lang="fr">COVID vaccin</skos:altLabel>
+		<skos:altLabel xml:lang="fr">vaccin covid</skos:altLabel>
+		<skos:altLabel xml:lang="eo">vakcino kontraŭ COVID-19</skos:altLabel>
+		<skos:altLabel xml:lang="zh">新冠疫苗</skos:altLabel>
+		<skos:altLabel xml:lang="zh">COVID-19疫苗</skos:altLabel>
+		<skos:altLabel xml:lang="ro">Vaccin împotriva coronavirus</skos:altLabel>
+		<skos:altLabel xml:lang="ro">Vaccin COVID</skos:altLabel>
+		<skos:altLabel xml:lang="ro">Vaccin SARS-CoV-2</skos:altLabel>
+		<skos:altLabel xml:lang="ko">코로나바이러스감염증-19 백신</skos:altLabel>
+		<skos:altLabel xml:lang="ne">काेराेना भ्याक्सिन</skos:altLabel>
+		<skos:altLabel xml:lang="fa">انواع واکسن کرونا</skos:altLabel>
+		<skos:altLabel xml:lang="fa">واکسن های کرونا</skos:altLabel>
+		<skos:altLabel xml:lang="fa">واکسنهای کروناویروس</skos:altLabel>
+		<skos:altLabel xml:lang="fa">واکسن های کوید ۱۹</skos:altLabel>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.wikidata.org/entity/Q87752017">
+		<rdf:type rdf:resource="http://wikiba.se/ontology#Item"/>
+		<rdfs:label xml:lang="en">Coronavirus-induced disease vaccine</rdfs:label>
+		<skos:prefLabel xml:lang="en">Coronavirus-induced disease vaccine</skos:prefLabel>
+		<schema:name xml:lang="en">Coronavirus-induced disease vaccine</schema:name>
+		<schema:description xml:lang="en">any vaccine against a a contagious disease caused by any coronavirus</schema:description>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.wikidata.org/entity/P279">
+		<rdf:type rdf:resource="http://wikiba.se/ontology#Property"/>
+		<rdfs:label xml:lang="en">subclass of</rdfs:label>
+		<skos:prefLabel xml:lang="en">subclass of</skos:prefLabel>
+		<schema:name xml:lang="en">subclass of</schema:name>
+		<schema:description xml:lang="en">next higher class or type; all instances of these items are instances of those items; this item is a class (subset) of that item. Not to be confused with P31 (instance of)</schema:description>
+		<wikibase:propertyType rdf:resource="http://wikiba.se/ontology#WikibaseItem"/>
+		<wikibase:directClaim rdf:resource="http://www.wikidata.org/prop/direct/P279"/>
+		<wikibase:claim rdf:resource="http://www.wikidata.org/prop/P279"/>
+		<wikibase:statementProperty rdf:resource="http://www.wikidata.org/prop/statement/P279"/>
+		<wikibase:statementValue rdf:resource="http://www.wikidata.org/prop/statement/value/P279"/>
+		<wikibase:qualifier rdf:resource="http://www.wikidata.org/prop/qualifier/P279"/>
+		<wikibase:qualifierValue rdf:resource="http://www.wikidata.org/prop/qualifier/value/P279"/>
+		<wikibase:reference rdf:resource="http://www.wikidata.org/prop/reference/P279"/>
+		<wikibase:referenceValue rdf:resource="http://www.wikidata.org/prop/reference/value/P279"/>
+		<wikibase:novalue rdf:resource="http://www.wikidata.org/prop/novalue/P279"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.wikidata.org/prop/P279">
+		<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.wikidata.org/prop/statement/value/P279">
+		<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.wikidata.org/prop/qualifier/value/P279">
+		<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.wikidata.org/prop/reference/value/P279">
+		<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.wikidata.org/prop/direct/P279">
+		<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.wikidata.org/prop/statement/P279">
+		<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.wikidata.org/prop/qualifier/P279">
+		<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.wikidata.org/prop/reference/P279">
+		<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.wikidata.org/prop/novalue/P279">
+		<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+		<owl:complementOf rdf:nodeID="55a0a46aa65f620d17fa7dc3671280d4"/>
+	</rdf:Description>
+	<rdf:Description rdf:nodeID="55a0a46aa65f620d17fa7dc3671280d4">
+		<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+		<owl:onProperty rdf:resource="http://www.wikidata.org/prop/direct/P279"/>
+		<owl:someValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.wikidata.org/entity/P373">
+		<rdf:type rdf:resource="http://wikiba.se/ontology#Property"/>
+		<rdfs:label xml:lang="en">Commons category</rdfs:label>
+		<skos:prefLabel xml:lang="en">Commons category</skos:prefLabel>
+		<schema:name xml:lang="en">Commons category</schema:name>
+		<schema:description xml:lang="en">name of the Wikimedia Commons category containing files related to this item (without the prefix &quot;Category:&quot;)</schema:description>
+		<wikibase:propertyType rdf:resource="http://wikiba.se/ontology#String"/>
+		<wikibase:directClaim rdf:resource="http://www.wikidata.org/prop/direct/P373"/>
+		<wikibase:claim rdf:resource="http://www.wikidata.org/prop/P373"/>
+		<wikibase:statementProperty rdf:resource="http://www.wikidata.org/prop/statement/P373"/>
+		<wikibase:statementValue rdf:resource="http://www.wikidata.org/prop/statement/value/P373"/>
+		<wikibase:qualifier rdf:resource="http://www.wikidata.org/prop/qualifier/P373"/>
+		<wikibase:qualifierValue rdf:resource="http://www.wikidata.org/prop/qualifier/value/P373"/>
+		<wikibase:reference rdf:resource="http://www.wikidata.org/prop/reference/P373"/>
+		<wikibase:referenceValue rdf:resource="http://www.wikidata.org/prop/reference/value/P373"/>
+		<wikibase:novalue rdf:resource="http://www.wikidata.org/prop/novalue/P373"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.wikidata.org/prop/P373">
+		<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.wikidata.org/prop/statement/value/P373">
+		<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.wikidata.org/prop/qualifier/value/P373">
+		<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.wikidata.org/prop/reference/value/P373">
+		<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.wikidata.org/prop/direct/P373">
+		<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.wikidata.org/prop/statement/P373">
+		<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.wikidata.org/prop/qualifier/P373">
+		<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.wikidata.org/prop/reference/P373">
+		<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.wikidata.org/prop/novalue/P373">
+		<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+		<owl:complementOf rdf:nodeID="3de19c92e209926f02f215095eb4fd12"/>
+	</rdf:Description>
+	<rdf:Description rdf:nodeID="3de19c92e209926f02f215095eb4fd12">
+		<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+		<owl:onProperty rdf:resource="http://www.wikidata.org/prop/direct/P373"/>
+		<owl:someValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.wikidata.org/entity/Q87748614">
+		<rdf:type rdf:resource="http://wikiba.se/ontology#Item"/>
+		<rdfs:label xml:lang="en">WikiProject COVID-19</rdfs:label>
+		<skos:prefLabel xml:lang="en">WikiProject COVID-19</skos:prefLabel>
+		<schema:name xml:lang="en">WikiProject COVID-19</schema:name>
+		<schema:description xml:lang="en">Wikimedia WikiProject dedicated to COVID-19</schema:description>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.wikidata.org/entity/P5008">
+		<rdf:type rdf:resource="http://wikiba.se/ontology#Property"/>
+		<rdfs:label xml:lang="en">on focus list of Wikimedia project</rdfs:label>
+		<skos:prefLabel xml:lang="en">on focus list of Wikimedia project</skos:prefLabel>
+		<schema:name xml:lang="en">on focus list of Wikimedia project</schema:name>
+		<schema:description xml:lang="en">property to indicate that an item is of particular interest for a Wikimedia project. This property does not add notability. Items should not be created with this property if they are not notable for Wikidata. See also P6104, P972, P2354.</schema:description>
+		<wikibase:propertyType rdf:resource="http://wikiba.se/ontology#WikibaseItem"/>
+		<wikibase:directClaim rdf:resource="http://www.wikidata.org/prop/direct/P5008"/>
+		<wikibase:claim rdf:resource="http://www.wikidata.org/prop/P5008"/>
+		<wikibase:statementProperty rdf:resource="http://www.wikidata.org/prop/statement/P5008"/>
+		<wikibase:statementValue rdf:resource="http://www.wikidata.org/prop/statement/value/P5008"/>
+		<wikibase:qualifier rdf:resource="http://www.wikidata.org/prop/qualifier/P5008"/>
+		<wikibase:qualifierValue rdf:resource="http://www.wikidata.org/prop/qualifier/value/P5008"/>
+		<wikibase:reference rdf:resource="http://www.wikidata.org/prop/reference/P5008"/>
+		<wikibase:referenceValue rdf:resource="http://www.wikidata.org/prop/reference/value/P5008"/>
+		<wikibase:novalue rdf:resource="http://www.wikidata.org/prop/novalue/P5008"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.wikidata.org/prop/P5008">
+		<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.wikidata.org/prop/statement/value/P5008">
+		<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.wikidata.org/prop/qualifier/value/P5008">
+		<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.wikidata.org/prop/reference/value/P5008">
+		<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.wikidata.org/prop/direct/P5008">
+		<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.wikidata.org/prop/statement/P5008">
+		<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.wikidata.org/prop/qualifier/P5008">
+		<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.wikidata.org/prop/reference/P5008">
+		<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.wikidata.org/prop/novalue/P5008">
+		<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+		<owl:complementOf rdf:nodeID="ccd0828df5e103c905abf7e82e607008"/>
+	</rdf:Description>
+	<rdf:Description rdf:nodeID="ccd0828df5e103c905abf7e82e607008">
+		<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+		<owl:onProperty rdf:resource="http://www.wikidata.org/prop/direct/P5008"/>
+		<owl:someValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.wikidata.org/entity/Q4099686">
+		<rdf:type rdf:resource="http://wikiba.se/ontology#Item"/>
+		<rdfs:label xml:lang="en">WikiProject Medicine</rdfs:label>
+		<skos:prefLabel xml:lang="en">WikiProject Medicine</skos:prefLabel>
+		<schema:name xml:lang="en">WikiProject Medicine</schema:name>
+		<schema:description xml:lang="en">group of Wikipedia editors</schema:description>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.wikidata.org/entity/Q84263196">
+		<rdf:type rdf:resource="http://wikiba.se/ontology#Item"/>
+		<rdfs:label xml:lang="en">COVID-19</rdfs:label>
+		<skos:prefLabel xml:lang="en">COVID-19</skos:prefLabel>
+		<schema:name xml:lang="en">COVID-19</schema:name>
+		<schema:description xml:lang="en">respiratory syndrome and infectious disease in humans, caused by SARS coronavirus 2</schema:description>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.wikidata.org/entity/P1924">
+		<rdf:type rdf:resource="http://wikiba.se/ontology#Property"/>
+		<rdfs:label xml:lang="en">vaccine for</rdfs:label>
+		<skos:prefLabel xml:lang="en">vaccine for</skos:prefLabel>
+		<schema:name xml:lang="en">vaccine for</schema:name>
+		<schema:description xml:lang="en">disease that a vaccine is for</schema:description>
+		<wikibase:propertyType rdf:resource="http://wikiba.se/ontology#WikibaseItem"/>
+		<wikibase:directClaim rdf:resource="http://www.wikidata.org/prop/direct/P1924"/>
+		<wikibase:claim rdf:resource="http://www.wikidata.org/prop/P1924"/>
+		<wikibase:statementProperty rdf:resource="http://www.wikidata.org/prop/statement/P1924"/>
+		<wikibase:statementValue rdf:resource="http://www.wikidata.org/prop/statement/value/P1924"/>
+		<wikibase:qualifier rdf:resource="http://www.wikidata.org/prop/qualifier/P1924"/>
+		<wikibase:qualifierValue rdf:resource="http://www.wikidata.org/prop/qualifier/value/P1924"/>
+		<wikibase:reference rdf:resource="http://www.wikidata.org/prop/reference/P1924"/>
+		<wikibase:referenceValue rdf:resource="http://www.wikidata.org/prop/reference/value/P1924"/>
+		<wikibase:novalue rdf:resource="http://www.wikidata.org/prop/novalue/P1924"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.wikidata.org/prop/P1924">
+		<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.wikidata.org/prop/statement/value/P1924">
+		<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.wikidata.org/prop/qualifier/value/P1924">
+		<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.wikidata.org/prop/reference/value/P1924">
+		<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.wikidata.org/prop/direct/P1924">
+		<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.wikidata.org/prop/statement/P1924">
+		<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.wikidata.org/prop/qualifier/P1924">
+		<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.wikidata.org/prop/reference/P1924">
+		<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.wikidata.org/prop/novalue/P1924">
+		<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+		<owl:complementOf rdf:nodeID="701c4419e8e6326dee5286a780aa5adf"/>
+	</rdf:Description>
+	<rdf:Description rdf:nodeID="701c4419e8e6326dee5286a780aa5adf">
+		<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+		<owl:onProperty rdf:resource="http://www.wikidata.org/prop/direct/P1924"/>
+		<owl:someValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.wikidata.org/entity/Q98725931">
+		<rdf:type rdf:resource="http://wikiba.se/ontology#Item"/>
+		<rdfs:label xml:lang="en">Category:COVID-19 vaccines</rdfs:label>
+		<skos:prefLabel xml:lang="en">Category:COVID-19 vaccines</skos:prefLabel>
+		<schema:name xml:lang="en">Category:COVID-19 vaccines</schema:name>
+		<schema:description xml:lang="en">Wikimedia category</schema:description>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.wikidata.org/entity/P910">
+		<rdf:type rdf:resource="http://wikiba.se/ontology#Property"/>
+		<rdfs:label xml:lang="en">topic&#039;s main category</rdfs:label>
+		<skos:prefLabel xml:lang="en">topic&#039;s main category</skos:prefLabel>
+		<schema:name xml:lang="en">topic&#039;s main category</schema:name>
+		<schema:description xml:lang="en">main Wikimedia category</schema:description>
+		<wikibase:propertyType rdf:resource="http://wikiba.se/ontology#WikibaseItem"/>
+		<wikibase:directClaim rdf:resource="http://www.wikidata.org/prop/direct/P910"/>
+		<wikibase:claim rdf:resource="http://www.wikidata.org/prop/P910"/>
+		<wikibase:statementProperty rdf:resource="http://www.wikidata.org/prop/statement/P910"/>
+		<wikibase:statementValue rdf:resource="http://www.wikidata.org/prop/statement/value/P910"/>
+		<wikibase:qualifier rdf:resource="http://www.wikidata.org/prop/qualifier/P910"/>
+		<wikibase:qualifierValue rdf:resource="http://www.wikidata.org/prop/qualifier/value/P910"/>
+		<wikibase:reference rdf:resource="http://www.wikidata.org/prop/reference/P910"/>
+		<wikibase:referenceValue rdf:resource="http://www.wikidata.org/prop/reference/value/P910"/>
+		<wikibase:novalue rdf:resource="http://www.wikidata.org/prop/novalue/P910"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.wikidata.org/prop/P910">
+		<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.wikidata.org/prop/statement/value/P910">
+		<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.wikidata.org/prop/qualifier/value/P910">
+		<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.wikidata.org/prop/reference/value/P910">
+		<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.wikidata.org/prop/direct/P910">
+		<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.wikidata.org/prop/statement/P910">
+		<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.wikidata.org/prop/qualifier/P910">
+		<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.wikidata.org/prop/reference/P910">
+		<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.wikidata.org/prop/novalue/P910">
+		<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+		<owl:complementOf rdf:nodeID="06be9361e78d041ce01df69013cf6906"/>
+	</rdf:Description>
+	<rdf:Description rdf:nodeID="06be9361e78d041ce01df69013cf6906">
+		<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+		<owl:onProperty rdf:resource="http://www.wikidata.org/prop/direct/P910"/>
+		<owl:someValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.wikidata.org/entity/Q99707960">
+		<rdf:type rdf:resource="http://wikiba.se/ontology#Item"/>
+		<rdfs:label xml:lang="en">Template:COVID-19 vaccine candidates</rdfs:label>
+		<skos:prefLabel xml:lang="en">Template:COVID-19 vaccine candidates</skos:prefLabel>
+		<schema:name xml:lang="en">Template:COVID-19 vaccine candidates</schema:name>
+		<schema:description xml:lang="en">Wikimedia template</schema:description>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.wikidata.org/entity/P1424">
+		<rdf:type rdf:resource="http://wikiba.se/ontology#Property"/>
+		<rdfs:label xml:lang="en">topic&#039;s main template</rdfs:label>
+		<skos:prefLabel xml:lang="en">topic&#039;s main template</skos:prefLabel>
+		<schema:name xml:lang="en">topic&#039;s main template</schema:name>
+		<schema:description xml:lang="en">the main template relating to a topic</schema:description>
+		<wikibase:propertyType rdf:resource="http://wikiba.se/ontology#WikibaseItem"/>
+		<wikibase:directClaim rdf:resource="http://www.wikidata.org/prop/direct/P1424"/>
+		<wikibase:claim rdf:resource="http://www.wikidata.org/prop/P1424"/>
+		<wikibase:statementProperty rdf:resource="http://www.wikidata.org/prop/statement/P1424"/>
+		<wikibase:statementValue rdf:resource="http://www.wikidata.org/prop/statement/value/P1424"/>
+		<wikibase:qualifier rdf:resource="http://www.wikidata.org/prop/qualifier/P1424"/>
+		<wikibase:qualifierValue rdf:resource="http://www.wikidata.org/prop/qualifier/value/P1424"/>
+		<wikibase:reference rdf:resource="http://www.wikidata.org/prop/reference/P1424"/>
+		<wikibase:referenceValue rdf:resource="http://www.wikidata.org/prop/reference/value/P1424"/>
+		<wikibase:novalue rdf:resource="http://www.wikidata.org/prop/novalue/P1424"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.wikidata.org/prop/P1424">
+		<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.wikidata.org/prop/statement/value/P1424">
+		<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.wikidata.org/prop/qualifier/value/P1424">
+		<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.wikidata.org/prop/reference/value/P1424">
+		<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.wikidata.org/prop/direct/P1424">
+		<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.wikidata.org/prop/statement/P1424">
+		<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.wikidata.org/prop/qualifier/P1424">
+		<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.wikidata.org/prop/reference/P1424">
+		<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.wikidata.org/prop/novalue/P1424">
+		<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+		<owl:complementOf rdf:nodeID="2ee7d5920addccfd2f71cd7cf239a7d9"/>
+	</rdf:Description>
+	<rdf:Description rdf:nodeID="2ee7d5920addccfd2f71cd7cf239a7d9">
+		<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+		<owl:onProperty rdf:resource="http://www.wikidata.org/prop/direct/P1424"/>
+		<owl:someValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.wikidata.org/entity/P5337">
+		<rdf:type rdf:resource="http://wikiba.se/ontology#Property"/>
+		<rdfs:label xml:lang="en">Google News topics ID</rdfs:label>
+		<skos:prefLabel xml:lang="en">Google News topics ID</skos:prefLabel>
+		<schema:name xml:lang="en">Google News topics ID</schema:name>
+		<schema:description xml:lang="en">identifier for a subject in the news on Google News</schema:description>
+		<wikibase:propertyType rdf:resource="http://wikiba.se/ontology#ExternalId"/>
+		<wikibase:directClaim rdf:resource="http://www.wikidata.org/prop/direct/P5337"/>
+		<wikibase:claim rdf:resource="http://www.wikidata.org/prop/P5337"/>
+		<wikibase:statementProperty rdf:resource="http://www.wikidata.org/prop/statement/P5337"/>
+		<wikibase:statementValue rdf:resource="http://www.wikidata.org/prop/statement/value/P5337"/>
+		<wikibase:qualifier rdf:resource="http://www.wikidata.org/prop/qualifier/P5337"/>
+		<wikibase:qualifierValue rdf:resource="http://www.wikidata.org/prop/qualifier/value/P5337"/>
+		<wikibase:reference rdf:resource="http://www.wikidata.org/prop/reference/P5337"/>
+		<wikibase:referenceValue rdf:resource="http://www.wikidata.org/prop/reference/value/P5337"/>
+		<wikibase:novalue rdf:resource="http://www.wikidata.org/prop/novalue/P5337"/>
+		<wikibase:directClaimNormalized rdf:resource="http://www.wikidata.org/prop/direct-normalized/P5337"/>
+		<wikibase:statementValueNormalized rdf:resource="http://www.wikidata.org/prop/statement/value-normalized/P5337"/>
+		<wikibase:qualifierValueNormalized rdf:resource="http://www.wikidata.org/prop/qualifier/value-normalized/P5337"/>
+		<wikibase:referenceValueNormalized rdf:resource="http://www.wikidata.org/prop/reference/value-normalized/P5337"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.wikidata.org/prop/P5337">
+		<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.wikidata.org/prop/statement/value/P5337">
+		<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.wikidata.org/prop/qualifier/value/P5337">
+		<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.wikidata.org/prop/reference/value/P5337">
+		<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.wikidata.org/prop/direct/P5337">
+		<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.wikidata.org/prop/statement/P5337">
+		<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.wikidata.org/prop/qualifier/P5337">
+		<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.wikidata.org/prop/reference/P5337">
+		<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.wikidata.org/prop/statement/value-normalized/P5337">
+		<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.wikidata.org/prop/qualifier/value-normalized/P5337">
+		<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.wikidata.org/prop/reference/value-normalized/P5337">
+		<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.wikidata.org/prop/direct-normalized/P5337">
+		<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.wikidata.org/prop/novalue/P5337">
+		<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+		<owl:complementOf rdf:nodeID="20afe0be5378fd81b1a56e8c9bb639a6"/>
+	</rdf:Description>
+	<rdf:Description rdf:nodeID="20afe0be5378fd81b1a56e8c9bb639a6">
+		<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+		<owl:onProperty rdf:resource="http://www.wikidata.org/prop/direct/P5337"/>
+		<owl:someValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.wikidata.org/entity/P18">
+		<rdf:type rdf:resource="http://wikiba.se/ontology#Property"/>
+		<rdfs:label xml:lang="en">image</rdfs:label>
+		<skos:prefLabel xml:lang="en">image</skos:prefLabel>
+		<schema:name xml:lang="en">image</schema:name>
+		<schema:description xml:lang="en">image of relevant illustration of the subject; if available, use more specific properties (sample: coat of arms image, locator map, flag image, signature image, logo image, collage image)</schema:description>
+		<wikibase:propertyType rdf:resource="http://wikiba.se/ontology#CommonsMedia"/>
+		<wikibase:directClaim rdf:resource="http://www.wikidata.org/prop/direct/P18"/>
+		<wikibase:claim rdf:resource="http://www.wikidata.org/prop/P18"/>
+		<wikibase:statementProperty rdf:resource="http://www.wikidata.org/prop/statement/P18"/>
+		<wikibase:statementValue rdf:resource="http://www.wikidata.org/prop/statement/value/P18"/>
+		<wikibase:qualifier rdf:resource="http://www.wikidata.org/prop/qualifier/P18"/>
+		<wikibase:qualifierValue rdf:resource="http://www.wikidata.org/prop/qualifier/value/P18"/>
+		<wikibase:reference rdf:resource="http://www.wikidata.org/prop/reference/P18"/>
+		<wikibase:referenceValue rdf:resource="http://www.wikidata.org/prop/reference/value/P18"/>
+		<wikibase:novalue rdf:resource="http://www.wikidata.org/prop/novalue/P18"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.wikidata.org/prop/P18">
+		<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.wikidata.org/prop/statement/value/P18">
+		<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.wikidata.org/prop/qualifier/value/P18">
+		<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.wikidata.org/prop/reference/value/P18">
+		<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.wikidata.org/prop/direct/P18">
+		<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.wikidata.org/prop/statement/P18">
+		<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.wikidata.org/prop/qualifier/P18">
+		<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.wikidata.org/prop/reference/P18">
+		<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.wikidata.org/prop/novalue/P18">
+		<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+		<owl:complementOf rdf:nodeID="90353c5ec33a5dc569985590a17a3551"/>
+	</rdf:Description>
+	<rdf:Description rdf:nodeID="90353c5ec33a5dc569985590a17a3551">
+		<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+		<owl:onProperty rdf:resource="http://www.wikidata.org/prop/direct/P18"/>
+		<owl:someValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.wikidata.org/entity/P2671">
+		<rdf:type rdf:resource="http://wikiba.se/ontology#Property"/>
+		<rdfs:label xml:lang="en">Google Knowledge Graph ID</rdfs:label>
+		<skos:prefLabel xml:lang="en">Google Knowledge Graph ID</skos:prefLabel>
+		<schema:name xml:lang="en">Google Knowledge Graph ID</schema:name>
+		<schema:description xml:lang="en">identifier for Google Knowledge Graph API (starting with &quot;/g/&quot;). IDs starting with &quot;/m/&quot; are Freebase IDs (P646)</schema:description>
+		<wikibase:propertyType rdf:resource="http://wikiba.se/ontology#ExternalId"/>
+		<wikibase:directClaim rdf:resource="http://www.wikidata.org/prop/direct/P2671"/>
+		<wikibase:claim rdf:resource="http://www.wikidata.org/prop/P2671"/>
+		<wikibase:statementProperty rdf:resource="http://www.wikidata.org/prop/statement/P2671"/>
+		<wikibase:statementValue rdf:resource="http://www.wikidata.org/prop/statement/value/P2671"/>
+		<wikibase:qualifier rdf:resource="http://www.wikidata.org/prop/qualifier/P2671"/>
+		<wikibase:qualifierValue rdf:resource="http://www.wikidata.org/prop/qualifier/value/P2671"/>
+		<wikibase:reference rdf:resource="http://www.wikidata.org/prop/reference/P2671"/>
+		<wikibase:referenceValue rdf:resource="http://www.wikidata.org/prop/reference/value/P2671"/>
+		<wikibase:novalue rdf:resource="http://www.wikidata.org/prop/novalue/P2671"/>
+		<wikibase:directClaimNormalized rdf:resource="http://www.wikidata.org/prop/direct-normalized/P2671"/>
+		<wikibase:statementValueNormalized rdf:resource="http://www.wikidata.org/prop/statement/value-normalized/P2671"/>
+		<wikibase:qualifierValueNormalized rdf:resource="http://www.wikidata.org/prop/qualifier/value-normalized/P2671"/>
+		<wikibase:referenceValueNormalized rdf:resource="http://www.wikidata.org/prop/reference/value-normalized/P2671"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.wikidata.org/prop/P2671">
+		<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.wikidata.org/prop/statement/value/P2671">
+		<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.wikidata.org/prop/qualifier/value/P2671">
+		<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.wikidata.org/prop/reference/value/P2671">
+		<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.wikidata.org/prop/direct/P2671">
+		<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.wikidata.org/prop/statement/P2671">
+		<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.wikidata.org/prop/qualifier/P2671">
+		<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.wikidata.org/prop/reference/P2671">
+		<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.wikidata.org/prop/statement/value-normalized/P2671">
+		<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.wikidata.org/prop/qualifier/value-normalized/P2671">
+		<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.wikidata.org/prop/reference/value-normalized/P2671">
+		<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.wikidata.org/prop/direct-normalized/P2671">
+		<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.wikidata.org/prop/novalue/P2671">
+		<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+		<owl:complementOf rdf:nodeID="65accf8c5265233a873cf53510c73fa5"/>
+	</rdf:Description>
+	<rdf:Description rdf:nodeID="65accf8c5265233a873cf53510c73fa5">
+		<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+		<owl:onProperty rdf:resource="http://www.wikidata.org/prop/direct/P2671"/>
+		<owl:someValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.wikidata.org/entity/Q105080622">
+		<rdf:type rdf:resource="http://wikiba.se/ontology#Item"/>
+		<rdfs:label xml:lang="en">development of COVID-19 vaccines</rdfs:label>
+		<skos:prefLabel xml:lang="en">development of COVID-19 vaccines</skos:prefLabel>
+		<schema:name xml:lang="en">development of COVID-19 vaccines</schema:name>
+		<schema:description xml:lang="en">scientific work to develop a vaccine</schema:description>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.wikidata.org/entity/P2184">
+		<rdf:type rdf:resource="http://wikiba.se/ontology#Property"/>
+		<rdfs:label xml:lang="en">history of topic</rdfs:label>
+		<skos:prefLabel xml:lang="en">history of topic</skos:prefLabel>
+		<schema:name xml:lang="en">history of topic</schema:name>
+		<schema:description xml:lang="en">item about the historical development of an subject&#039;s topic, sample: &quot;history of Argentina&quot; for &quot;Argentina&quot;. To list key events of the topic, use &quot;significant event&quot; (P793)</schema:description>
+		<wikibase:propertyType rdf:resource="http://wikiba.se/ontology#WikibaseItem"/>
+		<wikibase:directClaim rdf:resource="http://www.wikidata.org/prop/direct/P2184"/>
+		<wikibase:claim rdf:resource="http://www.wikidata.org/prop/P2184"/>
+		<wikibase:statementProperty rdf:resource="http://www.wikidata.org/prop/statement/P2184"/>
+		<wikibase:statementValue rdf:resource="http://www.wikidata.org/prop/statement/value/P2184"/>
+		<wikibase:qualifier rdf:resource="http://www.wikidata.org/prop/qualifier/P2184"/>
+		<wikibase:qualifierValue rdf:resource="http://www.wikidata.org/prop/qualifier/value/P2184"/>
+		<wikibase:reference rdf:resource="http://www.wikidata.org/prop/reference/P2184"/>
+		<wikibase:referenceValue rdf:resource="http://www.wikidata.org/prop/reference/value/P2184"/>
+		<wikibase:novalue rdf:resource="http://www.wikidata.org/prop/novalue/P2184"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.wikidata.org/prop/P2184">
+		<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.wikidata.org/prop/statement/value/P2184">
+		<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.wikidata.org/prop/qualifier/value/P2184">
+		<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.wikidata.org/prop/reference/value/P2184">
+		<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.wikidata.org/prop/direct/P2184">
+		<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.wikidata.org/prop/statement/P2184">
+		<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.wikidata.org/prop/qualifier/P2184">
+		<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.wikidata.org/prop/reference/P2184">
+		<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.wikidata.org/prop/novalue/P2184">
+		<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+		<owl:complementOf rdf:nodeID="8aed719272e3a9b229a8b23006902f30"/>
+	</rdf:Description>
+	<rdf:Description rdf:nodeID="8aed719272e3a9b229a8b23006902f30">
+		<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+		<owl:onProperty rdf:resource="http://www.wikidata.org/prop/direct/P2184"/>
+		<owl:someValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.wikidata.org/entity/P9346">
+		<rdf:type rdf:resource="http://wikiba.se/ontology#Property"/>
+		<rdfs:label xml:lang="en">France24 topic ID (French)</rdfs:label>
+		<skos:prefLabel xml:lang="en">France24 topic ID (French)</skos:prefLabel>
+		<schema:name xml:lang="en">France24 topic ID (French)</schema:name>
+		<schema:description xml:lang="en">identifier of a topic on the French version of the France24 website</schema:description>
+		<wikibase:propertyType rdf:resource="http://wikiba.se/ontology#ExternalId"/>
+		<wikibase:directClaim rdf:resource="http://www.wikidata.org/prop/direct/P9346"/>
+		<wikibase:claim rdf:resource="http://www.wikidata.org/prop/P9346"/>
+		<wikibase:statementProperty rdf:resource="http://www.wikidata.org/prop/statement/P9346"/>
+		<wikibase:statementValue rdf:resource="http://www.wikidata.org/prop/statement/value/P9346"/>
+		<wikibase:qualifier rdf:resource="http://www.wikidata.org/prop/qualifier/P9346"/>
+		<wikibase:qualifierValue rdf:resource="http://www.wikidata.org/prop/qualifier/value/P9346"/>
+		<wikibase:reference rdf:resource="http://www.wikidata.org/prop/reference/P9346"/>
+		<wikibase:referenceValue rdf:resource="http://www.wikidata.org/prop/reference/value/P9346"/>
+		<wikibase:novalue rdf:resource="http://www.wikidata.org/prop/novalue/P9346"/>
+		<wikibase:directClaimNormalized rdf:resource="http://www.wikidata.org/prop/direct-normalized/P9346"/>
+		<wikibase:statementValueNormalized rdf:resource="http://www.wikidata.org/prop/statement/value-normalized/P9346"/>
+		<wikibase:qualifierValueNormalized rdf:resource="http://www.wikidata.org/prop/qualifier/value-normalized/P9346"/>
+		<wikibase:referenceValueNormalized rdf:resource="http://www.wikidata.org/prop/reference/value-normalized/P9346"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.wikidata.org/prop/P9346">
+		<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.wikidata.org/prop/statement/value/P9346">
+		<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.wikidata.org/prop/qualifier/value/P9346">
+		<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.wikidata.org/prop/reference/value/P9346">
+		<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.wikidata.org/prop/direct/P9346">
+		<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.wikidata.org/prop/statement/P9346">
+		<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.wikidata.org/prop/qualifier/P9346">
+		<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.wikidata.org/prop/reference/P9346">
+		<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.wikidata.org/prop/statement/value-normalized/P9346">
+		<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.wikidata.org/prop/qualifier/value-normalized/P9346">
+		<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.wikidata.org/prop/reference/value-normalized/P9346">
+		<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.wikidata.org/prop/direct-normalized/P9346">
+		<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.wikidata.org/prop/novalue/P9346">
+		<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+		<owl:complementOf rdf:nodeID="8a705cb147b55d4a89a93f387d65295c"/>
+	</rdf:Description>
+	<rdf:Description rdf:nodeID="8a705cb147b55d4a89a93f387d65295c">
+		<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+		<owl:onProperty rdf:resource="http://www.wikidata.org/prop/direct/P9346"/>
+		<owl:someValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.wikidata.org/entity/P9318">
+		<rdf:type rdf:resource="http://wikiba.se/ontology#Property"/>
+		<rdfs:label xml:lang="en">Ávvir topic ID</rdfs:label>
+		<skos:prefLabel xml:lang="en">Ávvir topic ID</skos:prefLabel>
+		<schema:name xml:lang="en">Ávvir topic ID</schema:name>
+		<schema:description xml:lang="en">identifier of a topic in the Northern Sámi publication Ávvir</schema:description>
+		<wikibase:propertyType rdf:resource="http://wikiba.se/ontology#ExternalId"/>
+		<wikibase:directClaim rdf:resource="http://www.wikidata.org/prop/direct/P9318"/>
+		<wikibase:claim rdf:resource="http://www.wikidata.org/prop/P9318"/>
+		<wikibase:statementProperty rdf:resource="http://www.wikidata.org/prop/statement/P9318"/>
+		<wikibase:statementValue rdf:resource="http://www.wikidata.org/prop/statement/value/P9318"/>
+		<wikibase:qualifier rdf:resource="http://www.wikidata.org/prop/qualifier/P9318"/>
+		<wikibase:qualifierValue rdf:resource="http://www.wikidata.org/prop/qualifier/value/P9318"/>
+		<wikibase:reference rdf:resource="http://www.wikidata.org/prop/reference/P9318"/>
+		<wikibase:referenceValue rdf:resource="http://www.wikidata.org/prop/reference/value/P9318"/>
+		<wikibase:novalue rdf:resource="http://www.wikidata.org/prop/novalue/P9318"/>
+		<wikibase:directClaimNormalized rdf:resource="http://www.wikidata.org/prop/direct-normalized/P9318"/>
+		<wikibase:statementValueNormalized rdf:resource="http://www.wikidata.org/prop/statement/value-normalized/P9318"/>
+		<wikibase:qualifierValueNormalized rdf:resource="http://www.wikidata.org/prop/qualifier/value-normalized/P9318"/>
+		<wikibase:referenceValueNormalized rdf:resource="http://www.wikidata.org/prop/reference/value-normalized/P9318"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.wikidata.org/prop/P9318">
+		<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.wikidata.org/prop/statement/value/P9318">
+		<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.wikidata.org/prop/qualifier/value/P9318">
+		<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.wikidata.org/prop/reference/value/P9318">
+		<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.wikidata.org/prop/direct/P9318">
+		<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.wikidata.org/prop/statement/P9318">
+		<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.wikidata.org/prop/qualifier/P9318">
+		<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.wikidata.org/prop/reference/P9318">
+		<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.wikidata.org/prop/statement/value-normalized/P9318">
+		<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.wikidata.org/prop/qualifier/value-normalized/P9318">
+		<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.wikidata.org/prop/reference/value-normalized/P9318">
+		<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.wikidata.org/prop/direct-normalized/P9318">
+		<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.wikidata.org/prop/novalue/P9318">
+		<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+		<owl:complementOf rdf:nodeID="fc55186407914920a347fee586bd2dd8"/>
+	</rdf:Description>
+	<rdf:Description rdf:nodeID="fc55186407914920a347fee586bd2dd8">
+		<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+		<owl:onProperty rdf:resource="http://www.wikidata.org/prop/direct/P9318"/>
+		<owl:someValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.wikidata.org/entity/Q106016986">
+		<rdf:type rdf:resource="http://wikiba.se/ontology#Item"/>
+		<rdfs:label xml:lang="en">list of COVID-19 vaccine authorizations</rdfs:label>
+		<skos:prefLabel xml:lang="en">list of COVID-19 vaccine authorizations</skos:prefLabel>
+		<schema:name xml:lang="en">list of COVID-19 vaccine authorizations</schema:name>
+		<schema:description xml:lang="en">Wikimedia list article</schema:description>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.wikidata.org/entity/P2354">
+		<rdf:type rdf:resource="http://wikiba.se/ontology#Property"/>
+		<rdfs:label xml:lang="en">has list</rdfs:label>
+		<skos:prefLabel xml:lang="en">has list</skos:prefLabel>
+		<schema:name xml:lang="en">has list</schema:name>
+		<schema:description xml:lang="en">Wikimedia list related to this subject</schema:description>
+		<wikibase:propertyType rdf:resource="http://wikiba.se/ontology#WikibaseItem"/>
+		<wikibase:directClaim rdf:resource="http://www.wikidata.org/prop/direct/P2354"/>
+		<wikibase:claim rdf:resource="http://www.wikidata.org/prop/P2354"/>
+		<wikibase:statementProperty rdf:resource="http://www.wikidata.org/prop/statement/P2354"/>
+		<wikibase:statementValue rdf:resource="http://www.wikidata.org/prop/statement/value/P2354"/>
+		<wikibase:qualifier rdf:resource="http://www.wikidata.org/prop/qualifier/P2354"/>
+		<wikibase:qualifierValue rdf:resource="http://www.wikidata.org/prop/qualifier/value/P2354"/>
+		<wikibase:reference rdf:resource="http://www.wikidata.org/prop/reference/P2354"/>
+		<wikibase:referenceValue rdf:resource="http://www.wikidata.org/prop/reference/value/P2354"/>
+		<wikibase:novalue rdf:resource="http://www.wikidata.org/prop/novalue/P2354"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.wikidata.org/prop/P2354">
+		<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.wikidata.org/prop/statement/value/P2354">
+		<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.wikidata.org/prop/qualifier/value/P2354">
+		<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.wikidata.org/prop/reference/value/P2354">
+		<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.wikidata.org/prop/direct/P2354">
+		<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.wikidata.org/prop/statement/P2354">
+		<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.wikidata.org/prop/qualifier/P2354">
+		<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.wikidata.org/prop/reference/P2354">
+		<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.wikidata.org/prop/novalue/P2354">
+		<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+		<owl:complementOf rdf:nodeID="791ea1bcdc4c5009fbb485e56fdf2cd0"/>
+	</rdf:Description>
+	<rdf:Description rdf:nodeID="791ea1bcdc4c5009fbb485e56fdf2cd0">
+		<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+		<owl:onProperty rdf:resource="http://www.wikidata.org/prop/direct/P2354"/>
+		<owl:someValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.wikidata.org/entity/P6200">
+		<rdf:type rdf:resource="http://wikiba.se/ontology#Property"/>
+		<rdfs:label xml:lang="en">BBC News topic ID</rdfs:label>
+		<skos:prefLabel xml:lang="en">BBC News topic ID</skos:prefLabel>
+		<schema:name xml:lang="en">BBC News topic ID</schema:name>
+		<schema:description xml:lang="en">identifier for a topic, on the BBC News website</schema:description>
+		<wikibase:propertyType rdf:resource="http://wikiba.se/ontology#ExternalId"/>
+		<wikibase:directClaim rdf:resource="http://www.wikidata.org/prop/direct/P6200"/>
+		<wikibase:claim rdf:resource="http://www.wikidata.org/prop/P6200"/>
+		<wikibase:statementProperty rdf:resource="http://www.wikidata.org/prop/statement/P6200"/>
+		<wikibase:statementValue rdf:resource="http://www.wikidata.org/prop/statement/value/P6200"/>
+		<wikibase:qualifier rdf:resource="http://www.wikidata.org/prop/qualifier/P6200"/>
+		<wikibase:qualifierValue rdf:resource="http://www.wikidata.org/prop/qualifier/value/P6200"/>
+		<wikibase:reference rdf:resource="http://www.wikidata.org/prop/reference/P6200"/>
+		<wikibase:referenceValue rdf:resource="http://www.wikidata.org/prop/reference/value/P6200"/>
+		<wikibase:novalue rdf:resource="http://www.wikidata.org/prop/novalue/P6200"/>
+		<wikibase:directClaimNormalized rdf:resource="http://www.wikidata.org/prop/direct-normalized/P6200"/>
+		<wikibase:statementValueNormalized rdf:resource="http://www.wikidata.org/prop/statement/value-normalized/P6200"/>
+		<wikibase:qualifierValueNormalized rdf:resource="http://www.wikidata.org/prop/qualifier/value-normalized/P6200"/>
+		<wikibase:referenceValueNormalized rdf:resource="http://www.wikidata.org/prop/reference/value-normalized/P6200"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.wikidata.org/prop/P6200">
+		<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.wikidata.org/prop/statement/value/P6200">
+		<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.wikidata.org/prop/qualifier/value/P6200">
+		<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.wikidata.org/prop/reference/value/P6200">
+		<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.wikidata.org/prop/direct/P6200">
+		<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.wikidata.org/prop/statement/P6200">
+		<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.wikidata.org/prop/qualifier/P6200">
+		<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.wikidata.org/prop/reference/P6200">
+		<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.wikidata.org/prop/statement/value-normalized/P6200">
+		<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.wikidata.org/prop/qualifier/value-normalized/P6200">
+		<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.wikidata.org/prop/reference/value-normalized/P6200">
+		<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.wikidata.org/prop/direct-normalized/P6200">
+		<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.wikidata.org/prop/novalue/P6200">
+		<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+		<owl:complementOf rdf:nodeID="b813969d708da9717febf0d8d399cc2d"/>
+	</rdf:Description>
+	<rdf:Description rdf:nodeID="b813969d708da9717febf0d8d399cc2d">
+		<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+		<owl:onProperty rdf:resource="http://www.wikidata.org/prop/direct/P6200"/>
+		<owl:someValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.wikidata.org/entity/P9368">
+		<rdf:type rdf:resource="http://wikiba.se/ontology#Property"/>
+		<rdfs:label xml:lang="en">CNA topic ID</rdfs:label>
+		<skos:prefLabel xml:lang="en">CNA topic ID</skos:prefLabel>
+		<schema:name xml:lang="en">CNA topic ID</schema:name>
+		<schema:description xml:lang="en">identifier for a topic on CNA&#039;s website</schema:description>
+		<wikibase:propertyType rdf:resource="http://wikiba.se/ontology#ExternalId"/>
+		<wikibase:directClaim rdf:resource="http://www.wikidata.org/prop/direct/P9368"/>
+		<wikibase:claim rdf:resource="http://www.wikidata.org/prop/P9368"/>
+		<wikibase:statementProperty rdf:resource="http://www.wikidata.org/prop/statement/P9368"/>
+		<wikibase:statementValue rdf:resource="http://www.wikidata.org/prop/statement/value/P9368"/>
+		<wikibase:qualifier rdf:resource="http://www.wikidata.org/prop/qualifier/P9368"/>
+		<wikibase:qualifierValue rdf:resource="http://www.wikidata.org/prop/qualifier/value/P9368"/>
+		<wikibase:reference rdf:resource="http://www.wikidata.org/prop/reference/P9368"/>
+		<wikibase:referenceValue rdf:resource="http://www.wikidata.org/prop/reference/value/P9368"/>
+		<wikibase:novalue rdf:resource="http://www.wikidata.org/prop/novalue/P9368"/>
+		<wikibase:directClaimNormalized rdf:resource="http://www.wikidata.org/prop/direct-normalized/P9368"/>
+		<wikibase:statementValueNormalized rdf:resource="http://www.wikidata.org/prop/statement/value-normalized/P9368"/>
+		<wikibase:qualifierValueNormalized rdf:resource="http://www.wikidata.org/prop/qualifier/value-normalized/P9368"/>
+		<wikibase:referenceValueNormalized rdf:resource="http://www.wikidata.org/prop/reference/value-normalized/P9368"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.wikidata.org/prop/P9368">
+		<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.wikidata.org/prop/statement/value/P9368">
+		<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.wikidata.org/prop/qualifier/value/P9368">
+		<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.wikidata.org/prop/reference/value/P9368">
+		<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.wikidata.org/prop/direct/P9368">
+		<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.wikidata.org/prop/statement/P9368">
+		<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.wikidata.org/prop/qualifier/P9368">
+		<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.wikidata.org/prop/reference/P9368">
+		<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.wikidata.org/prop/statement/value-normalized/P9368">
+		<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.wikidata.org/prop/qualifier/value-normalized/P9368">
+		<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.wikidata.org/prop/reference/value-normalized/P9368">
+		<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.wikidata.org/prop/direct-normalized/P9368">
+		<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.wikidata.org/prop/novalue/P9368">
+		<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+		<owl:complementOf rdf:nodeID="2faf8028982aa8632d3bc4957065bde0"/>
+	</rdf:Description>
+	<rdf:Description rdf:nodeID="2faf8028982aa8632d3bc4957065bde0">
+		<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+		<owl:onProperty rdf:resource="http://www.wikidata.org/prop/direct/P9368"/>
+		<owl:someValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.wikidata.org/entity/Q41719">
+		<rdf:type rdf:resource="http://wikiba.se/ontology#Item"/>
+		<rdfs:label xml:lang="en">hypothesis</rdfs:label>
+		<skos:prefLabel xml:lang="en">hypothesis</skos:prefLabel>
+		<schema:name xml:lang="en">hypothesis</schema:name>
+		<schema:description xml:lang="en">proposed explanation for an observation, phenomenon, or scientific problem</schema:description>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.wikidata.org/entity/P5102">
+		<rdf:type rdf:resource="http://wikiba.se/ontology#Property"/>
+		<rdfs:label xml:lang="en">nature of statement</rdfs:label>
+		<skos:prefLabel xml:lang="en">nature of statement</skos:prefLabel>
+		<schema:name xml:lang="en">nature of statement</schema:name>
+		<schema:description xml:lang="en">(qualifier only) the underlying circumstances of this statement</schema:description>
+		<wikibase:propertyType rdf:resource="http://wikiba.se/ontology#WikibaseItem"/>
+		<wikibase:directClaim rdf:resource="http://www.wikidata.org/prop/direct/P5102"/>
+		<wikibase:claim rdf:resource="http://www.wikidata.org/prop/P5102"/>
+		<wikibase:statementProperty rdf:resource="http://www.wikidata.org/prop/statement/P5102"/>
+		<wikibase:statementValue rdf:resource="http://www.wikidata.org/prop/statement/value/P5102"/>
+		<wikibase:qualifier rdf:resource="http://www.wikidata.org/prop/qualifier/P5102"/>
+		<wikibase:qualifierValue rdf:resource="http://www.wikidata.org/prop/qualifier/value/P5102"/>
+		<wikibase:reference rdf:resource="http://www.wikidata.org/prop/reference/P5102"/>
+		<wikibase:referenceValue rdf:resource="http://www.wikidata.org/prop/reference/value/P5102"/>
+		<wikibase:novalue rdf:resource="http://www.wikidata.org/prop/novalue/P5102"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.wikidata.org/prop/P5102">
+		<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.wikidata.org/prop/statement/value/P5102">
+		<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.wikidata.org/prop/qualifier/value/P5102">
+		<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.wikidata.org/prop/reference/value/P5102">
+		<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.wikidata.org/prop/direct/P5102">
+		<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.wikidata.org/prop/statement/P5102">
+		<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.wikidata.org/prop/qualifier/P5102">
+		<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.wikidata.org/prop/reference/P5102">
+		<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.wikidata.org/prop/novalue/P5102">
+		<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+		<owl:complementOf rdf:nodeID="702a3efe4ee32375bd06c1f1201ceb3c"/>
+	</rdf:Description>
+	<rdf:Description rdf:nodeID="702a3efe4ee32375bd06c1f1201ceb3c">
+		<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+		<owl:onProperty rdf:resource="http://www.wikidata.org/prop/direct/P5102"/>
+		<owl:someValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.wikidata.org/entity/P854">
+		<rdf:type rdf:resource="http://wikiba.se/ontology#Property"/>
+		<rdfs:label xml:lang="en">reference URL</rdfs:label>
+		<skos:prefLabel xml:lang="en">reference URL</skos:prefLabel>
+		<schema:name xml:lang="en">reference URL</schema:name>
+		<schema:description xml:lang="en">should be used for Internet URLs as references. Use &quot;Wikimedia import URL&quot; (P4656) for imports from WMF sites</schema:description>
+		<wikibase:propertyType rdf:resource="http://wikiba.se/ontology#Url"/>
+		<wikibase:directClaim rdf:resource="http://www.wikidata.org/prop/direct/P854"/>
+		<wikibase:claim rdf:resource="http://www.wikidata.org/prop/P854"/>
+		<wikibase:statementProperty rdf:resource="http://www.wikidata.org/prop/statement/P854"/>
+		<wikibase:statementValue rdf:resource="http://www.wikidata.org/prop/statement/value/P854"/>
+		<wikibase:qualifier rdf:resource="http://www.wikidata.org/prop/qualifier/P854"/>
+		<wikibase:qualifierValue rdf:resource="http://www.wikidata.org/prop/qualifier/value/P854"/>
+		<wikibase:reference rdf:resource="http://www.wikidata.org/prop/reference/P854"/>
+		<wikibase:referenceValue rdf:resource="http://www.wikidata.org/prop/reference/value/P854"/>
+		<wikibase:novalue rdf:resource="http://www.wikidata.org/prop/novalue/P854"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.wikidata.org/prop/P854">
+		<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.wikidata.org/prop/statement/value/P854">
+		<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.wikidata.org/prop/qualifier/value/P854">
+		<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.wikidata.org/prop/reference/value/P854">
+		<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.wikidata.org/prop/direct/P854">
+		<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.wikidata.org/prop/statement/P854">
+		<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.wikidata.org/prop/qualifier/P854">
+		<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.wikidata.org/prop/reference/P854">
+		<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.wikidata.org/prop/novalue/P854">
+		<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+		<owl:complementOf rdf:nodeID="7317e7e5a3edc1980ecfe7616bb5fa1d"/>
+	</rdf:Description>
+	<rdf:Description rdf:nodeID="7317e7e5a3edc1980ecfe7616bb5fa1d">
+		<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+		<owl:onProperty rdf:resource="http://www.wikidata.org/prop/direct/P854"/>
+		<owl:someValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.wikidata.org/entity/Q89643106">
+		<owl:sameAs rdf:resource="http://www.wikidata.org/entity/Q87719492"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.wikidata.org/entity/Q97200163">
+		<owl:sameAs rdf:resource="http://www.wikidata.org/entity/Q87719492"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.wikidata.org/entity/Q97255048">
+		<owl:sameAs rdf:resource="http://www.wikidata.org/entity/Q87719492"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.wikidata.org/entity/Q97467240">
+		<owl:sameAs rdf:resource="http://www.wikidata.org/entity/Q87719492"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.wikidata.org/entity/Q98283557">
+		<owl:sameAs rdf:resource="http://www.wikidata.org/entity/Q87719492"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.wikidata.org/reference/875a48a1cceb4b509c7388ae46dedfb0630f97e9">
+		<rdf:type rdf:resource="http://wikiba.se/ontology#Reference"/>
+		<pr:P854 rdf:resource="https://www.mayoclinic.org/diseases-conditions/coronavirus/in-depth/coronavirus-vaccine/art-20484859"/>
+	</rdf:Description>
+</rdf:RDF>
