@@ -1,0 +1,1699 @@
+@prefix : <http://www.nutrition.com/ontologies/nutrition.owl#> .
+@prefix x: <http://www.nutrition.com/ontologies/nutrition.owl#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@base <http://www.nutrition.com/ontologies/nutrition.owl> .
+
+<http://www.nutrition.com/ontologies/nutrition.owl> rdf:type owl:Ontology ;
+                                                    
+                                                    <http://nutrition.org/dc/elements/1.1/title> "nutrition"^^xsd:string .
+
+
+#################################################################
+#
+#    Annotation properties
+#
+#################################################################
+
+
+###  http://nutrition.org/dc/elements/1.1/description
+
+<http://nutrition.org/dc/elements/1.1/description> rdf:type owl:AnnotationProperty .
+
+
+
+###  http://nutrition.org/dc/elements/1.1/format
+
+<http://nutrition.org/dc/elements/1.1/format> rdf:type owl:AnnotationProperty .
+
+
+
+###  http://nutrition.org/dc/elements/1.1/identifier
+
+<http://nutrition.org/dc/elements/1.1/identifier> rdf:type owl:AnnotationProperty .
+
+
+
+###  http://nutrition.org/dc/elements/1.1/language
+
+<http://nutrition.org/dc/elements/1.1/language> rdf:type owl:AnnotationProperty .
+
+
+
+###  http://nutrition.org/dc/elements/1.1/relation
+
+<http://nutrition.org/dc/elements/1.1/relation> rdf:type owl:AnnotationProperty .
+
+
+
+###  http://nutrition.org/dc/elements/1.1/rights
+
+<http://nutrition.org/dc/elements/1.1/rights> rdf:type owl:AnnotationProperty .
+
+
+
+###  http://nutrition.org/dc/elements/1.1/title
+
+<http://nutrition.org/dc/elements/1.1/title> rdf:type owl:AnnotationProperty .
+
+
+
+###  http://www.w3.org/2002/07/owl#sameAs
+
+owl:sameAs rdf:type owl:AnnotationProperty .
+
+
+
+
+
+#################################################################
+#
+#    Object Properties
+#
+#################################################################
+
+
+###  http://www.nutrition.com/ontologies/nutrition.owl#containedInFood
+
+:containedInFood rdf:type owl:ObjectProperty ,
+                          owl:SymmetricProperty ;
+                 
+                 owl:inverseOf :containsFood .
+
+
+
+###  http://www.nutrition.com/ontologies/nutrition.owl#containsFood
+
+:containsFood rdf:type owl:ObjectProperty ,
+                       owl:SymmetricProperty .
+
+
+
+###  http://www.nutrition.com/ontologies/nutrition.owl#containsNutrient
+
+:containsNutrient rdf:type owl:ObjectProperty ;
+                  
+                  rdfs:domain :Food ;
+                  
+                  rdfs:range :Nutrient ;
+                  
+                  owl:inverseOf :freeOf .
+
+
+
+###  http://www.nutrition.com/ontologies/nutrition.owl#excludeActivity
+
+:excludeActivity rdf:type owl:ObjectProperty ;
+                 
+                 rdfs:domain :Person .
+
+
+
+###  http://www.nutrition.com/ontologies/nutrition.owl#excludeFood
+
+:excludeFood rdf:type owl:ObjectProperty ;
+             
+             rdfs:range :Food ;
+             
+             rdfs:domain :Person .
+
+
+
+###  http://www.nutrition.com/ontologies/nutrition.owl#followsDiet
+
+:followsDiet rdf:type owl:ObjectProperty ;
+             
+             rdfs:domain :Person ;
+             
+             owl:equivalentProperty :hasDiet .
+
+
+
+###  http://www.nutrition.com/ontologies/nutrition.owl#freeOf
+
+:freeOf rdf:type owl:ObjectProperty ;
+        
+        rdfs:domain :Food ;
+        
+        rdfs:range :Nutrient .
+
+
+
+###  http://www.nutrition.com/ontologies/nutrition.owl#goalNutrient
+
+:goalNutrient rdf:type owl:ObjectProperty ;
+              
+              rdfs:range :Nutrient .
+
+
+
+###  http://www.nutrition.com/ontologies/nutrition.owl#hasAllergy
+
+:hasAllergy rdf:type owl:ObjectProperty ;
+            
+            rdfs:domain :Person ;
+            
+            rdfs:subPropertyOf :hasCondition .
+
+
+
+###  http://www.nutrition.com/ontologies/nutrition.owl#hasCondition
+
+:hasCondition rdf:type owl:ObjectProperty ;
+              
+              rdfs:domain :Person .
+
+
+
+###  http://www.nutrition.com/ontologies/nutrition.owl#hasDiet
+
+:hasDiet rdf:type owl:ObjectProperty .
+
+
+
+###  http://www.nutrition.com/ontologies/nutrition.owl#hasFood
+
+:hasFood rdf:type owl:ObjectProperty ;
+         
+         rdfs:subPropertyOf :hasDiet .
+
+
+
+###  http://www.nutrition.com/ontologies/nutrition.owl#hasGoal
+
+:hasGoal rdf:type owl:ObjectProperty ;
+         
+         rdfs:domain :Person .
+
+
+
+###  http://www.nutrition.com/ontologies/nutrition.owl#hasIntensity
+
+:hasIntensity rdf:type owl:ObjectProperty .
+
+
+
+###  http://www.nutrition.com/ontologies/nutrition.owl#hasInterest
+
+:hasInterest rdf:type owl:ObjectProperty ;
+             
+             owl:inverseOf :includes .
+
+
+
+###  http://www.nutrition.com/ontologies/nutrition.owl#hasIntolerance
+
+:hasIntolerance rdf:type owl:ObjectProperty ;
+                
+                rdfs:domain :Person ;
+                
+                rdfs:subPropertyOf :hasCondition .
+
+
+
+###  http://www.nutrition.com/ontologies/nutrition.owl#hasProperty
+
+:hasProperty rdf:type owl:ObjectProperty ;
+             
+             rdfs:range :Property .
+
+
+
+###  http://www.nutrition.com/ontologies/nutrition.owl#highIn
+
+:highIn rdf:type owl:ObjectProperty ;
+        
+        rdfs:domain :Food ;
+        
+        rdfs:range :Nutrient ;
+        
+        rdfs:subPropertyOf :containsNutrient .
+
+
+
+###  http://www.nutrition.com/ontologies/nutrition.owl#includes
+
+:includes rdf:type owl:ObjectProperty .
+
+
+
+###  http://www.nutrition.com/ontologies/nutrition.owl#lowIn
+
+:lowIn rdf:type owl:ObjectProperty ;
+       
+       rdfs:domain :Food ;
+       
+       rdfs:range :Nutrient ;
+       
+       rdfs:subPropertyOf :containsNutrient .
+
+
+
+###  http://www.nutrition.com/ontologies/nutrition.owl#restrictNutrient
+
+:restrictNutrient rdf:type owl:ObjectProperty ;
+                  
+                  rdfs:range :Nutrient .
+
+
+
+###  http://www.nutrition.com/ontologies/nutrition.owl#type
+
+:type rdf:type owl:ObjectProperty .
+
+
+
+
+
+#################################################################
+#
+#    Data properties
+#
+#################################################################
+
+
+###  http://www.nutrition.com/ontologies/nutrition.owl#Food_types
+
+:Food_types rdf:type owl:DatatypeProperty ;
+            
+            rdfs:domain :Food ,
+                        :Food_attribute ;
+            
+            owl:propertyDisjointWith :hasCalories ;
+            
+            rdfs:range xsd:string .
+
+
+
+###  http://www.nutrition.com/ontologies/nutrition.owl#hasCalories
+
+:hasCalories rdf:type owl:DatatypeProperty ;
+             
+             rdfs:domain :Milk ;
+             
+             rdfs:range xsd:boolean .
+
+
+
+
+
+#################################################################
+#
+#    Classes
+#
+#################################################################
+
+
+###  http://www.nutrition.com/ontologies/nutrition.owl#A
+
+:A rdf:type owl:Class ;
+   
+   rdfs:subClassOf :Vitamin ,
+                   [ rdf:type owl:Restriction ;
+                     owl:onProperty :hasProperty ;
+                     owl:allValuesFrom :Antioxidant
+                   ] .
+
+
+
+###  http://www.nutrition.com/ontologies/nutrition.owl#Activity_level
+
+:Activity_level rdf:type owl:Class ;
+                
+                rdfs:subClassOf :Activity_property .
+
+
+
+###  http://www.nutrition.com/ontologies/nutrition.owl#Activity_property
+
+:Activity_property rdf:type owl:Class ;
+                   
+                   rdfs:subClassOf :Property .
+
+
+
+###  http://www.nutrition.com/ontologies/nutrition.owl#Activity_type
+
+:Activity_type rdf:type owl:Class ;
+               
+               rdfs:subClassOf :Activity_property .
+
+
+
+###  http://www.nutrition.com/ontologies/nutrition.owl#Adolescent
+
+:Adolescent rdf:type owl:Class ;
+            
+            rdfs:subClassOf :Person .
+
+
+
+###  http://www.nutrition.com/ontologies/nutrition.owl#Adult
+
+:Adult rdf:type owl:Class ;
+       
+       rdfs:subClassOf :Person .
+
+
+
+###  http://www.nutrition.com/ontologies/nutrition.owl#Afternoon_snack
+
+:Afternoon_snack rdf:type owl:Class ;
+                 
+                 rdfs:subClassOf :Snack .
+
+
+
+###  http://www.nutrition.com/ontologies/nutrition.owl#Alcohol
+
+:Alcohol rdf:type owl:Class ;
+         
+         rdfs:subClassOf :Drink .
+
+
+
+###  http://www.nutrition.com/ontologies/nutrition.owl#Anti-inflammatory
+
+:Anti-inflammatory rdf:type owl:Class ;
+                   
+                   rdfs:subClassOf :Nutrient_property .
+
+
+
+###  http://www.nutrition.com/ontologies/nutrition.owl#Antimicrobial
+
+:Antimicrobial rdf:type owl:Class ;
+               
+               rdfs:subClassOf :Nutrient_property .
+
+
+
+###  http://www.nutrition.com/ontologies/nutrition.owl#Antioxidant
+
+:Antioxidant rdf:type owl:Class ;
+             
+             rdfs:subClassOf :Nutrient_property .
+
+
+
+###  http://www.nutrition.com/ontologies/nutrition.owl#B
+
+:B rdf:type owl:Class ;
+   
+   rdfs:subClassOf :Vitamin .
+
+
+
+###  http://www.nutrition.com/ontologies/nutrition.owl#B1
+
+:B1 rdf:type owl:Class ;
+    
+    rdfs:subClassOf :B .
+
+
+
+###  http://www.nutrition.com/ontologies/nutrition.owl#B12
+
+:B12 rdf:type owl:Class ;
+     
+     rdfs:subClassOf :B .
+
+
+
+###  http://www.nutrition.com/ontologies/nutrition.owl#B2
+
+:B2 rdf:type owl:Class ;
+    
+    rdfs:subClassOf :B .
+
+
+
+###  http://www.nutrition.com/ontologies/nutrition.owl#Beetroot
+
+:Beetroot rdf:type owl:Class ;
+          
+          rdfs:subClassOf :Root_vegetable ;
+          
+          owl:sameAs "Beets" .
+
+
+
+###  http://www.nutrition.com/ontologies/nutrition.owl#Beverage
+
+:Beverage rdf:type owl:Class ;
+          
+          rdfs:subClassOf :Meal .
+
+
+
+###  http://www.nutrition.com/ontologies/nutrition.owl#Breakfast
+
+:Breakfast rdf:type owl:Class ;
+           
+           rdfs:subClassOf :Meal .
+
+
+
+###  http://www.nutrition.com/ontologies/nutrition.owl#Butter
+
+:Butter rdf:type owl:Class ;
+        
+        rdfs:subClassOf :Dairy ,
+                        [ rdf:type owl:Restriction ;
+                          owl:onProperty :highIn ;
+                          owl:allValuesFrom :Fat
+                        ] .
+
+
+
+###  http://www.nutrition.com/ontologies/nutrition.owl#C
+
+:C rdf:type owl:Class ;
+   
+   rdfs:subClassOf :Vitamin ,
+                   [ rdf:type owl:Restriction ;
+                     owl:onProperty :hasProperty ;
+                     owl:allValuesFrom :Antioxidant
+                   ] .
+
+
+
+###  http://www.nutrition.com/ontologies/nutrition.owl#Caffeine
+
+:Caffeine rdf:type owl:Class ;
+          
+          rdfs:subClassOf :Nutrient .
+
+
+
+###  http://www.nutrition.com/ontologies/nutrition.owl#Calcium
+
+:Calcium rdf:type owl:Class ;
+         
+         rdfs:subClassOf :Electrolyte ,
+                         :Macromineral .
+
+
+
+###  http://www.nutrition.com/ontologies/nutrition.owl#Calories
+
+:Calories rdf:type owl:Class ;
+          
+          rdfs:subClassOf :Property .
+
+
+
+###  http://www.nutrition.com/ontologies/nutrition.owl#Capuccino
+
+:Capuccino rdf:type owl:Class ;
+           
+           rdfs:subClassOf :Coffee ,
+                           [ rdf:type owl:Restriction ;
+                             owl:onProperty :containsFood ;
+                             owl:allValuesFrom :Milk
+                           ] ,
+                           [ rdf:type owl:Restriction ;
+                             owl:onProperty :containsNutrient ;
+                             owl:allValuesFrom :Lactose
+                           ] .
+
+
+
+###  http://www.nutrition.com/ontologies/nutrition.owl#Carbohydrate
+
+:Carbohydrate rdf:type owl:Class ;
+              
+              rdfs:subClassOf :Macronutrient .
+
+
+
+###  http://www.nutrition.com/ontologies/nutrition.owl#Carrot
+
+:Carrot rdf:type owl:Class ;
+        
+        rdfs:subClassOf :Root_vegetable .
+
+
+
+###  http://www.nutrition.com/ontologies/nutrition.owl#Child
+
+:Child rdf:type owl:Class ;
+       
+       rdfs:subClassOf :Person .
+
+
+
+###  http://www.nutrition.com/ontologies/nutrition.owl#Chloride
+
+:Chloride rdf:type owl:Class ;
+          
+          rdfs:subClassOf :Macromineral .
+
+
+
+###  http://www.nutrition.com/ontologies/nutrition.owl#Cobalt
+
+:Cobalt rdf:type owl:Class ;
+        
+        rdfs:subClassOf :Micromineral .
+
+
+
+###  http://www.nutrition.com/ontologies/nutrition.owl#Cod_liver_oil
+
+:Cod_liver_oil rdf:type owl:Class ;
+               
+               rdfs:subClassOf :Oil ,
+                               [ rdf:type owl:Restriction ;
+                                 owl:onProperty :containsNutrient ;
+                                 owl:allValuesFrom :A
+                               ] ,
+                               [ rdf:type owl:Restriction ;
+                                 owl:onProperty :containsNutrient ;
+                                 owl:allValuesFrom :D
+                               ] .
+
+
+
+###  http://www.nutrition.com/ontologies/nutrition.owl#Coffee
+
+:Coffee rdf:type owl:Class ;
+        
+        rdfs:subClassOf :Drink ,
+                        [ rdf:type owl:Restriction ;
+                          owl:onProperty :highIn ;
+                          owl:allValuesFrom :Caffeine
+                        ] .
+
+
+
+###  http://www.nutrition.com/ontologies/nutrition.owl#Copper
+
+:Copper rdf:type owl:Class ;
+        
+        rdfs:subClassOf :Micromineral .
+
+
+
+###  http://www.nutrition.com/ontologies/nutrition.owl#Cream
+
+:Cream rdf:type owl:Class ;
+       
+       rdfs:subClassOf :Dairy ,
+                       [ rdf:type owl:Restriction ;
+                         owl:onProperty :highIn ;
+                         owl:allValuesFrom :Fat
+                       ] .
+
+
+
+###  http://www.nutrition.com/ontologies/nutrition.owl#Cucumber
+
+:Cucumber rdf:type owl:Class ;
+          
+          rdfs:subClassOf :Vegetable ,
+                          [ rdf:type owl:Restriction ;
+                            owl:onProperty :highIn ;
+                            owl:allValuesFrom :Water
+                          ] .
+
+
+
+###  http://www.nutrition.com/ontologies/nutrition.owl#D
+
+:D rdf:type owl:Class ;
+   
+   rdfs:subClassOf :Vitamin .
+
+
+
+###  http://www.nutrition.com/ontologies/nutrition.owl#Dairy
+
+:Dairy rdf:type owl:Class ;
+       
+       rdfs:subClassOf :Food ,
+                       [ rdf:type owl:Restriction ;
+                         owl:onProperty :highIn ;
+                         owl:allValuesFrom :D
+                       ] ,
+                       [ rdf:type owl:Restriction ;
+                         owl:onProperty :highIn ;
+                         owl:allValuesFrom :Lactose
+                       ] ,
+                       [ rdf:type owl:Restriction ;
+                         owl:onProperty :highIn ;
+                         owl:allValuesFrom :Protein
+                       ] ,
+                       [ rdf:type owl:Restriction ;
+                         owl:onProperty :highIn ;
+                         owl:allValuesFrom :Calcium
+                       ] ;
+       
+       owl:disjointWith :Drink ,
+                        :Meat ,
+                        :Oil ,
+                        :Vegetable .
+
+
+
+###  http://www.nutrition.com/ontologies/nutrition.owl#Dessert
+
+:Dessert rdf:type owl:Class ;
+         
+         rdfs:subClassOf :Meal .
+
+
+
+###  http://www.nutrition.com/ontologies/nutrition.owl#Dinner
+
+:Dinner rdf:type owl:Class ;
+        
+        rdfs:subClassOf :Meal .
+
+
+
+###  http://www.nutrition.com/ontologies/nutrition.owl#Drink
+
+:Drink rdf:type owl:Class ;
+       
+       rdfs:subClassOf :Food ,
+                       [ rdf:type owl:Restriction ;
+                         owl:onProperty :type ;
+                         owl:allValuesFrom :Beverage
+                       ] ,
+                       [ rdf:type owl:Restriction ;
+                         owl:onProperty :highIn ;
+                         owl:allValuesFrom :Fluid
+                       ] ;
+       
+       owl:disjointWith :Meat ,
+                        :Oil ,
+                        :Vegetable .
+
+
+
+###  http://www.nutrition.com/ontologies/nutrition.owl#Duration
+
+:Duration rdf:type owl:Class ;
+          
+          rdfs:subClassOf :Activity_type .
+
+
+
+###  http://www.nutrition.com/ontologies/nutrition.owl#E
+
+:E rdf:type owl:Class ;
+   
+   rdfs:subClassOf :Vitamin ,
+                   [ rdf:type owl:Restriction ;
+                     owl:onProperty :hasProperty ;
+                     owl:allValuesFrom :Antioxidant
+                   ] .
+
+
+
+###  http://www.nutrition.com/ontologies/nutrition.owl#Elder
+
+:Elder rdf:type owl:Class ;
+       
+       rdfs:subClassOf :Person .
+
+
+
+###  http://www.nutrition.com/ontologies/nutrition.owl#Electrolyte
+
+:Electrolyte rdf:type owl:Class ;
+             
+             rdfs:subClassOf :Mineral .
+
+
+
+###  http://www.nutrition.com/ontologies/nutrition.owl#Endurance
+
+:Endurance rdf:type owl:Class ;
+           
+           rdfs:subClassOf :Activity_type .
+
+
+
+###  http://www.nutrition.com/ontologies/nutrition.owl#Espresso
+
+:Espresso rdf:type owl:Class ;
+          
+          rdfs:subClassOf :Coffee .
+
+
+
+###  http://www.nutrition.com/ontologies/nutrition.owl#Fat
+
+:Fat rdf:type owl:Class ;
+     
+     rdfs:subClassOf :Macronutrient .
+
+
+
+###  http://www.nutrition.com/ontologies/nutrition.owl#Fat-free
+
+:Fat-free rdf:type owl:Class ;
+          
+          rdfs:subClassOf :Food_attribute ;
+          
+          owl:sameAs "No fat" ,
+                     "Non fat" ,
+                     "Non-fat" ,
+                     "Nonfat" .
+
+
+
+###  http://www.nutrition.com/ontologies/nutrition.owl#Female
+
+:Female rdf:type owl:Class ;
+        
+        rdfs:subClassOf :Person .
+
+
+
+###  http://www.nutrition.com/ontologies/nutrition.owl#Fiber
+
+:Fiber rdf:type owl:Class ;
+       
+       rdfs:subClassOf :Macronutrient .
+
+
+
+###  http://www.nutrition.com/ontologies/nutrition.owl#Fish_oil
+
+:Fish_oil rdf:type owl:Class ;
+          
+          rdfs:subClassOf :Oil .
+
+
+
+###  http://www.nutrition.com/ontologies/nutrition.owl#Flexibility
+
+:Flexibility rdf:type owl:Class ;
+             
+             rdfs:subClassOf :Activity_type .
+
+
+
+###  http://www.nutrition.com/ontologies/nutrition.owl#Fluid
+
+:Fluid rdf:type owl:Class ;
+       
+       rdfs:subClassOf :Nutrient .
+
+
+
+###  http://www.nutrition.com/ontologies/nutrition.owl#Fluoride
+
+:Fluoride rdf:type owl:Class ;
+          
+          rdfs:subClassOf :Micromineral .
+
+
+
+###  http://www.nutrition.com/ontologies/nutrition.owl#Food
+
+:Food rdf:type owl:Class .
+
+
+
+###  http://www.nutrition.com/ontologies/nutrition.owl#Food_attribute
+
+:Food_attribute rdf:type owl:Class .
+
+
+
+###  http://www.nutrition.com/ontologies/nutrition.owl#Glucose
+
+:Glucose rdf:type owl:Class ;
+         
+         rdfs:subClassOf :Carbohydrate .
+
+
+
+###  http://www.nutrition.com/ontologies/nutrition.owl#Gluten
+
+:Gluten rdf:type owl:Class ;
+        
+        rdfs:subClassOf :Protein .
+
+
+
+###  http://www.nutrition.com/ontologies/nutrition.owl#Gluten-free
+
+:Gluten-free rdf:type owl:Class ;
+             
+             rdfs:subClassOf :Food_attribute .
+
+
+
+###  http://www.nutrition.com/ontologies/nutrition.owl#Green_bean
+
+:Green_bean rdf:type owl:Class ;
+            
+            rdfs:subClassOf :Vegetable .
+
+
+
+###  http://www.nutrition.com/ontologies/nutrition.owl#Healthy_adolescent
+
+:Healthy_adolescent rdf:type owl:Class ;
+                    
+                    rdfs:subClassOf :Adolescent .
+
+
+
+###  http://www.nutrition.com/ontologies/nutrition.owl#Healthy_adult
+
+:Healthy_adult rdf:type owl:Class ;
+               
+               rdfs:subClassOf :Adult .
+
+
+
+###  http://www.nutrition.com/ontologies/nutrition.owl#Healthy_child
+
+:Healthy_child rdf:type owl:Class ;
+               
+               rdfs:subClassOf :Child .
+
+
+
+###  http://www.nutrition.com/ontologies/nutrition.owl#Healthy_elder
+
+:Healthy_elder rdf:type owl:Class ;
+               
+               rdfs:subClassOf :Elder .
+
+
+
+###  http://www.nutrition.com/ontologies/nutrition.owl#Heavy_exercise
+
+:Heavy_exercise rdf:type owl:Class ;
+                
+                rdfs:subClassOf :Activity_level .
+
+
+
+###  http://www.nutrition.com/ontologies/nutrition.owl#High
+
+:High rdf:type owl:Class ;
+      
+      rdfs:subClassOf :Level .
+
+
+
+###  http://www.nutrition.com/ontologies/nutrition.owl#Ice_cream
+
+:Ice_cream rdf:type owl:Class ;
+           
+           rdfs:subClassOf :Dairy .
+
+
+
+###  http://www.nutrition.com/ontologies/nutrition.owl#Iodine
+
+:Iodine rdf:type owl:Class ;
+        
+        rdfs:subClassOf :Micromineral .
+
+
+
+###  http://www.nutrition.com/ontologies/nutrition.owl#Iron
+
+:Iron rdf:type owl:Class ;
+      
+      rdfs:subClassOf :Micromineral .
+
+
+
+###  http://www.nutrition.com/ontologies/nutrition.owl#Juice
+
+:Juice rdf:type owl:Class ;
+       
+       rdfs:subClassOf :Drink .
+
+
+
+###  http://www.nutrition.com/ontologies/nutrition.owl#K
+
+:K rdf:type owl:Class ;
+   
+   rdfs:subClassOf :Vitamin .
+
+
+
+###  http://www.nutrition.com/ontologies/nutrition.owl#Lactose
+
+:Lactose rdf:type owl:Class ;
+         
+         rdfs:subClassOf :Carbohydrate .
+
+
+
+###  http://www.nutrition.com/ontologies/nutrition.owl#Lactose-free
+
+:Lactose-free rdf:type owl:Class ;
+              
+              rdfs:subClassOf :Food_attribute ;
+              
+              owl:sameAs "Non dairy" .
+
+
+
+###  http://www.nutrition.com/ontologies/nutrition.owl#Late_night_snack
+
+:Late_night_snack rdf:type owl:Class ;
+                  
+                  rdfs:subClassOf :Snack .
+
+
+
+###  http://www.nutrition.com/ontologies/nutrition.owl#Latte
+
+:Latte rdf:type owl:Class ;
+       
+       rdfs:subClassOf :Coffee ,
+                       [ rdf:type owl:Restriction ;
+                         owl:onProperty :containsFood ;
+                         owl:allValuesFrom :Milk
+                       ] ,
+                       [ rdf:type owl:Restriction ;
+                         owl:onProperty :containsNutrient ;
+                         owl:allValuesFrom :Lactose
+                       ] .
+
+
+
+###  http://www.nutrition.com/ontologies/nutrition.owl#Level
+
+:Level rdf:type owl:Class ;
+       
+       rdfs:subClassOf :Property .
+
+
+
+###  http://www.nutrition.com/ontologies/nutrition.owl#Light_exercise
+
+:Light_exercise rdf:type owl:Class ;
+                
+                rdfs:subClassOf :Activity_level .
+
+
+
+###  http://www.nutrition.com/ontologies/nutrition.owl#Low
+
+:Low rdf:type owl:Class ;
+     
+     rdfs:subClassOf :Level .
+
+
+
+###  http://www.nutrition.com/ontologies/nutrition.owl#Lunch
+
+:Lunch rdf:type owl:Class ;
+       
+       rdfs:subClassOf :Meal .
+
+
+
+###  http://www.nutrition.com/ontologies/nutrition.owl#Macromineral
+
+:Macromineral rdf:type owl:Class ;
+              
+              rdfs:subClassOf :Mineral .
+
+
+
+###  http://www.nutrition.com/ontologies/nutrition.owl#Macronutrient
+
+:Macronutrient rdf:type owl:Class ;
+               
+               rdfs:subClassOf :Nutrient .
+
+
+
+###  http://www.nutrition.com/ontologies/nutrition.owl#Magnesium
+
+:Magnesium rdf:type owl:Class ;
+           
+           rdfs:subClassOf :Electrolyte ,
+                           :Macromineral .
+
+
+
+###  http://www.nutrition.com/ontologies/nutrition.owl#Main_dish
+
+:Main_dish rdf:type owl:Class ;
+           
+           rdfs:subClassOf :Meal .
+
+
+
+###  http://www.nutrition.com/ontologies/nutrition.owl#Male
+
+:Male rdf:type owl:Class ;
+      
+      rdfs:subClassOf :Person .
+
+
+
+###  http://www.nutrition.com/ontologies/nutrition.owl#Manganese
+
+:Manganese rdf:type owl:Class ;
+           
+           rdfs:subClassOf :Micromineral .
+
+
+
+###  http://www.nutrition.com/ontologies/nutrition.owl#Meal
+
+:Meal rdf:type owl:Class .
+
+
+
+###  http://www.nutrition.com/ontologies/nutrition.owl#Meat
+
+:Meat rdf:type owl:Class ;
+      
+      rdfs:subClassOf :Food ,
+                      [ rdf:type owl:Restriction ;
+                        owl:onProperty :containsNutrient ;
+                        owl:allValuesFrom :B1
+                      ] ,
+                      [ rdf:type owl:Restriction ;
+                        owl:onProperty :containsNutrient ;
+                        owl:allValuesFrom :B2
+                      ] ,
+                      [ rdf:type owl:Restriction ;
+                        owl:onProperty :containsNutrient ;
+                        owl:allValuesFrom :Zinc
+                      ] ,
+                      [ rdf:type owl:Restriction ;
+                        owl:onProperty :highIn ;
+                        owl:allValuesFrom :B12
+                      ] ,
+                      [ rdf:type owl:Restriction ;
+                        owl:onProperty :highIn ;
+                        owl:allValuesFrom :Protein
+                      ] ;
+      
+      owl:disjointWith :Oil ,
+                       :Vegetable .
+
+
+
+###  http://www.nutrition.com/ontologies/nutrition.owl#Micromineral
+
+:Micromineral rdf:type owl:Class ;
+              
+              rdfs:subClassOf :Mineral .
+
+
+
+###  http://www.nutrition.com/ontologies/nutrition.owl#Micronutrient
+
+:Micronutrient rdf:type owl:Class ;
+               
+               rdfs:subClassOf :Nutrient .
+
+
+
+###  http://www.nutrition.com/ontologies/nutrition.owl#Milk
+
+:Milk rdf:type owl:Class ;
+      
+      rdfs:subClassOf :Dairy ,
+                      [ rdf:type owl:Restriction ;
+                        owl:onProperty :highIn ;
+                        owl:allValuesFrom :Potassium
+                      ] ,
+                      [ rdf:type owl:Restriction ;
+                        owl:onProperty :highIn ;
+                        owl:allValuesFrom :Magnesium
+                      ] ,
+                      [ rdf:type owl:Restriction ;
+                        owl:onProperty :highIn ;
+                        owl:allValuesFrom :B12
+                      ] ,
+                      [ rdf:type owl:Restriction ;
+                        owl:onProperty :highIn ;
+                        owl:allValuesFrom :Zinc
+                      ] ,
+                      [ rdf:type owl:Restriction ;
+                        owl:onProperty :highIn ;
+                        owl:allValuesFrom :Phosphorus
+                      ] .
+
+
+
+###  http://www.nutrition.com/ontologies/nutrition.owl#Mineral
+
+:Mineral rdf:type owl:Class ;
+         
+         rdfs:subClassOf :Micronutrient .
+
+
+
+###  http://www.nutrition.com/ontologies/nutrition.owl#Moderate
+
+:Moderate rdf:type owl:Class ;
+          
+          rdfs:subClassOf :Level .
+
+
+
+###  http://www.nutrition.com/ontologies/nutrition.owl#Moderate_exercise
+
+:Moderate_exercise rdf:type owl:Class ;
+                   
+                   rdfs:subClassOf :Activity_level .
+
+
+
+###  http://www.nutrition.com/ontologies/nutrition.owl#Morning_snack
+
+:Morning_snack rdf:type owl:Class ;
+               
+               rdfs:subClassOf :Snack .
+
+
+
+###  http://www.nutrition.com/ontologies/nutrition.owl#Nutrient
+
+:Nutrient rdf:type owl:Class .
+
+
+
+###  http://www.nutrition.com/ontologies/nutrition.owl#Nutrient_property
+
+:Nutrient_property rdf:type owl:Class ;
+                   
+                   rdfs:subClassOf :Property .
+
+
+
+###  http://www.nutrition.com/ontologies/nutrition.owl#Obese_adolescent
+
+:Obese_adolescent rdf:type owl:Class ;
+                  
+                  rdfs:subClassOf :Adolescent .
+
+
+
+###  http://www.nutrition.com/ontologies/nutrition.owl#Obese_adult
+
+:Obese_adult rdf:type owl:Class ;
+             
+             rdfs:subClassOf :Adult .
+
+
+
+###  http://www.nutrition.com/ontologies/nutrition.owl#Obese_child
+
+:Obese_child rdf:type owl:Class ;
+             
+             rdfs:subClassOf :Child .
+
+
+
+###  http://www.nutrition.com/ontologies/nutrition.owl#Obese_elder
+
+:Obese_elder rdf:type owl:Class ;
+             
+             rdfs:subClassOf :Elder .
+
+
+
+###  http://www.nutrition.com/ontologies/nutrition.owl#Oil
+
+:Oil rdf:type owl:Class ;
+     
+     rdfs:subClassOf :Food ,
+                     [ rdf:type owl:Restriction ;
+                       owl:onProperty :highIn ;
+                       owl:allValuesFrom :Fat
+                     ] ;
+     
+     owl:disjointWith :Vegetable .
+
+
+
+###  http://www.nutrition.com/ontologies/nutrition.owl#Overweight_adolescent
+
+:Overweight_adolescent rdf:type owl:Class ;
+                       
+                       rdfs:subClassOf :Adolescent .
+
+
+
+###  http://www.nutrition.com/ontologies/nutrition.owl#Overweight_adult
+
+:Overweight_adult rdf:type owl:Class ;
+                  
+                  rdfs:subClassOf :Adult .
+
+
+
+###  http://www.nutrition.com/ontologies/nutrition.owl#Overweight_child
+
+:Overweight_child rdf:type owl:Class ;
+                  
+                  rdfs:subClassOf :Child .
+
+
+
+###  http://www.nutrition.com/ontologies/nutrition.owl#Overweight_elder
+
+:Overweight_elder rdf:type owl:Class ;
+                  
+                  rdfs:subClassOf :Elder .
+
+
+
+###  http://www.nutrition.com/ontologies/nutrition.owl#Peppers
+
+:Peppers rdf:type owl:Class ;
+         
+         rdfs:subClassOf :Vegetable .
+
+
+
+###  http://www.nutrition.com/ontologies/nutrition.owl#Person
+
+:Person rdf:type owl:Class .
+
+
+
+###  http://www.nutrition.com/ontologies/nutrition.owl#Phosphorus
+
+:Phosphorus rdf:type owl:Class ;
+            
+            rdfs:subClassOf :Macromineral .
+
+
+
+###  http://www.nutrition.com/ontologies/nutrition.owl#Potassium
+
+:Potassium rdf:type owl:Class ;
+           
+           rdfs:subClassOf :Electrolyte ,
+                           :Macromineral .
+
+
+
+###  http://www.nutrition.com/ontologies/nutrition.owl#Property
+
+:Property rdf:type owl:Class .
+
+
+
+###  http://www.nutrition.com/ontologies/nutrition.owl#Protein
+
+:Protein rdf:type owl:Class ;
+         
+         rdfs:subClassOf :Macronutrient .
+
+
+
+###  http://www.nutrition.com/ontologies/nutrition.owl#Red_meat
+
+:Red_meat rdf:type owl:Class ;
+          
+          rdfs:subClassOf :Meat ,
+                          [ rdf:type owl:Restriction ;
+                            owl:onProperty :highIn ;
+                            owl:allValuesFrom :Iron
+                          ] .
+
+
+
+###  http://www.nutrition.com/ontologies/nutrition.owl#Root_vegetable
+
+:Root_vegetable rdf:type owl:Class ;
+                
+                rdfs:subClassOf :Vegetable ,
+                                [ rdf:type owl:Restriction ;
+                                  owl:onProperty :containsNutrient ;
+                                  owl:allValuesFrom :C
+                                ] ,
+                                [ rdf:type owl:Restriction ;
+                                  owl:onProperty :containsNutrient ;
+                                  owl:allValuesFrom :B
+                                ] ,
+                                [ rdf:type owl:Restriction ;
+                                  owl:onProperty :highIn ;
+                                  owl:allValuesFrom :Potassium
+                                ] ,
+                                [ rdf:type owl:Restriction ;
+                                  owl:onProperty :highIn ;
+                                  owl:allValuesFrom :Magnesium
+                                ] .
+
+
+
+###  http://www.nutrition.com/ontologies/nutrition.owl#Salt-free
+
+:Salt-free rdf:type owl:Class ;
+           
+           rdfs:subClassOf :Food_attribute ;
+           
+           owl:sameAs "Unsalted" ,
+                      "Sodium free" ,
+                      "No salt" ,
+                      "Without salt" .
+
+
+
+###  http://www.nutrition.com/ontologies/nutrition.owl#Saturated_fat
+
+:Saturated_fat rdf:type owl:Class ;
+               
+               rdfs:subClassOf :Fat .
+
+
+
+###  http://www.nutrition.com/ontologies/nutrition.owl#Selenium
+
+:Selenium rdf:type owl:Class ;
+          
+          rdfs:subClassOf :Micromineral ,
+                          [ rdf:type owl:Restriction ;
+                            owl:onProperty :hasProperty ;
+                            owl:allValuesFrom :Antioxidant
+                          ] .
+
+
+
+###  http://www.nutrition.com/ontologies/nutrition.owl#Side_dish
+
+:Side_dish rdf:type owl:Class ;
+           
+           rdfs:subClassOf :Meal .
+
+
+
+###  http://www.nutrition.com/ontologies/nutrition.owl#Snack
+
+:Snack rdf:type owl:Class ;
+       
+       rdfs:subClassOf :Meal .
+
+
+
+###  http://www.nutrition.com/ontologies/nutrition.owl#Soda
+
+:Soda rdf:type owl:Class ;
+      
+      rdfs:subClassOf :Drink .
+
+
+
+###  http://www.nutrition.com/ontologies/nutrition.owl#Sodium
+
+:Sodium rdf:type owl:Class ;
+        
+        rdfs:subClassOf :Electrolyte ,
+                        :Macromineral .
+
+
+
+###  http://www.nutrition.com/ontologies/nutrition.owl#Sports
+
+:Sports rdf:type owl:Class ;
+        
+        rdfs:subClassOf :Activity_level .
+
+
+
+###  http://www.nutrition.com/ontologies/nutrition.owl#Starch
+
+:Starch rdf:type owl:Class ;
+        
+        rdfs:subClassOf :Carbohydrate .
+
+
+
+###  http://www.nutrition.com/ontologies/nutrition.owl#Strength
+
+:Strength rdf:type owl:Class ;
+          
+          rdfs:subClassOf :Activity_type .
+
+
+
+###  http://www.nutrition.com/ontologies/nutrition.owl#Sugar-free
+
+:Sugar-free rdf:type owl:Class ;
+            
+            rdfs:subClassOf :Food_attribute ;
+            
+            owl:sameAs "No sugar" .
+
+
+
+###  http://www.nutrition.com/ontologies/nutrition.owl#Sulfur
+
+:Sulfur rdf:type owl:Class ;
+        
+        rdfs:subClassOf :Macromineral .
+
+
+
+###  http://www.nutrition.com/ontologies/nutrition.owl#Tea
+
+:Tea rdf:type owl:Class ;
+     
+     rdfs:subClassOf :Drink .
+
+
+
+###  http://www.nutrition.com/ontologies/nutrition.owl#Underweight_adolescent
+
+:Underweight_adolescent rdf:type owl:Class ;
+                        
+                        rdfs:subClassOf :Adolescent .
+
+
+
+###  http://www.nutrition.com/ontologies/nutrition.owl#Underweight_adult
+
+:Underweight_adult rdf:type owl:Class ;
+                   
+                   rdfs:subClassOf :Adult .
+
+
+
+###  http://www.nutrition.com/ontologies/nutrition.owl#Underweight_child
+
+:Underweight_child rdf:type owl:Class ;
+                   
+                   rdfs:subClassOf :Child .
+
+
+
+###  http://www.nutrition.com/ontologies/nutrition.owl#Underweight_elder
+
+:Underweight_elder rdf:type owl:Class ;
+                   
+                   rdfs:subClassOf :Elder .
+
+
+
+###  http://www.nutrition.com/ontologies/nutrition.owl#Vegetable
+
+:Vegetable rdf:type owl:Class ;
+           
+           rdfs:subClassOf :Food ,
+                           [ rdf:type owl:Restriction ;
+                             owl:onProperty :highIn ;
+                             owl:allValuesFrom :Fiber
+                           ] .
+
+
+
+###  http://www.nutrition.com/ontologies/nutrition.owl#Vegetable_oil
+
+:Vegetable_oil rdf:type owl:Class ;
+               
+               rdfs:subClassOf :Oil .
+
+
+
+###  http://www.nutrition.com/ontologies/nutrition.owl#Very_high
+
+:Very_high rdf:type owl:Class ;
+           
+           rdfs:subClassOf :Level .
+
+
+
+###  http://www.nutrition.com/ontologies/nutrition.owl#Very_low
+
+:Very_low rdf:type owl:Class ;
+          
+          rdfs:subClassOf :Level .
+
+
+
+###  http://www.nutrition.com/ontologies/nutrition.owl#Vitamin
+
+:Vitamin rdf:type owl:Class ;
+         
+         rdfs:subClassOf :Micronutrient .
+
+
+
+###  http://www.nutrition.com/ontologies/nutrition.owl#Volume
+
+:Volume rdf:type owl:Class ;
+        
+        rdfs:subClassOf :Activity_type .
+
+
+
+###  http://www.nutrition.com/ontologies/nutrition.owl#Water
+
+:Water rdf:type owl:Class ;
+       
+       rdfs:subClassOf :Fluid .
+
+
+
+###  http://www.nutrition.com/ontologies/nutrition.owl#White_meat
+
+:White_meat rdf:type owl:Class ;
+            
+            rdfs:subClassOf :Meat .
+
+
+
+###  http://www.nutrition.com/ontologies/nutrition.owl#Zinc
+
+:Zinc rdf:type owl:Class ;
+      
+      rdfs:subClassOf :Micromineral .
+
+
+
+
+
+#################################################################
+#
+#    Individuals
+#
+#################################################################
+
+
+###  http://www.nutrition.com/ontologies/nutrition.owl#Beef
+
+:Beef rdf:type :Red_meat ,
+               owl:NamedIndividual .
+
+
+
+###  http://www.nutrition.com/ontologies/nutrition.owl#Black_tea
+
+:Black_tea rdf:type :Tea ,
+                    owl:NamedIndividual .
+
+
+
+###  http://www.nutrition.com/ontologies/nutrition.owl#Boar
+
+:Boar rdf:type :Red_meat ,
+               owl:NamedIndividual .
+
+
+
+###  http://www.nutrition.com/ontologies/nutrition.owl#Chicken
+
+:Chicken rdf:type :White_meat ,
+                  owl:NamedIndividual .
+
+
+
+###  http://www.nutrition.com/ontologies/nutrition.owl#Chilli_pepper
+
+:Chilli_pepper rdf:type :Peppers ,
+                        owl:NamedIndividual .
+
+
+
+###  http://www.nutrition.com/ontologies/nutrition.owl#Goat
+
+:Goat rdf:type :Red_meat ,
+               owl:NamedIndividual .
+
+
+
+###  http://www.nutrition.com/ontologies/nutrition.owl#Lamb
+
+:Lamb rdf:type owl:NamedIndividual .
+
+
+
+###  http://www.nutrition.com/ontologies/nutrition.owl#Mutton
+
+:Mutton rdf:type :Red_meat ,
+                 owl:NamedIndividual .
+
+
+
+###  http://www.nutrition.com/ontologies/nutrition.owl#Pork
+
+:Pork rdf:type :Red_meat ,
+               owl:NamedIndividual .
+
+
+
+###  http://www.nutrition.com/ontologies/nutrition.owl#Rabbit
+
+:Rabbit rdf:type :White_meat ,
+                 owl:NamedIndividual .
+
+
+
+###  http://www.nutrition.com/ontologies/nutrition.owl#Skimmed_milk
+
+:Skimmed_milk rdf:type :Milk ,
+                       owl:NamedIndividual .
+
+
+
+###  http://www.nutrition.com/ontologies/nutrition.owl#Sour_cream
+
+:Sour_cream rdf:type :Cream ,
+                     owl:NamedIndividual .
+
+
+
+###  http://www.nutrition.com/ontologies/nutrition.owl#White_tea
+
+:White_tea rdf:type :Tea ,
+                    owl:NamedIndividual .
+
+
+
+###  http://www.nutrition.com/ontologies/nutrition.owl#Whole_milk
+
+:Whole_milk rdf:type :Milk ,
+                     owl:NamedIndividual .
+
+
+
+###  http://www.nutrition.com/ontologies/nutrition.owl#herbal_tea
+
+:herbal_tea rdf:type :Tea ,
+                     owl:NamedIndividual .
+
+
+
+
+###  Generated by the OWL API (version 3.4.2) http://owlapi.sourceforge.net
+
