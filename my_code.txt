@@ -1,0 +1,94 @@
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix :<http://example.org/prabal/ontology#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+#class
+
+:Creature a owl:Class ;
+	rdfs:label "creature"^^xsd:string.
+
+:Person rdfs:subClassOf :Creature .
+
+:Animal a owl:Class ;
+	rdfs:label "animal"^^xsd:string ;
+	rdfs:subClassOf :Creature .
+
+:Cat a owl:Class ;
+	rdfs:label "cat"^^xsd:string ;
+	rdfs:subClassOf :Animal .
+
+:Dog a owl:Class ;
+	rdfs:label "dog"^^xsd:string ;
+	rdfs:subClassOf :Animal .
+
+:Monkey a owl:Class ;
+	rdfs:label "monkey"^^xsd:string ;
+	rdfs:subClassOf :Animal .
+
+#property
+
+:parent a rdf:ObjectProperty  ;
+	rdfs:domain :Person ;
+	rdfs:range :Person .
+
+:pet a rdf:ObjectProperty  ;
+	rdfs:domain :Person ;
+	rdfs:label "domestic animal"^^xsd:string ;
+	rdfs:range :Animal .
+
+:sex a owl:DatatypeProperty  ;
+	rdfs:domain :Creature ;
+	rdfs:label "sex" ;
+	rdfs:range xsd:string .
+:name a owl:DatatypeProperty  ;
+	rdfs:domain :Creature ;
+	rdfs:label "sex" ;
+	rdfs:range xsd:string .
+
+# individuals
+
+:John a :Person ;
+	:name "John"^^xsd:string ;	
+	:pet :Luna , :Tom ;
+	:sex "male" ;
+	
+
+:William a :Person ;
+     :parent :John ;
+	:name "William"^^xsd:string ;
+	:pet :Rex ;
+	:sex "male" .
+	
+	
+:Eve a :Person;
+     :parent :William ;
+	:name "Eve"^^xsd:string ;
+	:pet :Snuff ;
+	:sex "female" ;
+	 .
+:Tom  a :Cat ; 
+   :name "Tom" ;
+	:sex "male" .
+	 .
+:Luna a :Cat;
+        :name "Luna" ;
+	:sex "female" .
+	 
+
+:Pingo :name "Pingo" ;
+	:color "grey" ;
+	:sex "male" ;
+	:weight 3.6 ;
+	a :Dog .
+
+:Rex a :Dog ;
+    :name "Rex" ;
+	:sex "male" .
+
+:Snuff  a :Monkey ;
+   :name "snuff" ;
+	:sex "male" .
+	.
+

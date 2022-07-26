@@ -1,0 +1,282 @@
+@prefix : <http://example.org/prabal/ontology#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@base <http://www.w3.org/2002/07/owl#> .
+
+
+
+#################################################################
+#
+#    Annotation properties
+#
+#################################################################
+
+
+###  http://example.org/prabal/ontology#parent
+
+:parent rdf:type owl:AnnotationProperty ;
+        
+        rdfs:domain :Person .
+
+
+
+###  http://example.org/prabal/ontology#pet
+
+:pet rdf:type owl:AnnotationProperty ;
+     
+     rdfs:label "domestic animal"^^xsd:string ;
+     
+     rdfs:domain :Person .
+
+
+
+
+
+#################################################################
+#
+#    Object Properties
+#
+#################################################################
+
+
+###  http://example.org/prabal/ontology#parent
+
+:parent rdf:type owl:ObjectProperty ;
+        
+        rdfs:range :Person .
+
+
+
+###  http://example.org/prabal/ontology#pet
+
+:pet rdf:type owl:ObjectProperty ;
+     
+     rdfs:label "domestic animal"^^xsd:string ;
+     
+     rdfs:range :Animal .
+
+
+
+
+
+#################################################################
+#
+#    Data properties
+#
+#################################################################
+
+
+###  http://example.org/prabal/ontology#name
+
+:name rdf:type owl:DatatypeProperty ;
+      
+      rdfs:label "name"^^xsd:string ;
+      
+      rdfs:domain :Creature ;
+      
+      rdfs:range xsd:string .
+
+
+
+###  http://example.org/prabal/ontology#sex
+
+:sex rdf:type owl:DatatypeProperty ;
+     
+     rdfs:label "sex"^^xsd:string ;
+     
+     rdfs:domain :Creature ;
+     
+     rdfs:range xsd:string .
+
+
+
+
+
+#################################################################
+#
+#    Classes
+#
+#################################################################
+
+
+###  http://example.org/prabal/ontology#Animal
+
+:Animal rdf:type owl:Class ;
+        
+        rdfs:label "animal"^^xsd:string ;
+        
+        rdfs:subClassOf :Creature .
+
+
+
+###  http://example.org/prabal/ontology#Cat
+
+:Cat rdf:type owl:Class ;
+     
+     rdfs:label "cat"^^xsd:string ;
+     
+     rdfs:subClassOf :Animal .
+
+
+
+###  http://example.org/prabal/ontology#Creature
+
+:Creature rdf:type owl:Class ;
+          
+          rdfs:label "creature"^^xsd:string .
+
+
+
+###  http://example.org/prabal/ontology#Dog
+
+:Dog rdf:type owl:Class ;
+     
+     rdfs:label "dog"^^xsd:string ;
+     
+     rdfs:subClassOf :Animal .
+
+
+
+###  http://example.org/prabal/ontology#Monkey
+
+:Monkey rdf:type owl:Class ;
+        
+        rdfs:label "monkey"^^xsd:string ;
+        
+        rdfs:subClassOf :Animal .
+
+
+
+###  http://example.org/prabal/ontology#Person
+
+:Person rdf:type owl:Class ;
+        
+        rdfs:subClassOf :Creature .
+
+
+
+###  http://www.w3.org/1999/02/22-rdf-syntax-ns#ObjectProperty
+
+rdf:ObjectProperty rdf:type owl:Class .
+
+
+
+
+
+#################################################################
+#
+#    Individuals
+#
+#################################################################
+
+
+###  http://example.org/prabal/ontology#Eve
+
+:Eve rdf:type :Person ,
+              owl:NamedIndividual ;
+     
+     :name "Eve"^^xsd:string ;
+     
+     :sex "female"^^xsd:string ;
+     
+     :pet :Snuff ;
+     
+     :parent :William .
+
+
+
+###  http://example.org/prabal/ontology#John
+
+:John rdf:type :Person ,
+               owl:NamedIndividual ;
+      
+      :name "John"^^xsd:string ;
+      
+      :sex "male"^^xsd:string ;
+      
+      :pet :Luna ,
+           :Tom .
+
+
+
+###  http://example.org/prabal/ontology#Luna
+
+:Luna rdf:type :Cat ,
+               owl:NamedIndividual ;
+      
+      :name "Luna"^^xsd:string ;
+      
+      :sex "female"^^xsd:string .
+
+
+
+###  http://example.org/prabal/ontology#Rex
+
+:Rex rdf:type :Dog ,
+              owl:NamedIndividual ;
+     
+     :name "Rex"^^xsd:string ;
+     
+     :sex "male"^^xsd:string .
+
+
+
+###  http://example.org/prabal/ontology#Snuff
+
+:Snuff rdf:type :Monkey ,
+                owl:NamedIndividual ;
+       
+       :sex "male"^^xsd:string ;
+       
+       :name "snuff"^^xsd:string .
+
+
+
+###  http://example.org/prabal/ontology#Tom
+
+:Tom rdf:type :Cat ,
+              owl:NamedIndividual ;
+     
+     :name "Tom"^^xsd:string ;
+     
+     :sex "male"^^xsd:string .
+
+
+
+###  http://example.org/prabal/ontology#William
+
+:William rdf:type :Person ,
+                  owl:NamedIndividual ;
+         
+         :name "William"^^xsd:string ;
+         
+         :sex "male"^^xsd:string ;
+         
+         :parent :John ;
+         
+         :pet :Rex .
+
+
+
+###  http://example.org/prabal/ontology#parent
+
+:parent rdf:type rdf:ObjectProperty ,
+                 owl:NamedIndividual .
+
+
+
+###  http://example.org/prabal/ontology#pet
+
+:pet rdf:type rdf:ObjectProperty ,
+              owl:NamedIndividual ;
+     
+     rdfs:label "domestic animal"^^xsd:string .
+
+
+
+
+###  Generated by the OWL API (version 3.4.2) http://owlapi.sourceforge.net
+
